@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,6 +25,7 @@ import { FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
 import {FormlyMatDatepickerModule} from '@ngx-formly/material/datepicker';
 import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, NativeDateAdapter } from '@angular/material/core';
+import { LoginComponent } from './Components/login/login.component';
 
 
 @NgModule({
@@ -33,7 +35,8 @@ import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, NativeDateAdapter } 
     TableComponent,
     AddClientModalComponent,
     AddCarModalComponent,
-    AddRentalModalComponent
+    AddRentalModalComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +55,8 @@ import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, NativeDateAdapter } 
     FormlyModule.forRoot(),
     FormlyMaterialModule,
     FormlyMatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    FormsModule
   ],
   providers: [
     provideAnimationsAsync(),
