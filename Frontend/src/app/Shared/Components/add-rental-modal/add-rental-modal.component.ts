@@ -12,22 +12,63 @@ import { FormlyFieldConfig } from '@ngx-formly/core';
   templateUrl: './add-rental-modal.component.html',
   styleUrl: './add-rental-modal.component.scss'
 })
-export class AddRentalModalComponent {
+export class AddRentalModalComponent implements OnInit {
   form = new FormGroup({});
   model = { };
-  fields: FormlyFieldConfig[] = [
-    {
-      key: 'email',
-      type: 'input',
-      props: {
-        label: 'Email address',
-        placeholder: 'Enter email',
-        required: true,
-      }
-    }
-  ];
+  fields: FormlyFieldConfig[] = [];
+
 
   constructor(public dialogRef: MatDialogRef<AddRentalModalComponent>) {}
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+
+  loadFormFields() {
+    // Assuming getCars and getClients are methods that fetch the data
+    // const carOptions = this.getCars().map(car => ({ label: `${car.make} ${car.model}`, value: car.id }));
+    // const clientOptions = this.getClients().map(client => ({ label: `${client.firstName} ${client.lastName}`, value: client.id }));
+
+    this.fields = [
+      {
+        key: 'carId',
+        type: 'select',
+        props: {
+          label: 'Select Car',
+          placeholder: 'Select a car',
+          required: true,
+          //options: carOptions,
+        },
+      },
+      {
+        key: 'clientId',
+        type: 'select',
+        props: {
+          label: 'Select Client',
+          placeholder: 'Select a client',
+          required: true,
+          //options: clientOptions,
+        },
+      },
+      {
+        key: 'startDate',
+        type: 'datepicker',
+        props: {
+          label: 'Start Date',
+          placeholder: 'Select start date',
+          required: true,
+        },
+      },
+      {
+        key: 'endDate',
+        type: 'datepicker',
+        props: {
+          label: 'End Date',
+          placeholder: 'Select end date',
+          required: true,
+        },
+      },
+    ];
+  }
 
   onSubmit(model: any): void {
       console.log('Form submitted:', model);
