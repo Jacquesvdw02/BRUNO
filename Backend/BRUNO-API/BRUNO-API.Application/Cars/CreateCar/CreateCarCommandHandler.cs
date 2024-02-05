@@ -26,21 +26,20 @@ namespace BRUNOAPI.Application.Cars.CreateCar
         [IntentManaged(Mode.Fully, Body = Mode.Fully)]
         public async Task<Guid> Handle(CreateCarCommand request, CancellationToken cancellationToken)
         {
-            var entity = new Car
-            {
-                Colour = request.Colour,
-                Make = request.Make,
-                Model = request.Model,
-                Registration = request.Registration,
-                DailyRate = request.DailyRate,
-                RentedOut = request.RentedOut,
-                Mileage = request.Mileage,
-                ServiceInterval = request.ServiceInterval
-            };
+            var car = new Car(
+                id: request.Id,
+                colour: request.Colour,
+                make: request.Make,
+                model: request.Model,
+                registration: request.Registration,
+                dailyRate: request.DailyRate,
+                rentedOut: request.RentedOut,
+                mileage: request.Mileage,
+                serviceMileage: request.ServiceMileage);
 
-            _carRepository.Add(entity);
+            _carRepository.Add(car);
             await _carRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
-            return entity.Id;
+            return car.Id;
         }
     }
 }

@@ -68,7 +68,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>e786c44e-593c-4be4-8ea8-22870de803d5</ProjectId>
-      <CorrelationId>Intent.AspNetCore.Controllers.Controller#d6304e62-14a7-4639-81d6-18301aa4ffd4</CorrelationId>
+      <CorrelationId>Intent.AspNetCore.Controllers.Controller#35b80109-dfc8-4978-9adb-e36214457fe8</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Api/Controllers/CarsController.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>CarsController.cs</ProjectRelativeFilePath>
@@ -164,7 +164,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.DtoModel#1b7f38e4-e20e-4402-867d-256579cdef38</CorrelationId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#882a6e6f-4289-43db-89d4-787ae271a529</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarDto.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CarDto.cs</ProjectRelativeFilePath>
@@ -172,7 +172,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#1b7f38e4-e20e-4402-867d-256579cdef38</CorrelationId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#882a6e6f-4289-43db-89d4-787ae271a529</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarDtoMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CarDtoMappingExtensions.cs</ProjectRelativeFilePath>
@@ -180,7 +180,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandModels#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommand.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CreateCar/CreateCarCommand.cs</ProjectRelativeFilePath>
@@ -188,7 +188,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandHandler#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommandHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CreateCar/CreateCarCommandHandler.cs</ProjectRelativeFilePath>
@@ -196,7 +196,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommandValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CreateCar/CreateCarCommandValidator.cs</ProjectRelativeFilePath>
@@ -204,7 +204,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandModels#44ed50a2-1756-44bd-8bb7-d325d3272f9b</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#7c7da4c2-87aa-45c8-bd08-d5756c8b5663</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/DeleteCar/DeleteCarCommand.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/DeleteCar/DeleteCarCommand.cs</ProjectRelativeFilePath>
@@ -212,7 +212,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandHandler#44ed50a2-1756-44bd-8bb7-d325d3272f9b</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#7c7da4c2-87aa-45c8-bd08-d5756c8b5663</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/DeleteCar/DeleteCarCommandHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/DeleteCar/DeleteCarCommandHandler.cs</ProjectRelativeFilePath>
@@ -220,7 +220,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#44ed50a2-1756-44bd-8bb7-d325d3272f9b</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#7c7da4c2-87aa-45c8-bd08-d5756c8b5663</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/DeleteCar/DeleteCarCommandValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/DeleteCar/DeleteCarCommandValidator.cs</ProjectRelativeFilePath>
@@ -228,7 +228,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryModels#26f2751d-a279-4f91-af5c-85d8e24177b3</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#7f0bfc52-7724-411c-9c26-2ef0e6d291f4</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCarById/GetCarByIdQuery.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCarById/GetCarByIdQuery.cs</ProjectRelativeFilePath>
@@ -236,7 +236,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryHandler#26f2751d-a279-4f91-af5c-85d8e24177b3</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#7f0bfc52-7724-411c-9c26-2ef0e6d291f4</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCarById/GetCarByIdQueryHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCarById/GetCarByIdQueryHandler.cs</ProjectRelativeFilePath>
@@ -244,7 +244,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#26f2751d-a279-4f91-af5c-85d8e24177b3</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#7f0bfc52-7724-411c-9c26-2ef0e6d291f4</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCarById/GetCarByIdQueryValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCarById/GetCarByIdQueryValidator.cs</ProjectRelativeFilePath>
@@ -252,7 +252,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryModels#fb8306c6-dbbd-44da-add9-9f13f3aa5bad</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#6fd8b629-f488-4c02-b804-c4271658817a</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCars/GetCarsQuery.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCars/GetCarsQuery.cs</ProjectRelativeFilePath>
@@ -260,7 +260,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryHandler#fb8306c6-dbbd-44da-add9-9f13f3aa5bad</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#6fd8b629-f488-4c02-b804-c4271658817a</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCars/GetCarsQueryHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCars/GetCarsQueryHandler.cs</ProjectRelativeFilePath>
@@ -268,7 +268,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#fb8306c6-dbbd-44da-add9-9f13f3aa5bad</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#6fd8b629-f488-4c02-b804-c4271658817a</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCars/GetCarsQueryValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCars/GetCarsQueryValidator.cs</ProjectRelativeFilePath>
@@ -276,7 +276,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandModels#b0f0c78c-1f4d-4332-bc71-a7c6458e4fd1</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#7a20d606-3e82-4030-9183-05569219a680</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/UpdateCar/UpdateCarCommand.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/UpdateCar/UpdateCarCommand.cs</ProjectRelativeFilePath>
@@ -284,7 +284,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandHandler#b0f0c78c-1f4d-4332-bc71-a7c6458e4fd1</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#7a20d606-3e82-4030-9183-05569219a680</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/UpdateCar/UpdateCarCommandHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/UpdateCar/UpdateCarCommandHandler.cs</ProjectRelativeFilePath>
@@ -292,7 +292,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#b0f0c78c-1f4d-4332-bc71-a7c6458e4fd1</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#7a20d606-3e82-4030-9183-05569219a680</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/UpdateCar/UpdateCarCommandValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/UpdateCar/UpdateCarCommandValidator.cs</ProjectRelativeFilePath>

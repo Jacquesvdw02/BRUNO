@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BRUNO-API.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19906076932e426d1043aa2d5e5cb7e5890a3a93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+734f4a20f7e9b84ac6d6635a8ec2c207d8f23acd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BRUNO-API.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BRUNO-API.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

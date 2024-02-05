@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<association id="ffa377a0-ac32-456f-b85f-727cec63d2c6">
-  <sourceEnd id="72edde66-406d-42a4-bd95-eb0efe18e1e2" type="Query Entity Action Source End" typeId="32a65f26-2555-4616-8a2c-6a90805600bb">
+<association id="c62621b2-80f1-4faf-8859-c900574413f3">
+  <sourceEnd id="4992a620-63f8-46ad-9798-ade1f23ade43" type="Query Entity Action Source End" typeId="32a65f26-2555-4616-8a2c-6a90805600bb">
     <display>: GetCarByIdQuery</display>
     <order>0</order>
-    <typeReference id="6561a3df-aac9-4337-af36-88e67f1f3352">
-      <typeId>26f2751d-a279-4f91-af5c-85d8e24177b3</typeId>
+    <typeReference id="3cede449-9baf-46af-8ffb-a9897bcd500b">
+      <typeId>7f0bfc52-7724-411c-9c26-2ef0e6d291f4</typeId>
       <isNavigable>false</isNavigable>
       <isNullable>false</isNullable>
       <isCollection>false</isCollection>
@@ -18,11 +18,11 @@
     <metadata />
     <childElements />
   </sourceEnd>
-  <targetEnd id="ffa377a0-ac32-456f-b85f-727cec63d2c6" type="Query Entity Action Target End" typeId="93ef6675-cba4-4998-adff-cb22d5343ed4">
+  <targetEnd id="c62621b2-80f1-4faf-8859-c900574413f3" type="Query Entity Action Target End" typeId="93ef6675-cba4-4998-adff-cb22d5343ed4">
     <name>car</name>
     <display>[query] car: Car</display>
     <order>1</order>
-    <typeReference id="c9471b10-a34c-4d96-9801-8e3dee8d5103">
+    <typeReference id="3fb7f0a6-ad91-403c-967c-494e6de880fe">
       <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
       <isNavigable>true</isNavigable>
       <isNullable>false</isNullable>
@@ -36,7 +36,7 @@
     <stereotypes />
     <mappings>
       <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
-        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="26f2751d-a279-4f91-af5c-85d8e24177b3" location="[BRUNO-API].[Services].[GetCarByIdQuery]" />
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="7f0bfc52-7724-411c-9c26-2ef0e6d291f4" location="[BRUNO-API].[Services].[GetCarByIdQuery]" />
         <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
         <mappedEnds>
           <mappedEnd>
@@ -48,8 +48,8 @@
             <sources>
               <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
                 <path>
-                  <target id="26f2751d-a279-4f91-af5c-85d8e24177b3" name="GetCarByIdQuery" type="element" specialization="Query" />
-                  <target id="1a40b663-cbe6-43f4-8d33-e87d189c3f86" name="Id" type="element" specialization="DTO-Field" />
+                  <target id="7f0bfc52-7724-411c-9c26-2ef0e6d291f4" name="GetCarByIdQuery" type="element" specialization="Query" />
+                  <target id="ad67c157-b0bd-4aaa-b25d-bea3159e9c24" name="Id" type="element" specialization="DTO-Field" />
                 </path>
               </source>
             </sources>

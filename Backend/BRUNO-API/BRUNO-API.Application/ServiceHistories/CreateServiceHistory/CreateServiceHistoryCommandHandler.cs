@@ -39,7 +39,7 @@ namespace BRUNOAPI.Application.ServiceHistories.CreateServiceHistory
                     DailyRate = request.Car.DailyRate,
                     RentedOut = request.Car.RentedOut,
                     Mileage = request.Car.Mileage,
-                    ServiceInterval = request.Car.ServiceInterval
+                    ServiceMileage = request.Car.ServiceInterval
                 });
 
             _serviceHistoryRepository.Add(serviceHistory);

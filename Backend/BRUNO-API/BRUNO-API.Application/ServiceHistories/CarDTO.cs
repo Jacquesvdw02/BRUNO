@@ -56,7 +56,8 @@ namespace BRUNOAPI.Application.ServiceHistories
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<Car, CarDTO>();
+            profile.CreateMap<Car, CarDTO>()
+                .ForMember(d => d.ServiceInterval, opt => opt.MapFrom(src => src.ServiceMileage));
         }
     }
 }

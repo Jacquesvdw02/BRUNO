@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class id="44ed50a2-1756-44bd-8bb7-d325d3272f9b" type="Command" typeId="ccf14eb6-3a55-4d81-b5b9-d27311c70cb9">
-  <name>DeleteCarCommand</name>
-  <display>DeleteCarCommand: void</display>
+<class id="7f0bfc52-7724-411c-9c26-2ef0e6d291f4" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetCarByIdQuery</name>
+  <display>GetCarByIdQuery: CarDto</display>
   <isAbstract>false</isAbstract>
   <sort-children>by-type-then-manually</sort-children>
   <genericTypes />
-  <typeReference id="e966158d-f686-4ebe-8502-d59ff945ef7b">
+  <typeReference id="ecdb465f-83a4-4aa5-81a5-7509a98ca01a">
+    <typeId>882a6e6f-4289-43db-89d4-787ae271a529</typeId>
     <isNavigable>true</isNavigable>
     <isNullable>false</isNullable>
     <isCollection>false</isCollection>
     <isRequired>true</isRequired>
+    <typePackageName>BRUNO-API.Services</typePackageName>
+    <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
     <stereotypes />
     <genericTypeParameters />
   </typeReference>
   <isMapped>false</isMapped>
-  <parentFolderId>d6304e62-14a7-4639-81d6-18301aa4ffd4</parentFolderId>
+  <parentFolderId>35b80109-dfc8-4978-9adb-e36214457fe8</parentFolderId>
   <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
   <packageName>BRUNO-API.Services</packageName>
   <stereotypes>
@@ -23,7 +26,7 @@
       <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
       <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
       <properties>
-        <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="DELETE" isActive="true" />
+        <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
         <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="api/car/{id}" isActive="true" />
         <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
       </properties>
@@ -33,12 +36,12 @@
     <entry key="baseName" value="Car" />
   </metadata>
   <childElements>
-    <childElement id="b113ed72-91fb-4a32-9f33-8032e6dd03e8" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
+    <childElement id="ad67c157-b0bd-4aaa-b25d-bea3159e9c24" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
       <name>Id</name>
       <display>Id: guid</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
-      <typeReference id="a108fc51-f658-49f1-97ff-eab654d4e721">
+      <typeReference id="a8c8f2f6-9165-4679-af4c-8b720010d5be">
         <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
         <isNavigable>true</isNavigable>
         <isNullable>false</isNullable>
@@ -50,7 +53,7 @@
         <genericTypeParameters />
       </typeReference>
       <isMapped>false</isMapped>
-      <parentFolderId>44ed50a2-1756-44bd-8bb7-d325d3272f9b</parentFolderId>
+      <parentFolderId>7f0bfc52-7724-411c-9c26-2ef0e6d291f4</parentFolderId>
       <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
       <packageName>BRUNO-API.Services</packageName>
       <stereotypes>

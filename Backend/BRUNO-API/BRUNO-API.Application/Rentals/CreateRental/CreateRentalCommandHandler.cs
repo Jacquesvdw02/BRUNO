@@ -40,7 +40,7 @@ namespace BRUNOAPI.Application.Rentals.CreateRental
                     DailyRate = request.Car.DailyRate,
                     RentedOut = request.Car.RentedOut,
                     Mileage = request.Car.Mileage,
-                    ServiceInterval = request.Car.ServiceMileage
+                    ServiceMileage = request.Car.ServiceMileage
                 },
                 client: new Client
                 {

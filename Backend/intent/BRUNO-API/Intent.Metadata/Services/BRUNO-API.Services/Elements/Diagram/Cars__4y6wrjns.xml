@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<class id="a70027b9-c89f-4c2f-afae-e9dadf337e07" type="Diagram" typeId="8c90aca5-86f4-47f1-bd58-116fe79f5c55">
+<class id="f71b8447-fea7-4de1-ab47-00e679111e17" type="Diagram" typeId="8c90aca5-86f4-47f1-bd58-116fe79f5c55">
   <name>Cars</name>
   <display>Cars</display>
   <isAbstract>false</isAbstract>
   <genericTypes />
   <isMapped>false</isMapped>
-  <parentFolderId>d6304e62-14a7-4639-81d6-18301aa4ffd4</parentFolderId>
+  <parentFolderId>35b80109-dfc8-4978-9adb-e36214457fe8</parentFolderId>
   <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
   <packageName>BRUNO-API.Services</packageName>
   <diagram>
-    <targetPackageId>d6304e62-14a7-4639-81d6-18301aa4ffd4</targetPackageId>
+    <targetPackageId>35b80109-dfc8-4978-9adb-e36214457fe8</targetPackageId>
   </diagram>
   <stereotypes />
   <metadata />
