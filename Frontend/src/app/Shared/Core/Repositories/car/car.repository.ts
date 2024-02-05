@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Car } from '../../Interfaces/Car.interface'; // Adjust the import path as necessary
 
 @Injectable({
   providedIn: 'root'
@@ -9,43 +10,47 @@ export class CarRepository {
 
   constructor(private _httpClient: HttpClient) { }
 
-  public getAllCars() {
+  public getAllCars(): Observable<Car[]> {
+    return this._httpClient.get<Car[]>('https://localhost:44338/api/car');
+  }
+
+  //public getAllCars() {
     // return this._httpClient.get('https://localhost:5001/api/car');
 
     // hard coded data
-    const data = [
-      {
-        "Colour": "Black",
-        "Make": "Toyota",
-        "Model": "Corolla",
-        "Registration": "ABC123",
-        "DailyRate": 100,
-        "RentedOut": false
-      },
-      {
-        "Colour": "White",
-        "Make": "Toyota",
-        "Model": "Corolla",
-        "Registration": "DEF456",
-        "DailyRate": 100,
-        "RentedOut": false
-      },
-      {
-        "Colour": "Red",
-        "Make": "Toyota",
-        "Model": "Corolla",
-        "Registration": "GHI789",
-        "DailyRate": 100,
-        "RentedOut": false
-      }
-    ];
+    // const data = [
+    //   {
+    //     "Colour": "Black",
+    //     "Make": "Toyota",
+    //     "Model": "Corolla",
+    //     "Registration": "ABC123",
+    //     "DailyRate": 100,
+    //     "RentedOut": false
+    //   },
+    //   {
+    //     "Colour": "White",
+    //     "Make": "Toyota",
+    //     "Model": "Corolla",
+    //     "Registration": "DEF456",
+    //     "DailyRate": 100,
+    //     "RentedOut": false
+    //   },
+    //   {
+    //     "Colour": "Red",
+    //     "Make": "Toyota",
+    //     "Model": "Corolla",
+    //     "Registration": "GHI789",
+    //     "DailyRate": 100,
+    //     "RentedOut": false
+    //   }
+    // ];
 
     // return an observable
-    return new Observable((observer) => {
-      observer.next(data);
-      observer.complete();
-    });
-  }
+    // return new Observable((observer) => {
+    //   observer.next(data);
+    //   observer.complete();
+    // });
+  //}
 
   // public getCarByRegistration(registration: string) {
   //   return this._httpClient.get(`https://localhost:5001/api/car/${registration}`);

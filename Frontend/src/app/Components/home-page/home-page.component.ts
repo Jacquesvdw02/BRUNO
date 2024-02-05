@@ -11,7 +11,7 @@ import { AddClientModalComponent } from '../../Shared/Components/addClient/add-c
   styleUrl: './home-page.component.scss'
 })
 export class HomePageComponent {
-  public carColumns: string[] = ['Colour', 'Make', 'Model', 'Registration', 'DailyRate', 'Rented Out'];
+  public carColumns: string[] = ['Colour', 'Make', 'Model', 'Registration', 'Daily Rate', 'Rented Out', 'Mileage', 'Service Mileage'];
   public rentalColumns: string[] = ['Car Registration', 'Client Name', 'Start Date', 'End Date'];
   public clientColumns: string[] = ['Name', 'Phone', 'Email', 'Address', 'LicenseNumber'];
 
@@ -26,6 +26,7 @@ export class HomePageComponent {
     this.dataSource = this._carService.getAllCars();
     this.displayedColumns = this.carColumns;
     this.activeTab = 'cars';
+    console.log(this.dataSource);
   }
 
   public showRentals(): void {

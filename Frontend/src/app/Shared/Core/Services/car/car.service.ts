@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Car } from '../../Interfaces/car.interface';
+import { Car } from '../../Interfaces/Car.interface';
 import { CarRepository } from '../../Repositories/car/car.repository';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,12 +11,16 @@ export class CarService {
 
   constructor(private _carRepository: CarRepository) { }
 
-  public getAllCars(): Car[] {
-    this._carRepository.getAllCars().subscribe((data: any) => {
-      this.cars = data;
-    });
-    return this.cars;
+  public getAllCars(): Observable<Car[]> {
+    return this._carRepository.getAllCars();
   }
+
+  // public getAllCars(): Car[] {
+  //   this._carRepository.getAllCars().subscribe((data: any) => {
+  //     this.cars = data;
+  //   });
+  //   return this.cars;
+  // }
 
   // public getCarByRegistration(registration: string): Car {
   //   let car: Car = {} as Car;
