@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BRUNO-API.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6bb4a44e7ad252559634fd7e8c8d73eee2921e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bc8b8a625b7b6afb6c33d73f58cfc57fd9b2d03")]
 [assembly: System.Reflection.AssemblyProductAttribute("BRUNO-API.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BRUNO-API.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
