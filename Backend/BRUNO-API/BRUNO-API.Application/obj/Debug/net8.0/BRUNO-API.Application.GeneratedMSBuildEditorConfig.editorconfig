@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BRUNO-API.Application
-build_property.ProjectDir = C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Application\
+build_property.ProjectDir = C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
