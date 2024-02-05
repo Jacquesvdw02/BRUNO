@@ -22,6 +22,9 @@ import { AddRentalModalComponent } from './Shared/Components/add-rental-modal/ad
 import { MatError } from '@angular/material/form-field';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyMaterialModule } from '@ngx-formly/material';
+import {FormlyMatDatepickerModule} from '@ngx-formly/material/datepicker';
+import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, NativeDateAdapter } from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
@@ -47,10 +50,14 @@ import { FormlyMaterialModule } from '@ngx-formly/material';
     ReactiveFormsModule,
     MatError,
     FormlyModule.forRoot(),
-    FormlyMaterialModule
+    FormlyMaterialModule,
+    FormlyMatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    { provide: MAT_DATE_LOCALE, useValue: 'en-GB' }, // change to your locale
+    { provide: DateAdapter, useClass: NativeDateAdapter, deps: [MAT_DATE_LOCALE] }
   ],
   bootstrap: [AppComponent]
 })

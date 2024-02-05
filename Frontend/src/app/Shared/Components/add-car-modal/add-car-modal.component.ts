@@ -6,6 +6,7 @@ import { MatError } from '@angular/material/form-field';
 import {FormlyFieldConfig} from '@ngx-formly/core';
 import { CarService } from '../../Core/Services/car/car.service';
 import { Car } from '../../Core/Interfaces/Car.interface';
+import {FormlyMatDatepickerModule} from '@ngx-formly/material/datepicker';
 
 @Component({
   selector: 'app-add-car-modal',
