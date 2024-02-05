@@ -15,9 +15,9 @@ export class ClientService {
     return this._clientRepository.getAllClients();
   }
 
-  public createClient(client: any): Observable<Client> {
+  public createClient(client: any): void {
     // add a dateJoined property to the client object with the current date in format "yyyy-mm-dd"
     client.dateJoined = new Date().toISOString().split('T')[0];
-    return this._clientRepository.createClient(client);
+    this._clientRepository.createClient(client);
   }
 }

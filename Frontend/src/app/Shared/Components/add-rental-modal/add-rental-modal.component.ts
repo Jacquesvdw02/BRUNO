@@ -7,6 +7,9 @@ import {MatFormField} from '@angular/material/form-field';
 import {MatDatepickerControl, MatDatepickerModule, MatDatepickerPanel} from '@angular/material/datepicker';
 import { FormlyFieldConfig } from '@ngx-formly/core';
 import { RentalService } from '../../Core/Services/rental/rental.service';
+import { CarService } from '../../Core/Services/car/car.service';
+import { ClientService } from '../../Core/Services/client/client.service';
+import { map } from 'rxjs';
 
 @Component({
   selector: 'app-add-rental-modal',
@@ -19,12 +22,14 @@ export class AddRentalModalComponent {
   fields: FormlyFieldConfig[] = [];
 
 
-  constructor(public dialogRef: MatDialogRef<AddRentalModalComponent>, private _rentalService:RentalService) {}
+  constructor(public dialogRef: MatDialogRef<AddRentalModalComponent>, private _rentalService:RentalService,
+    private _carService:CarService, private _clientService:ClientService) {}
+
 
   loadFormFields() {
     // Assuming getCars and getClients are methods that fetch the data
-    // const carOptions = this.getCars().map(car => ({ label: `${car.make} ${car.model}`, value: car.id }));
-    // const clientOptions = this.getClients().map(client => ({ label: `${client.firstName} ${client.lastName}`, value: client.id }));
+    const carOptions = this._carService.getAllCars().pipe(map(cars => cars.map(car => ({ label: car.registration, value: car.id }))));
+    const clientOptions = this._clientService.getAllClients().pipe(map(clients => clients.map(client => ({ label: client.firstName + ' ' + client.lastName, value: client.id }))));
 
     this.fields = [
       {
@@ -34,7 +39,7 @@ export class AddRentalModalComponent {
           label: 'Select Car',
           placeholder: 'Select a car',
           required: true,
-          //options: carOptions,
+          options: carOptions,
         },
       },
       {
@@ -44,7 +49,7 @@ export class AddRentalModalComponent {
           label: 'Select Client',
           placeholder: 'Select a client',
           required: true,
-          //options: clientOptions,
+          options: clientOptions,
         },
       },
       {

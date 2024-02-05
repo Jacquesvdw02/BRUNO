@@ -19,7 +19,8 @@ export class CarRepository {
   // }
 
   public createCar(car: any) {
-    return this._httpClient.post('https://localhost:5001/api/car', car);
+    return this._httpClient.post('https://localhost:5001/api/car', car,
+      { headers: { 'Content-Type': 'application/json' } });
   }
 
   // public updateCar(registration: string, car: any) {

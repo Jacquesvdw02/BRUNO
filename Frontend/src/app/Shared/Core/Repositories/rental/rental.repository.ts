@@ -15,6 +15,7 @@ export class RentalRepository {
   }
 
   public createRental(rental: any): Observable<Rental> {
-    return this._httpClient.post<Rental>('https://localhost:44338/api/client', rental);
+    return this._httpClient.post<Rental>('https://localhost:44338/api/client', rental,
+      { headers: { 'Content-Type': 'application/json' } });
   }
 }
