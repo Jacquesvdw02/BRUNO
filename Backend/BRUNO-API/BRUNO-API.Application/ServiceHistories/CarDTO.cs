@@ -27,7 +27,7 @@ namespace BRUNOAPI.Application.ServiceHistories
         public double DailyRate { get; set; }
         public bool RentedOut { get; set; }
         public int Mileage { get; set; }
-        public int ServiceInterval { get; set; }
+        public int ServiceMileage { get; set; }
 
         public static CarDTO Create(
             Guid id,
@@ -38,7 +38,7 @@ namespace BRUNOAPI.Application.ServiceHistories
             double dailyRate,
             bool rentedOut,
             int mileage,
-            int serviceInterval)
+            int serviceMileage)
         {
             return new CarDTO
             {
@@ -50,14 +50,13 @@ namespace BRUNOAPI.Application.ServiceHistories
                 DailyRate = dailyRate,
                 RentedOut = rentedOut,
                 Mileage = mileage,
-                ServiceInterval = serviceInterval
+                ServiceMileage = serviceMileage
             };
         }
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<Car, CarDTO>()
-                .ForMember(d => d.ServiceInterval, opt => opt.MapFrom(src => src.ServiceMileage));
+            profile.CreateMap<Car, CarDTO>();
         }
     }
 }

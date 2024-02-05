@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="ad12bb65-a1f8-4db9-acb2-61fe6d46031f">
+  <sourceEnd id="e14a710c-67e0-4a61-938c-a2b8ff43129a" type="Create Entity Action Source End" typeId="a3e7c59e-b0a1-47e1-ba29-66f2c7047b0a">
+    <display>created by : Cars.CreateCarCommand</display>
+    <order>0</order>
+    <typeReference id="41e7fdef-3fd3-4f2a-8bb3-388d1176c0a4">
+      <typeId>e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="ad12bb65-a1f8-4db9-acb2-61fe6d46031f" type="Create Entity Action Target End" typeId="328f54e5-7bad-4b5f-90ca-03ce3105d016">
+    <name>entity</name>
+    <display>[create] entity: Car</display>
+    <order>9</order>
+    <typeReference id="b6b0ddda-4465-42fc-b89f-f3f18c66b901">
+      <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Create Entity Mapping" typeId="5f172141-fdba-426b-980e-163e782ff53e">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" location="[BRUNO-API].[Services].[CreateCarCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Colour}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" name="Colour" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Colour" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="2cfb103d-f54d-4ff0-9b96-3d4356e213e8" name="Colour" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Make}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="54cedb0e-ac64-4e85-b307-89a319de154a" name="Make" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Make" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="4e407b27-594b-46bf-be69-8e55ba93ec57" name="Make" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Model}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="a42fa17c-f9b3-460c-941d-55d491fdb4a1" name="Model" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Model" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="b6b1ca1f-4fa1-4757-9ac3-1a850688524d" name="Model" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Registration}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="f11b8ab5-cf08-4c84-88f9-6f9e4365ddcd" name="Registration" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Registration" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="7c6fc5c2-a28d-47c9-962e-e0673221264f" name="Registration" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{DailyRate}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="8ac34044-4ead-42b0-82df-fb519eba2b2d" name="DailyRate" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="DailyRate" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="efe92bcd-0b1e-42ef-9923-a43f131cc9e8" name="DailyRate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{RentedOut}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="12c03c97-db15-4463-bd0c-47c54e853e7b" name="RentedOut" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="RentedOut" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="0b320dff-ab2c-44e8-8bae-9c03c1ec4a1c" name="RentedOut" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Mileage}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="bc91b65d-2faa-4962-8f9c-657dad233df0" name="Mileage" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Mileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="5ab59cb5-36d2-4fa7-9602-29a6ba84c33d" name="Mileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{ServiceMileage}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceMileage" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="ServiceMileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="4af0d6ba-a1e1-4472-b5a4-ae7dd18cd8ae" name="ServiceMileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Create Entity Action</associationType>
+  <associationTypeId>7a3f0474-3cf8-4249-baac-8c07c49465e0</associationTypeId>
+  <stereotypes />
+</association>

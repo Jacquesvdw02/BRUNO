@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using BRUNOAPI.Api.Controllers.ResponseTypes;
 using BRUNOAPI.Application.Cars;
+using BRUNOAPI.Application.Cars.CarService;
 using BRUNOAPI.Application.Cars.CreateCar;
 using BRUNOAPI.Application.Cars.DeleteCar;
 using BRUNOAPI.Application.Cars.GetCarById;
@@ -31,6 +32,23 @@ namespace BRUNOAPI.Api.Controllers
         public CarsController(ISender mediator)
         {
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+        }
+
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Successfully updated.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        [HttpPut("api/cars/car-service")]
+        [Produces(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(typeof(JsonResponse<bool>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<JsonResponse<bool>>> CarService(
+            [FromBody] CarServiceCommand command,
+            CancellationToken cancellationToken = default)
+        {
+            var result = await _mediator.Send(command, cancellationToken);
+            return Ok(new JsonResponse<bool>(result));
         }
 
         /// <summary>
