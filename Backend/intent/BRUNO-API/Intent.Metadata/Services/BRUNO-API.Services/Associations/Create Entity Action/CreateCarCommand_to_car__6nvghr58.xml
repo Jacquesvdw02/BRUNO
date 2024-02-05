@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="3c5e8c60-814d-4c84-b396-2de805ac75f9">
+  <sourceEnd id="62e633cd-a61a-459a-a351-752fdc570997" type="Create Entity Action Source End" typeId="a3e7c59e-b0a1-47e1-ba29-66f2c7047b0a">
+    <display>created by : Cars.CreateCarCommand</display>
+    <order>0</order>
+    <typeReference id="c5b97c41-6608-4e5e-b64e-d99e9cf3dc4e">
+      <typeId>7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="3c5e8c60-814d-4c84-b396-2de805ac75f9" type="Create Entity Action Target End" typeId="328f54e5-7bad-4b5f-90ca-03ce3105d016">
+    <name>car</name>
+    <display>[create] car: Constructor</display>
+    <order>9</order>
+    <typeReference id="06d233e3-55e5-41a0-ab55-81399c4948da">
+      <typeId>05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Create Entity Mapping" typeId="5f172141-fdba-426b-980e-163e782ff53e">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" location="[BRUNO-API].[Services].[CreateCarCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{CreateCarCommand}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+            </path>
+            <sources>
+              <source identifier="CreateCarCommand" mappingType="Invocation Mapping" mappingTypeId="47dc4a51-30a3-4ee8-8c7d-25a35bb965b9">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="671c9b67-a1b8-4e0f-8247-12df590a04bb" name="id" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="d6e2a662-f7f2-4e2f-a996-336645fb188e" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Colour}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="7448cb91-3b42-453b-b509-e8af6143d730" name="colour" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Colour" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="5c2e968d-2e28-4c17-94fa-92ae8d501cb5" name="Colour" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Make}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="d0ee9a09-2333-433e-9099-63a0e3ac5100" name="make" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Make" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="32df9e6f-59df-439e-ad43-97ec8e19f6fc" name="Make" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Model}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="d8b7f669-7c8a-4204-9ad9-dc8742bf2ed8" name="model" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Model" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="22fcf5f7-2f65-4832-b206-76842b56b1db" name="Model" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Registration}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="c06be279-0f8b-4ad4-a453-f22f87de6657" name="registration" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Registration" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="ace5f9b0-9b31-4997-884c-59434f08355d" name="Registration" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{DailyRate}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="c98a8f02-e104-4e05-a02d-298ecc2995cc" name="dailyRate" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="DailyRate" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="d29392b7-28ec-4945-8cce-39aa5c91a77b" name="DailyRate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{RentedOut}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="b5f64c49-22fb-4f00-84e6-ac2300fa5f59" name="rentedOut" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="RentedOut" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="c51867cc-ee64-4646-818b-8f34b777e9b3" name="RentedOut" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Mileage}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="cfc7c726-a70f-403e-80d5-33f5851ae24b" name="mileage" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Mileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="37f72462-ab1c-4f6f-97ef-e0e822f6ff42" name="Mileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{ServiceMileage}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="05d6b4b0-fb01-4cd8-834d-6fd714bb1cc7" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="d816a007-932e-40c7-96ad-6708e0383758" name="serviceMileage" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="ServiceMileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="7c3bf2f1-ff4b-4ef8-8318-3b15ee9944d8" name="CreateCarCommand" type="element" specialization="Command" />
+                  <target id="459c17c4-bd84-467a-8a54-c042f2ae3230" name="ServiceMileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Create Entity Action</associationType>
+  <associationTypeId>7a3f0474-3cf8-4249-baac-8c07c49465e0</associationTypeId>
+  <stereotypes />
+</association>

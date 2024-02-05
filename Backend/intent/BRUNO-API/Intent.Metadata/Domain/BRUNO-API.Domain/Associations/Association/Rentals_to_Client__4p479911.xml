@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a0f5bd43-c35e-4f51-965e-c8a97a9bb7d3">
+  <sourceEnd id="643ac1a8-c23e-4fcc-8b04-0aa1660a445a" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Rentals</name>
+    <display>Rentals: Rental[*]</display>
+    <order>0</order>
+    <typeReference id="797e1d2e-1dd0-4e51-a299-86fb5a962d9e">
+      <typeId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="a0f5bd43-c35e-4f51-965e-c8a97a9bb7d3" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Client</name>
+    <display>Client: Client   [* --&gt; 1]</display>
+    <order>8</order>
+    <typeReference id="98999092-4208-4629-84e7-3bd6852ae33d">
+      <typeId>f85b3f09-0f65-4a66-adfb-3f5d7dc01006</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

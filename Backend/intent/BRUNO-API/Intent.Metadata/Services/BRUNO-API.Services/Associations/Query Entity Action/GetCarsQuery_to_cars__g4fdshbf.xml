@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="c90fa3cc-a7dd-4a35-a40c-6eaf429cf291">
+  <sourceEnd id="04af3d20-ddad-4803-a9b6-acb3d4105058" type="Query Entity Action Source End" typeId="32a65f26-2555-4616-8a2c-6a90805600bb">
+    <display>: GetCarsQuery</display>
+    <order>0</order>
+    <typeReference id="890a02b4-49c3-4da3-a439-05770766854d">
+      <typeId>6fd8b629-f488-4c02-b804-c4271658817a</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="c90fa3cc-a7dd-4a35-a40c-6eaf429cf291" type="Query Entity Action Target End" typeId="93ef6675-cba4-4998-adff-cb22d5343ed4">
+    <name>cars</name>
+    <display>[query] cars: Car[*]</display>
+    <order>0</order>
+    <typeReference id="2cce1fce-3b9d-4a1a-910a-86b1259e918c">
+      <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="6fd8b629-f488-4c02-b804-c4271658817a" location="[BRUNO-API].[Services].[GetCarsQuery]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
+        <mappedEnds />
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Query Entity Action</associationType>
+  <associationTypeId>47ab5888-a258-4bec-a9fc-a83de69eb79d</associationTypeId>
+  <stereotypes />
+</association>

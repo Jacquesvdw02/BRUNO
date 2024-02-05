@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="8bc717b6-e093-4ddc-85a2-bf8af47d0b54">
+  <sourceEnd id="56aa2559-52cc-411a-92a5-f0daa416d1f9" type="Update Entity Action Source End" typeId="6bc95978-6def-4d0c-a4f5-25bdeda8a9f6">
+    <display>updated by : Cars.UpdateCarCommand</display>
+    <order>0</order>
+    <typeReference id="3325d8e1-c16a-4729-bd5f-edd236b46358">
+      <typeId>7a20d606-3e82-4030-9183-05569219a680</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="8bc717b6-e093-4ddc-85a2-bf8af47d0b54" type="Update Entity Action Target End" typeId="516069f6-09cc-4de8-8e31-3c71ca823452">
+    <name>car</name>
+    <display>[update] car: Car</display>
+    <order>9</order>
+    <typeReference id="bb92bbaf-6beb-4d93-8c75-b06370bf75e9">
+      <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="7a20d606-3e82-4030-9183-05569219a680" location="[BRUNO-API].[Services].[UpdateCarCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="5ed1964a-bcd8-48be-86c6-9bdcc0cae703" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="a2058d23-8529-49cd-bd34-fe0810acff1c" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+      <mapping type="Update Entity Mapping" typeId="01721b1a-a85d-4320-a5cd-8bd39247196a">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="7a20d606-3e82-4030-9183-05569219a680" location="[BRUNO-API].[Services].[UpdateCarCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Colour}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" name="Colour" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Colour" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="4d018bf2-2d78-49a9-a576-61f30c3ad36c" name="Colour" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Make}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="54cedb0e-ac64-4e85-b307-89a319de154a" name="Make" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Make" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="de21e38b-af54-40b4-9280-d7ab1237433d" name="Make" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Model}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="a42fa17c-f9b3-460c-941d-55d491fdb4a1" name="Model" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Model" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="ffdc7955-a926-4901-8768-104c4ef05dd9" name="Model" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Registration}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="f11b8ab5-cf08-4c84-88f9-6f9e4365ddcd" name="Registration" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Registration" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="bfba4a52-3515-4039-93cc-051037347385" name="Registration" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{DailyRate}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="8ac34044-4ead-42b0-82df-fb519eba2b2d" name="DailyRate" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="DailyRate" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="fce235c0-7660-4fc8-8da9-10f6973fc0d2" name="DailyRate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{RentedOut}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="12c03c97-db15-4463-bd0c-47c54e853e7b" name="RentedOut" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="RentedOut" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="a82f130b-75ed-4afa-a25c-7f109eb583c2" name="RentedOut" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Mileage}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="bc91b65d-2faa-4962-8f9c-657dad233df0" name="Mileage" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Mileage" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="4e53245c-9e0a-4f64-b606-d38fd8a581a4" name="Mileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{ServiceMileage}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceMileage" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="ServiceMileage" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="7a20d606-3e82-4030-9183-05569219a680" name="UpdateCarCommand" type="element" specialization="Command" />
+                  <target id="094b86cd-82cd-430f-8343-4ac9edf2e2f3" name="ServiceMileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Update Entity Action</associationType>
+  <associationTypeId>9ea0382a-4617-412a-a8c8-af987bbce226</associationTypeId>
+  <stereotypes />
+</association>

@@ -1,0 +1,13 @@
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\bin\Debug\net8.0\BRUNO-API.Domain.deps.json
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\bin\Debug\net8.0\BRUNO-API.Domain.dll
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\bin\Debug\net8.0\BRUNO-API.Domain.pdb
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.csproj.AssemblyReference.cache
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.AssemblyInfoInputs.cache
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.AssemblyInfo.cs
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.sourcelink.json
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.dll
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\refint\BRUNO-API.Domain.dll
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\BRUNO-API.Domain.pdb
+C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Domain\obj\Debug\net8.0\ref\BRUNO-API.Domain.dll

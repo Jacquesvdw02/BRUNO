@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="45dc6550-b373-4f8c-a8f0-4f2006918f52">
+  <sourceEnd id="4fcdfa42-ee30-4452-b920-d5e069855387" type="Delete Entity Action Source End" typeId="8c2d9fed-bd14-44b2-9f98-8a801aaf157e">
+    <display>deleted by : ServiceHistories.DeleteServiceHistoryCommand</display>
+    <order>0</order>
+    <typeReference id="e6bbcf40-a664-4e19-9315-6e834f028dcc">
+      <typeId>77801c4f-46d7-4cac-91be-621580463826</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="45dc6550-b373-4f8c-a8f0-4f2006918f52" type="Delete Entity Action Target End" typeId="4a04cfc2-5841-438c-9c16-fb58b784b365">
+    <name>serviceHistory</name>
+    <display>[delete] serviceHistory: ServiceHistory</display>
+    <order>1</order>
+    <typeReference id="39e84689-1b23-409a-b3e2-884570475da3">
+      <typeId>7d7108a1-cb0f-4353-bcf0-594887b022fc</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="77801c4f-46d7-4cac-91be-621580463826" location="[BRUNO-API].[Services].[DeleteServiceHistoryCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="7d7108a1-cb0f-4353-bcf0-594887b022fc" location="[BRUNO-API].[Services].[ServiceHistory]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="f3c79e73-e22d-4cc7-9cef-190ef17d431c" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="77801c4f-46d7-4cac-91be-621580463826" name="DeleteServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="5ef3044b-eca7-4702-bd39-a1d4c99d0171" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Delete Entity Action</associationType>
+  <associationTypeId>bfc823fb-60ab-451d-ba62-12671fe7e28e</associationTypeId>
+  <stereotypes />
+</association>
