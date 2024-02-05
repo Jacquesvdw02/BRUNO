@@ -18,6 +18,7 @@ namespace BRUNOAPI.Api.Configuration
             IConfiguration configuration)
         {
             var hcBuilder = services.AddHealthChecks();
+            hcBuilder.AddSqlServer(configuration.GetConnectionString("DefaultConnection")!, name: "SqlServer", tags: new[] { "database" });
 
             return services;
         }
