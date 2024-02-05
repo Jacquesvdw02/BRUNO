@@ -40,7 +40,7 @@ export class RentalService {
       let client = clients.find((client) => client.id === rental.clientId);
       return {
         carRegistration: car?.registration,
-        clientName: client?.name,
+        clientName: client?.firstName + ' ' + client?.lastName,
         startDate: rental.startDate,
         endDate: rental.endDate
       };

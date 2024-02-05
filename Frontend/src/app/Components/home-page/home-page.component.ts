@@ -52,19 +52,19 @@ export class HomePageComponent {
 
   openAddClientModal(): void {
     this.dialog.open(AddClientModalComponent, {
-      width: '300px'
+      width: '450px'
     });
   }
 
   openAddRentalModal(): void {
     this.dialog.open(AddRentalModalComponent, {
-      width: '300px'
+      width: '450px'
     });
   }
 
   openAddCarModal(): void {
     this.dialog.open(AddCarModalComponent, {
-      width: '300px'
+      width: '450px'
     });
   }
 

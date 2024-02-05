@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatFormField} from '@angular/material/form-field';
@@ -8,7 +8,7 @@ import {MatFormField} from '@angular/material/form-field';
   templateUrl: './add-client-modal.component.html',
   styleUrl: './add-client-modal.component.scss'
 })
-export class AddClientModalComponent {
+export class AddClientModalComponent implements OnInit {
   entryForm!: FormGroup;
 
   constructor(
@@ -18,9 +18,21 @@ export class AddClientModalComponent {
 
   ngOnInit(): void {
     this.entryForm = this.formBuilder.group({
-      title: ['', Validators.required],
-      description: ['', Validators.required]
+      firstName: ['', Validators.required],
+      lastName: ['', Validators.required],
+      phone: ['', Validators.required],
+      email: ['', Validators.required],
+      address: ['', Validators.required],
+      city: ['', Validators.required],
+      province: ['', Validators.required],
+      postalCode: ['', Validators.required],
+      dateJoined: ['', Validators.required],
+      licenseNumber: ['', Validators.required],
     });
+  }
+
+  get fc() {
+    return this.entryForm.controls;
   }
 
   submit(): void {
