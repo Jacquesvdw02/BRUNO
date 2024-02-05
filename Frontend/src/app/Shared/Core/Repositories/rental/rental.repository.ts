@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, catchError } from 'rxjs';
 import { Rental } from '../../Interfaces/Rental.interface';
 
 @Injectable({
@@ -14,14 +14,14 @@ export class RentalRepository {
     return this._httpClient.get<Rental[]>('https://localhost:44338/api/rental');
   }
 
-  public createRental(rental: any): Observable<Rental> {
+  public createRental(rental: unknown): Observable<Rental> {
     
     // format startDate and endDate to be yyyy-mm-dd
-    rental.startDate = rental.startDate.toISOString().split('T')[0];
-    rental.endDate = rental.endDate.toISOString().split('T')[0];
+    // rental.startDate = rental.startDate.toISOString().split('T')[0];
+    // rental.endDate = rental.endDate.toISOString().split('T')[0];
 
     console.log(rental);
-    return this._httpClient.post<any>('https://localhost:44338/api/rental', rental,
-      { headers: { 'Content-Type': 'application/json' } });
+
+    return this._httpClient.post<Rental>('https://localhost:44338/api/rental', rental);
   }
 }

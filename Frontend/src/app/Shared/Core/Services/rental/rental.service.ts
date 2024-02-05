@@ -5,7 +5,7 @@ import { CarService } from '../car/car.service';
 import { ClientService } from '../client/client.service';
 import { Car } from '../../Interfaces/Car.interface';
 import { Client } from '../../Interfaces/Client.interface';
-import { forkJoin, map } from 'rxjs';
+import { Observable, forkJoin, map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -61,7 +61,11 @@ export class RentalService {
           client: foundClient,
         };
 
-        return this._rentalRepository.createRental(newRental);
+        this._rentalRepository.createRental(newRental).subscribe(
+          (response) => {
+            console.log(response);
+          }
+        );
       }
     );
   }
