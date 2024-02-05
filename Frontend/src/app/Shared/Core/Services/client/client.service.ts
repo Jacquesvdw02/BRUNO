@@ -14,4 +14,8 @@ export class ClientService {
   public getAllClients(): Observable<Client[]> {
     return this._clientRepository.getAllClients();
   }
+
+  public createClient(client: any): Observable<Client> {
+    return this._clientRepository.createClient(client);
+  }
 }

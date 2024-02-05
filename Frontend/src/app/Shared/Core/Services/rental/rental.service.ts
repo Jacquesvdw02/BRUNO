@@ -47,4 +47,34 @@ export class RentalService {
     }
     );
   }
+
+  public createRental(rental: any) {
+    // Get the client ID from their first and last name
+    let clients: Client[] = [];
+    let clientObservable$ = this._clientService.getAllClients();
+    clientObservable$.subscribe((data: any) => {
+      clients = data;
+    });
+
+    let client = clients.find((client) => client.firstName === rental.clientFirstName && client.lastName === rental.clientLastName);
+
+    // Get the car ID from its registration
+    let cars: Car[] = [];
+    let carObservable$ = this._carService.getAllCars();
+    carObservable$.subscribe((data: any) => {
+      cars = data;
+    });
+
+    let car = cars.find((car) => car.registration === rental.carRegistration);
+
+    // Create the rental object
+    let newRental: any = {
+      carId: car!.id,
+      clientId: client!.id,
+      startDate: rental.startDate,
+      endDate: rental.endDate
+    };
+
+    return this._rentalRepository.createRental(newRental);
+  }
 }

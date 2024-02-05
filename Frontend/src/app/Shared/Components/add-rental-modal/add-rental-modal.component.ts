@@ -6,22 +6,20 @@ import { MatOption } from '@angular/material/core';
 import {MatFormField} from '@angular/material/form-field';
 import {MatDatepickerControl, MatDatepickerModule, MatDatepickerPanel} from '@angular/material/datepicker';
 import { FormlyFieldConfig } from '@ngx-formly/core';
+import { RentalService } from '../../Core/Services/rental/rental.service';
 
 @Component({
   selector: 'app-add-rental-modal',
   templateUrl: './add-rental-modal.component.html',
   styleUrl: './add-rental-modal.component.scss'
 })
-export class AddRentalModalComponent implements OnInit {
+export class AddRentalModalComponent {
   form = new FormGroup({});
   model = { };
   fields: FormlyFieldConfig[] = [];
 
 
-  constructor(public dialogRef: MatDialogRef<AddRentalModalComponent>) {}
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+  constructor(public dialogRef: MatDialogRef<AddRentalModalComponent>, private _rentalService:RentalService) {}
 
   loadFormFields() {
     // Assuming getCars and getClients are methods that fetch the data
@@ -71,7 +69,7 @@ export class AddRentalModalComponent implements OnInit {
   }
 
   onSubmit(model: any): void {
-      console.log('Form submitted:', model);
+      this._rentalService.createRental(model);
       this.close();
   }
 

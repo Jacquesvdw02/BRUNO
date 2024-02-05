@@ -4,6 +4,8 @@ import {MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatFormField} from '@angular/material/form-field';
 import { MatError } from '@angular/material/form-field';
 import {FormlyFieldConfig} from '@ngx-formly/core';
+import { CarService } from '../../Core/Services/car/car.service';
+import { Car } from '../../Core/Interfaces/Car.interface';
 
 @Component({
   selector: 'app-add-car-modal',
@@ -149,13 +151,6 @@ export class AddCarModalComponent {
       },
     },
     {
-      key: 'rentedOut',
-      type: 'checkbox',
-      props: {
-        label: 'Rented Out',
-      },
-    },
-    {
       key: 'serviceMileage',
       type: 'input',
       props: {
@@ -166,10 +161,10 @@ export class AddCarModalComponent {
     },
   ];
 
-  constructor(public dialogRef: MatDialogRef<AddCarModalComponent>) {}
+  constructor(public dialogRef: MatDialogRef<AddCarModalComponent>, private _carService:CarService) {}
 
   onSubmit(model: any): void {
-      console.log('Form submitted:', model);
+      this._carService.createCar(model);
       this.close();
   }
 

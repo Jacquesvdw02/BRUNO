@@ -13,4 +13,8 @@ export class RentalRepository {
   public getAllRentals(): Observable<Rental[]> {
     return this._httpClient.get<Rental[]>('https://localhost:44338/api/client');
   }
+
+  public createRental(rental: any): Observable<Rental> {
+    return this._httpClient.post<Rental>('https://localhost:44338/api/client', rental);
+  }
 }

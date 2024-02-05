@@ -18,9 +18,9 @@ export class CarRepository {
   //   return this._httpClient.get(`https://localhost:5001/api/car/${registration}`);
   // }
 
-  // public createCar(car: any) {
-  //   return this._httpClient.post('https://localhost:5001/api/car', car);
-  // }
+  public createCar(car: any) {
+    return this._httpClient.post('https://localhost:5001/api/car', car);
+  }
 
   // public updateCar(registration: string, car: any) {
   //   return this._httpClient.put(`https://localhost:5001/api/car/${registration}`, car);

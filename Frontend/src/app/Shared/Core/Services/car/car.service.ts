@@ -30,9 +30,9 @@ export class CarService {
   //   return car;
   // }
 
-  // public createCar(car: Car): void {
-  //   this._carRepository.createCar(car).subscribe();
-  // }
+  public createCar(car: any): void {
+    this._carRepository.createCar(car);
+  }
 
   // public updateCar(registration: string, car: Car): void {
   //   this._carRepository.updateCar(registration, car).subscribe();

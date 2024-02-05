@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatFormField} from '@angular/material/form-field';
 import {FormlyFieldConfig} from '@ngx-formly/core';
+import { ClientService } from '../../Core/Services/client/client.service';
 
 @Component({
   selector: 'app-add-client-modal',
@@ -108,10 +109,10 @@ export class AddClientModalComponent {
     }
   ];
 
-  constructor(public dialogRef: MatDialogRef<AddClientModalComponent>) {}
+  constructor(public dialogRef: MatDialogRef<AddClientModalComponent>, private _clientService:ClientService) {}
 
   onSubmit(model: any): void {
-      console.log('Form submitted:', model);
+      this._clientService.createClient(model);
       this.close();
   }
 
