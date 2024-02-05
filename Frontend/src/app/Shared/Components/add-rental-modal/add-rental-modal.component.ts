@@ -90,7 +90,11 @@ export class AddRentalModalComponent {
   ];
 
   onSubmit(model: any): void {
-    this._rentalService.createRental(model);
+    this._rentalService.createRental(model).subscribe(
+      (res) => {
+        console.log(res);
+      }
+    );
     this.close();
   }
 

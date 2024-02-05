@@ -14,10 +14,9 @@ export class LoginComponent {
 
   onLogin() {
     if (this.username === 'admin' && this.password === 'admin') {
-      alert('Login successful!');
       this.router.navigate(['/home']); // Redirect to home page
     } else {
-      alert('Login failed!');
+      alert('Invalid credentials');
     }
   }
 }

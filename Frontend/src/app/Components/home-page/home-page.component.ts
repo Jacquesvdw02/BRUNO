@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CarService } from '../../Shared/Core/Services/car/car.service';
 import { ClientService } from '../../Shared/Core/Services/client/client.service';
 import { RentalService } from '../../Shared/Core/Services/rental/rental.service';
@@ -14,7 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss'
 })
-export class HomePageComponent {
+export class HomePageComponent implements OnInit {
   public carColumns: string[] = ['colour', 'make', 'model', 'registration', 'dailyRate', 'rentedOut', 'mileage', 'serviceMileage', 'year', 'transmission', 'fuelType', 'engineSize', 'bodyStyle', 'driveTrain', 'datePurchased'];
   public rentalColumns: string[] = ['carRegistration', 'client', 'startDate', 'endDate'];
   public clientColumns: string[] = ['firstName', 'lastName', 'phone', 'email', 'address', 'city', 'province', 'postalCode', 'dateJoined', 'licenseNumber'];

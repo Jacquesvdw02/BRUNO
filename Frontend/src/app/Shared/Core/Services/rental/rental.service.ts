@@ -5,7 +5,7 @@ import { CarService } from '../car/car.service';
 import { ClientService } from '../client/client.service';
 import { Car } from '../../Interfaces/Car.interface';
 import { Client } from '../../Interfaces/Client.interface';
-import { Observable, forkJoin, map } from 'rxjs';
+import { Observable, forkJoin, map, switchMap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -40,12 +40,12 @@ export class RentalService {
     );
   }
 
-  public createRental(rental: any) {
+  public createRental(rental: any): Observable<any> {
     let clientObservable$ = this._clientService.getAllClients();
     let carObservable$ = this._carService.getAllCars();
 
-    forkJoin([clientObservable$, carObservable$]).subscribe(
-      ([clients, cars]) => {
+    return forkJoin([clientObservable$, carObservable$]).pipe(
+      switchMap(([clients, cars]) => {
         let foundClient = clients.find(
           (client: Client) => client.id === rental.clientId
         );
@@ -61,12 +61,8 @@ export class RentalService {
           client: foundClient,
         };
 
-        this._rentalRepository.createRental(newRental).subscribe(
-          (response) => {
-            console.log(response);
-          }
-        );
-      }
+        return this._rentalRepository.createRental(newRental);
+      })
     );
   }
 }
