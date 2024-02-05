@@ -13,36 +13,55 @@ namespace BRUNOAPI.Application.Rentals
     {
         public ClientDto()
         {
-            ClientName = null!;
-            Phone = null!;
+            FirstName = null!;
+            LastName = null!;
             Email = null!;
+            Phone = null!;
             Address = null!;
+            City = null!;
+            Province = null!;
             LicenseNumber = null!;
+            PostalCode = null!;
         }
 
         public Guid Id { get; set; }
-        public string ClientName { get; set; }
-        public string Phone { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string Email { get; set; }
+        public string Phone { get; set; }
         public string Address { get; set; }
+        public string City { get; set; }
+        public string Province { get; set; }
         public string LicenseNumber { get; set; }
+        public string PostalCode { get; set; }
+        public DateTime DateJoined { get; set; }
 
         public static ClientDto Create(
             Guid id,
-            string clientName,
-            string phone,
+            string firstName,
+            string lastName,
             string email,
+            string phone,
             string address,
-            string licenseNumber)
+            string city,
+            string province,
+            string licenseNumber,
+            string postalCode,
+            DateTime dateJoined)
         {
             return new ClientDto
             {
                 Id = id,
-                ClientName = clientName,
-                Phone = phone,
+                FirstName = firstName,
+                LastName = lastName,
                 Email = email,
+                Phone = phone,
                 Address = address,
-                LicenseNumber = licenseNumber
+                City = city,
+                Province = province,
+                LicenseNumber = licenseNumber,
+                PostalCode = postalCode,
+                DateJoined = dateJoined
             };
         }
 

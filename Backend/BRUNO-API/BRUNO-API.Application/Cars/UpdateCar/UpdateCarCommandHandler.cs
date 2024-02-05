@@ -31,9 +31,16 @@ namespace BRUNOAPI.Application.Cars.UpdateCar
                 throw new NotFoundException($"Could not find Car '{request.Id}'");
             }
 
-            car.Colour = request.Colour;
             car.Make = request.Make;
             car.Model = request.Model;
+            car.Year = request.Year;
+            car.Colour = request.Colour;
+            car.Transmission = request.Transmission;
+            car.FuelType = request.FuelType;
+            car.EngineSize = request.EngineSize;
+            car.BodyStyle = request.BodyStyle;
+            car.Drivetrain = request.Drivetrain;
+            car.DatePurchased = request.DatePurchased;
             car.Registration = request.Registration;
             car.DailyRate = request.DailyRate;
             car.RentedOut = request.RentedOut;

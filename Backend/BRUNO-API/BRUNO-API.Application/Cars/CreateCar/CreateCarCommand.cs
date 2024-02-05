@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using BRUNOAPI.Application.Common.Interfaces;
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
@@ -12,9 +11,16 @@ namespace BRUNOAPI.Application.Cars.CreateCar
     public class CreateCarCommand : IRequest<Guid>, ICommand
     {
         public CreateCarCommand(Guid id,
-            string colour,
             string make,
             string model,
+            int year,
+            string colour,
+            string transmission,
+            string fuelType,
+            double engineSize,
+            string bodyStyle,
+            string drivetrain,
+            DateTime datePurchased,
             string registration,
             double dailyRate,
             bool rentedOut,
@@ -22,9 +28,16 @@ namespace BRUNOAPI.Application.Cars.CreateCar
             int serviceMileage)
         {
             Id = id;
-            Colour = colour;
             Make = make;
             Model = model;
+            Year = year;
+            Colour = colour;
+            Transmission = transmission;
+            FuelType = fuelType;
+            EngineSize = engineSize;
+            BodyStyle = bodyStyle;
+            Drivetrain = drivetrain;
+            DatePurchased = datePurchased;
             Registration = registration;
             DailyRate = dailyRate;
             RentedOut = rentedOut;
@@ -33,9 +46,16 @@ namespace BRUNOAPI.Application.Cars.CreateCar
         }
 
         public Guid Id { get; set; }
-        public string Colour { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
+        public int Year { get; set; }
+        public string Colour { get; set; }
+        public string Transmission { get; set; }
+        public string FuelType { get; set; }
+        public double EngineSize { get; set; }
+        public string BodyStyle { get; set; }
+        public string Drivetrain { get; set; }
+        public DateTime DatePurchased { get; set; }
         public string Registration { get; set; }
         public double DailyRate { get; set; }
         public bool RentedOut { get; set; }

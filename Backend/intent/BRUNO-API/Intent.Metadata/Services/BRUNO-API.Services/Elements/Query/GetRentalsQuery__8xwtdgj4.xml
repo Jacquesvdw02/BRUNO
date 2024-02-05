@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="23ad3d81-f5f2-4b4b-a8eb-a2afa5b92f1f" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetRentalsQuery</name>
+  <display>GetRentalsQuery: RentalDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="b12ad0be-70d2-4e6f-b645-6abe8464c04c">
+    <typeId>9342b5b2-4895-43e1-ac8b-78746e3d121e</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>BRUNO-API.Services</typePackageName>
+    <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>22b1b0e6-17f2-4ac4-b1e3-c0997f070dd2</parentFolderId>
+  <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
+  <packageName>BRUNO-API.Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="b4581ed2-42ec-4ae2-83dd-dcdd5f0837b6" name="Http Settings">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Metadata.WebApi</definitionPackageName>
+      <definitionPackageId>0011387a-b122-45d7-9cdb-8e21b315ab9f</definitionPackageId>
+      <properties>
+        <property name="801c3e61-4431-4d81-93fa-7e57d33cb3fa" display="Verb" value="GET" isActive="true" />
+        <property name="5dd3e07d-76eb-45d4-9956-4325fb068acc" display="Route" value="api/rental" isActive="true" />
+        <property name="4490e212-1e99-43ce-b3dd-048ed2a6bae8" display="Return Type Mediatype" value="Default" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata>
+    <entry key="baseName" value="Rentals" />
+  </metadata>
+  <childElements />
+</class>

@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using BRUNOAPI.Domain.Entities;
@@ -26,21 +25,27 @@ namespace BRUNOAPI.Application.Cars.CreateCar
         [IntentManaged(Mode.Fully, Body = Mode.Fully)]
         public async Task<Guid> Handle(CreateCarCommand request, CancellationToken cancellationToken)
         {
-            var entity = new Car
-            {
-                Colour = request.Colour,
-                Make = request.Make,
-                Model = request.Model,
-                Registration = request.Registration,
-                DailyRate = request.DailyRate,
-                RentedOut = request.RentedOut,
-                Mileage = request.Mileage,
-                ServiceMileage = request.ServiceMileage
-            };
+            var car = new Car(
+                id: Guid.NewGuid(),
+                make: request.Make,
+                model: request.Model,
+                year: request.Year,
+                colour: request.Colour,
+                transmission: request.Transmission,
+                fuelType: request.FuelType,
+                engineSize: request.EngineSize,
+                bodyStyle: request.BodyStyle,
+                drivetrain: request.Drivetrain,
+                datePurchased: request.DatePurchased,
+                registration: request.Registration,
+                dailyRate: request.DailyRate,
+                rentedOut: request.RentedOut,
+                mileage: request.Mileage,
+                serviceMileage: request.ServiceMileage);
 
-            _carRepository.Add(entity);
+            _carRepository.Add(car);
             await _carRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
-            return entity.Id;
+            return car.Id;
         }
     }
 }

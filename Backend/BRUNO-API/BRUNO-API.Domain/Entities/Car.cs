@@ -11,9 +11,16 @@ namespace BRUNOAPI.Domain.Entities
     public class Car : IHasDomainEvent
     {
         public Car(Guid id,
-            string colour,
             string make,
             string model,
+            int year,
+            string colour,
+            string transmission,
+            string fuelType,
+            double engineSize,
+            string bodyStyle,
+            string drivetrain,
+            DateTime datePurchased,
             string registration,
             double dailyRate,
             bool rentedOut,
@@ -22,33 +29,47 @@ namespace BRUNOAPI.Domain.Entities
         {
             Id = id;
             Colour = colour;
+            Transmission = transmission;
+            FuelType = fuelType;
+            EngineSize = engineSize;
+            BodyStyle = bodyStyle;
+            Drivetrain = drivetrain;
+            DatePurchased = datePurchased;
             Make = make;
             Model = model;
+            Year = year;
             Registration = registration;
             DailyRate = dailyRate;
             RentedOut = rentedOut;
             Mileage = mileage;
             ServiceMileage = serviceMileage;
-            //ServiceInterval = serviceInterval;
-            //ServiceMileage = serviceMileage;
-            //DomainEvents.Add(new CreateCarEvent(this));
         }
 
         public Car()
         {
-            Colour = null!;
-            Make = null!;
-            Model = null!;
-            Registration = null!;
         }
 
         public Guid Id { get; set; }
 
         public string Colour { get; set; }
 
+        public string Transmission { get; set; }
+
+        public string FuelType { get; set; }
+
+        public double EngineSize { get; set; }
+
+        public string BodyStyle { get; set; }
+
+        public string Drivetrain { get; set; }
+
+        public DateTime DatePurchased { get; set; }
+
         public string Make { get; set; }
 
         public string Model { get; set; }
+
+        public int Year { get; set; }
 
         public string Registration { get; set; }
 

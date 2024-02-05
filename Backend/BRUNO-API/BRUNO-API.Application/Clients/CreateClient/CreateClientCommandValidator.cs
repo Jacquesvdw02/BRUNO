@@ -16,19 +16,31 @@ namespace BRUNOAPI.Application.Clients.CreateClient
 
         private void ConfigureValidationRules()
         {
-            RuleFor(v => v.ClientName)
+            RuleFor(v => v.FirstName)
                 .NotNull();
 
-            RuleFor(v => v.Phone)
+            RuleFor(v => v.LastName)
                 .NotNull();
 
             RuleFor(v => v.Email)
                 .NotNull();
 
+            RuleFor(v => v.Phone)
+                .NotNull();
+
             RuleFor(v => v.Address)
                 .NotNull();
 
+            RuleFor(v => v.City)
+                .NotNull();
+
+            RuleFor(v => v.Province)
+                .NotNull();
+
             RuleFor(v => v.LicenseNumber)
+                .NotNull();
+
+            RuleFor(v => v.PostalCode)
                 .NotNull();
         }
     }

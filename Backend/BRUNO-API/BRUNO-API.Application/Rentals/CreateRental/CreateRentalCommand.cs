@@ -1,6 +1,4 @@
 using System;
-using BRUNOAPI.Application.Cars;
-using BRUNOAPI.Application.Clients;
 using BRUNOAPI.Application.Common.Interfaces;
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
@@ -18,7 +16,7 @@ namespace BRUNOAPI.Application.Rentals.CreateRental
             Guid carId,
             Guid clientId,
             CarDto car,
-            Clients.ClientDto client)
+            ClientDto client)
         {
             Id = id;
             ToDate = toDate;
@@ -35,6 +33,6 @@ namespace BRUNOAPI.Application.Rentals.CreateRental
         public Guid CarId { get; set; }
         public Guid ClientId { get; set; }
         public CarDto Car { get; set; }
-        public Clients.ClientDto Client { get; set; }
+        public ClientDto Client { get; set; }
     }
 }

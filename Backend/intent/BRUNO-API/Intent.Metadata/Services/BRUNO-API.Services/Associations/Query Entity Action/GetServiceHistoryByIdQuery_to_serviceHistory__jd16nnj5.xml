@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="7d2520ed-13e0-47e0-a71d-0931559bada0">
+  <sourceEnd id="3148f78c-6433-44f3-aea2-f204cd22996e" type="Query Entity Action Source End" typeId="32a65f26-2555-4616-8a2c-6a90805600bb">
+    <display>: GetServiceHistoryByIdQuery</display>
+    <order>0</order>
+    <typeReference id="7c4078f3-f228-479d-a3c7-d07d4e8abbfe">
+      <typeId>a9256112-00d2-46f5-b105-ff004a870e1a</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="7d2520ed-13e0-47e0-a71d-0931559bada0" type="Query Entity Action Target End" typeId="93ef6675-cba4-4998-adff-cb22d5343ed4">
+    <name>serviceHistory</name>
+    <display>[query] serviceHistory: ServiceHistory</display>
+    <order>1</order>
+    <typeReference id="182d8aa9-9cf1-4c4f-8455-b15ba53266c6">
+      <typeId>7d7108a1-cb0f-4353-bcf0-594887b022fc</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="a9256112-00d2-46f5-b105-ff004a870e1a" location="[BRUNO-API].[Services].[GetServiceHistoryByIdQuery]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="7d7108a1-cb0f-4353-bcf0-594887b022fc" location="[BRUNO-API].[Services].[ServiceHistory]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="f3c79e73-e22d-4cc7-9cef-190ef17d431c" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="a9256112-00d2-46f5-b105-ff004a870e1a" name="GetServiceHistoryByIdQuery" type="element" specialization="Query" />
+                  <target id="5c6bd754-5e8e-4cf0-8e0e-a20c98f69d8a" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Query Entity Action</associationType>
+  <associationTypeId>47ab5888-a258-4bec-a9fc-a83de69eb79d</associationTypeId>
+  <stereotypes />
+</association>

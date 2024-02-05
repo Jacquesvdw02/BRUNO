@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="2d057f5c-92d6-4aff-852c-8e5094a77100">
+  <sourceEnd id="c41695a0-ed2b-4c47-8ffe-61877a192dd0" type="Update Entity Action Source End" typeId="6bc95978-6def-4d0c-a4f5-25bdeda8a9f6">
+    <display>updated by : Clients.UpdateClientCommand</display>
+    <order>0</order>
+    <typeReference id="eed68cdc-54c0-4833-9f81-ee415ab90737">
+      <typeId>32d2a5a0-3f27-439c-864a-1151eeebd17e</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="2d057f5c-92d6-4aff-852c-8e5094a77100" type="Update Entity Action Target End" typeId="516069f6-09cc-4de8-8e31-3c71ca823452">
+    <name>client</name>
+    <display>[update] client: Client</display>
+    <order>11</order>
+    <typeReference id="93ee3241-8780-4f9b-bd85-5211c7395082">
+      <typeId>f85b3f09-0f65-4a66-adfb-3f5d7dc01006</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="32d2a5a0-3f27-439c-864a-1151eeebd17e" location="[BRUNO-API].[Services].[UpdateClientCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" location="[BRUNO-API].[Services].[Client]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="dbe1305c-0103-4e9c-99e3-149ce02bd361" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="773a159c-946b-4d6d-bbde-581258c5a00d" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+      <mapping type="Update Entity Mapping" typeId="01721b1a-a85d-4320-a5cd-8bd39247196a">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="32d2a5a0-3f27-439c-864a-1151eeebd17e" location="[BRUNO-API].[Services].[UpdateClientCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" location="[BRUNO-API].[Services].[Client]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{FirstName}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="b0c69e4e-4529-40bd-936b-04f1b675f110" name="FirstName" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="FirstName" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="6b02150d-0e47-45bd-ae05-07dd6b7e5afa" name="FirstName" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{LastName}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="72171576-b8de-4c31-9e65-7360fcaf9c13" name="LastName" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="LastName" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="1b475463-caad-4ae1-ad73-432d812ee595" name="LastName" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Email}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="9e0d4a71-19ad-4020-be53-374a4799319f" name="Email" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Email" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="72c6deeb-69b9-4223-bc5b-9234560c20ed" name="Email" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Phone}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="bf05891f-d30d-478d-9f2e-2717e95764f5" name="Phone" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Phone" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="79186028-4a49-4270-bfb4-29da697de198" name="Phone" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Address}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="dbe7deb9-14b8-482c-9eb4-a80e7f51a6e6" name="Address" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Address" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="5058f014-0c73-42df-963d-ed5ed8a61b02" name="Address" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{City}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="a6111ef9-27e8-4c44-878c-1f42631aefe7" name="City" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="City" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="649beff2-db4f-4282-bbf6-c56b105b6f25" name="City" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Province}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="899021a3-4870-47b6-adb2-e809c18d2ce7" name="Province" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Province" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="a119e6d2-09cc-4c96-a73f-2452e1986584" name="Province" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{LicenseNumber}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="c1c83abe-6ad2-4c24-ab64-d6a4095e4a79" name="LicenseNumber" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="LicenseNumber" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="f5df9241-3ac0-403d-96d6-8f3d83e26ebb" name="LicenseNumber" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{PostalCode}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="5281b677-fc90-43a3-8546-454fc7dfe997" name="PostalCode" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="PostalCode" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="01e48ac5-f11f-4f36-b6ce-84bc4386a91c" name="PostalCode" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{DateJoined}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="e5496555-427f-474f-a2bd-9789b0be37f3" name="DateJoined" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="DateJoined" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="32d2a5a0-3f27-439c-864a-1151eeebd17e" name="UpdateClientCommand" type="element" specialization="Command" />
+                  <target id="800650ee-811b-46a0-a680-33c7b22bfb72" name="DateJoined" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Update Entity Action</associationType>
+  <associationTypeId>9ea0382a-4617-412a-a8c8-af987bbce226</associationTypeId>
+  <stereotypes />
+</association>

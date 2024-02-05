@@ -170,19 +170,6 @@
       </metadata>
       <childElements />
     </childElement>
-    <childElement id="764fa19d-908e-408e-b3c3-dbb225ec5c89" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
-      <name>Constructor</name>
-      <display>Rental()</display>
-      <isAbstract>false</isAbstract>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</parentFolderId>
-      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
-      <packageName>BRUNO-API.Domain</packageName>
-      <stereotypes />
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="a95d5045-ee56-4544-9bbb-de754eab8f1c" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
       <name>Constructor</name>
       <display>Rental(id: guid, toDate: date, fromDate: date, carId: guid, clientId: guid, car: Car, client: Client)</display>
@@ -423,6 +410,19 @@
           <childElements />
         </childElement>
       </childElements>
+    </childElement>
+    <childElement id="e67a376d-d8eb-441a-a0e2-9ee8d329caa0" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
+      <name>Constructor</name>
+      <display>Rental()</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
     </childElement>
   </childElements>
 </class>

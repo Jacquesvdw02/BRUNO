@@ -14,19 +14,34 @@ namespace BRUNOAPI.Infrastructure.Persistence.Configurations
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.ClientName)
+            builder.Property(x => x.FirstName)
                 .IsRequired();
 
-            builder.Property(x => x.Phone)
+            builder.Property(x => x.LastName)
                 .IsRequired();
 
             builder.Property(x => x.Email)
                 .IsRequired();
 
+            builder.Property(x => x.Phone)
+                .IsRequired();
+
             builder.Property(x => x.Address)
                 .IsRequired();
 
+            builder.Property(x => x.City)
+                .IsRequired();
+
+            builder.Property(x => x.Province)
+                .IsRequired();
+
             builder.Property(x => x.LicenseNumber)
+                .IsRequired();
+
+            builder.Property(x => x.PostalCode)
+                .IsRequired();
+
+            builder.Property(x => x.DateJoined)
                 .IsRequired();
 
             builder.Ignore(e => e.DomainEvents);

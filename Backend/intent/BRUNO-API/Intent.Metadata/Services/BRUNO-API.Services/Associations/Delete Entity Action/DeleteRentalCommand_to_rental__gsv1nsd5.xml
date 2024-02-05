@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="7d8729d6-3930-4d02-ad8a-97bc50255147">
+  <sourceEnd id="616a0a2b-ddf8-4914-a740-6fc1fe6ce288" type="Delete Entity Action Source End" typeId="8c2d9fed-bd14-44b2-9f98-8a801aaf157e">
+    <display>deleted by : Rentals.DeleteRentalCommand</display>
+    <order>0</order>
+    <typeReference id="b9fd7cc3-3222-41b1-aa75-62df97fe5524">
+      <typeId>846526e3-8603-488a-a841-74185a73e14a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="7d8729d6-3930-4d02-ad8a-97bc50255147" type="Delete Entity Action Target End" typeId="4a04cfc2-5841-438c-9c16-fb58b784b365">
+    <name>rental</name>
+    <display>[delete] rental: Rental</display>
+    <order>1</order>
+    <typeReference id="cacf318a-ae7f-48bf-b677-d9b24c346d0b">
+      <typeId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="846526e3-8603-488a-a841-74185a73e14a" location="[BRUNO-API].[Services].[DeleteRentalCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="442b9ee9-b304-4fe7-b594-7c17b3336ff5" location="[BRUNO-API].[Services].[Rental]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="442b9ee9-b304-4fe7-b594-7c17b3336ff5" name="Rental" type="element" specialization="Class" />
+              <target id="66469457-0408-4a39-bc70-f9d27ced8dce" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="846526e3-8603-488a-a841-74185a73e14a" name="DeleteRentalCommand" type="element" specialization="Command" />
+                  <target id="d5cb83d5-9fb1-4474-9be7-85d8da2c8acb" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Delete Entity Action</associationType>
+  <associationTypeId>bfc823fb-60ab-451d-ba62-12671fe7e28e</associationTypeId>
+  <stereotypes />
+</association>

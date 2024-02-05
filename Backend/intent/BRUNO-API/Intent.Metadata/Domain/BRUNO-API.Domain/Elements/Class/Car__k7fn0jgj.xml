@@ -48,41 +48,6 @@
       </metadata>
       <childElements />
     </childElement>
-    <childElement id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
-      <name>Colour</name>
-      <display>Colour: string</display>
-      <isAbstract>false</isAbstract>
-      <genericTypes />
-      <typeReference id="ea2503d8-c42b-47e8-8fbf-c11d6f10f5d8">
-        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
-        <isNavigable>true</isNavigable>
-        <isNullable>false</isNullable>
-        <isCollection>false</isCollection>
-        <isRequired>true</isRequired>
-        <typePackageName>Intent.Common.Types</typePackageName>
-        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-        <stereotypes />
-        <genericTypeParameters />
-      </typeReference>
-      <isMapped>false</isMapped>
-      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
-      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
-      <packageName>BRUNO-API.Domain</packageName>
-      <stereotypes>
-        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
-          <addedByDefault>false</addedByDefault>
-          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
-          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
-          <properties>
-            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
-            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
-            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
-          </properties>
-        </stereotype>
-      </stereotypes>
-      <metadata />
-      <childElements />
-    </childElement>
     <childElement id="54cedb0e-ac64-4e85-b307-89a319de154a" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
       <name>Make</name>
       <display>Make: string</display>
@@ -150,6 +115,253 @@
           </properties>
         </stereotype>
       </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="33029d08-6c9f-4e53-9b77-483b50d69b0d" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Year</name>
+      <display>Year: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="5ac78ff6-0fff-45d5-875d-63d81beb7920">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Colour</name>
+      <display>Colour: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="ea2503d8-c42b-47e8-8fbf-c11d6f10f5d8">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
+            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
+            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="5d7d839e-3950-4074-86b4-fc1940fe2dff" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Transmission</name>
+      <display>Transmission: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="7914018b-d143-4a44-a164-24e7a5c4f017">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
+            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
+            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="05937268-ad6f-490c-ba23-4968ebe9ead3" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>FuelType</name>
+      <display>FuelType: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="93d7a149-1ede-4a63-a01e-27fe93a81ad6">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
+            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
+            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="cc4e5693-10f9-4d6c-90bc-5bbc5d427a32" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>EngineSize</name>
+      <display>EngineSize: double</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="d140d262-8949-497b-a465-3a895565acb6">
+        <typeId>24A77F70-5B97-40DD-8F9A-4208AD5F9219</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="6e0ec9bd-0f7d-4ba4-974d-9b5bb6a940ef" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>BodyStyle</name>
+      <display>BodyStyle: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="ef8d9d5e-0d84-4cfa-939f-301d23fced11">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
+            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
+            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="b6f27961-acc4-4e4e-a2f8-ba1977d43703" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Drivetrain</name>
+      <display>Drivetrain: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="8a753e6a-a5af-4fd4-a2ba-70d3ddd07ae4">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
+            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
+            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="d27804ab-8373-4d73-aeef-938143783a97" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>DatePurchased</name>
+      <display>DatePurchased: date</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="4450e95c-24a9-49e1-83b8-dcce09ee210a">
+        <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
       <metadata />
       <childElements />
     </childElement>
@@ -284,22 +496,9 @@
       <metadata />
       <childElements />
     </childElement>
-    <childElement id="9c6ce4e1-af5b-4ff3-88d0-b7f32962bcda" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
+    <childElement id="b28d4475-d75c-40cc-8caa-7341558a0243" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
       <name>Constructor</name>
-      <display>Car()</display>
-      <isAbstract>false</isAbstract>
-      <genericTypes />
-      <isMapped>false</isMapped>
-      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
-      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
-      <packageName>BRUNO-API.Domain</packageName>
-      <stereotypes />
-      <metadata />
-      <childElements />
-    </childElement>
-    <childElement id="518892c2-1300-42f5-ae52-24cf852aab62" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
-      <name>Constructor</name>
-      <display>Car(id: guid, colour: string, make: string, model: string, registration: string, dailyRate: double, rentedOut: bool, mileage: int, serviceMileage: int)</display>
+      <display>Car(id: guid, make: string, model: string, year: int, colour: string, transmission: string, fuelType: string, engineSize: double, bodyStyle: string, drivetrain: string, datePurchased: date, registration: string, dailyRate: double, rentedOut: bool, mileage: int, serviceMileage: int)</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -319,12 +518,12 @@
       <stereotypes />
       <metadata />
       <childElements>
-        <childElement id="9b6359d4-f29f-43e1-b49d-75e7087a4f3e" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="84852789-d5aa-46b4-ad42-5d4c5d83f20f" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>id</name>
           <display>in : id: guid</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="da137775-bfb1-4535-8f73-6caf6d9bb818">
+          <typeReference id="1ef9d050-4509-49ab-ae28-708996cebe50">
             <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -343,50 +542,19 @@
               <target id="5ed1964a-bcd8-48be-86c6-9bdcc0cae703" name="Id" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="00d17f95-8628-4af0-9bba-4338107c16f5" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
-          <name>colour</name>
-          <display>in : colour: string</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="85789228-802d-4820-aa11-c40ee0c82537">
-            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>false</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>Intent.Common.Types</typePackageName>
-            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>true</isMapped>
-          <mappedClass>
-            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
-            <autoSyncTypeReference>true</autoSyncTypeReference>
-            <mappedPath>
-              <target id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" name="Colour" type="element" specialization="Attribute" />
-            </mappedPath>
-          </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
-          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
-          <packageName>BRUNO-API.Domain</packageName>
-          <stereotypes />
-          <metadata />
-          <childElements />
-        </childElement>
-        <childElement id="193b10bf-b6a9-4aca-aa89-add154400a30" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="c258d87f-fa91-4a92-a7a3-34aa833a6d41" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>make</name>
           <display>in : make: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="0c0e3c68-6a88-4e40-aa22-393d49df5378">
+          <typeReference id="71841cd2-d683-4384-baae-ce2760951741">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -405,19 +573,19 @@
               <target id="54cedb0e-ac64-4e85-b307-89a319de154a" name="Make" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="bb8bbc0b-fbf1-46c7-b00d-9e3a17cc54b9" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="8c85fce4-f00f-4ebb-8410-880ace267fe0" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>model</name>
           <display>in : model: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="3292a2b5-d15a-4fd9-bdef-3b0ede1566c3">
+          <typeReference id="138a8690-1b7d-46e1-b39d-ccf9ff564a90">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -436,19 +604,267 @@
               <target id="a42fa17c-f9b3-460c-941d-55d491fdb4a1" name="Model" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="0f0f5c16-fa2c-43e4-afd4-6463064affc6" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="7c3ab4c0-d027-462d-a61e-843c7cff87fb" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>year</name>
+          <display>in : year: int</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="cafaa076-4018-4ee1-a65a-e68c35f45f0e">
+            <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="33029d08-6c9f-4e53-9b77-483b50d69b0d" name="Year" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="b28f3e2a-9f37-47d9-a46c-1cc51b4e29ea" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>colour</name>
+          <display>in : colour: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="b0ef961f-dac3-4962-97fb-466207d3dc49">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" name="Colour" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="edada0c0-7e32-482c-bdf4-7ef29029df38" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>transmission</name>
+          <display>in : transmission: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="f92e78fc-08c6-432b-b033-4b492eb9526e">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="5d7d839e-3950-4074-86b4-fc1940fe2dff" name="Transmission" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="4a1ba2f1-ea57-4570-89e4-9ada60e04fb4" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>fuelType</name>
+          <display>in : fuelType: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="9940bd69-8152-49b5-a14a-4f3fde621761">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="05937268-ad6f-490c-ba23-4968ebe9ead3" name="FuelType" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="c2fa87dd-7e5a-4ae0-9fb9-059931d272d6" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>engineSize</name>
+          <display>in : engineSize: double</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="4f5fa3da-e988-4899-a2b8-dd2e3b81ba92">
+            <typeId>24A77F70-5B97-40DD-8F9A-4208AD5F9219</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="cc4e5693-10f9-4d6c-90bc-5bbc5d427a32" name="EngineSize" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="f665f1ab-cdbd-40c0-8eb1-8e8302f7d013" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>bodyStyle</name>
+          <display>in : bodyStyle: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="5b137a1e-b3ec-4410-8300-be76ebaf6c07">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="6e0ec9bd-0f7d-4ba4-974d-9b5bb6a940ef" name="BodyStyle" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="591ed455-694d-4f2d-8ff9-09b0b6e9bb11" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>drivetrain</name>
+          <display>in : drivetrain: string</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="78225f83-4a26-4401-a3d8-2f5d05fc9572">
+            <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="b6f27961-acc4-4e4e-a2f8-ba1977d43703" name="Drivetrain" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="4e69459a-ed7a-4847-bef1-c90814654a9b" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>datePurchased</name>
+          <display>in : datePurchased: date</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="a7e17321-0a51-45a8-bc55-01d206976a6a">
+            <typeId>1fbaa056-b666-4f25-b8fd-76fe3165acc8</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>Intent.Common.Types</typePackageName>
+            <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>true</isMapped>
+          <mappedClass>
+            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
+            <autoSyncTypeReference>true</autoSyncTypeReference>
+            <mappedPath>
+              <target id="d27804ab-8373-4d73-aeef-938143783a97" name="DatePurchased" type="element" specialization="Attribute" />
+            </mappedPath>
+          </mappedClass>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
+          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+          <packageName>BRUNO-API.Domain</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="d0ba7906-058e-4760-9231-c544dd1284ea" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>registration</name>
           <display>in : registration: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="87ad3b8b-ff9f-4b95-83e1-a235fda2e50c">
+          <typeReference id="22c3129b-7fa9-4f66-8a34-45631cdfae5a">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -467,19 +883,19 @@
               <target id="f11b8ab5-cf08-4c84-88f9-6f9e4365ddcd" name="Registration" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="7242b38b-2a32-4937-80bd-1dff6f2d6890" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="b628d0c1-6030-4e2a-b31a-40827b161992" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>dailyRate</name>
           <display>in : dailyRate: double</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="1fb3463f-aae7-4c89-b7ae-b21099f9a6e9">
+          <typeReference id="9544ab18-c807-4233-be96-3351447f480c">
             <typeId>24A77F70-5B97-40DD-8F9A-4208AD5F9219</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -498,19 +914,19 @@
               <target id="8ac34044-4ead-42b0-82df-fb519eba2b2d" name="DailyRate" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="e2546f90-ed5b-498c-8f0a-30e6656a4314" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="99e9bee2-bb83-4286-b43d-10a778c936a4" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>rentedOut</name>
           <display>in : rentedOut: bool</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="c625ef4e-46dd-418f-a4b2-925de29f85f3">
+          <typeReference id="666da596-b0ed-46f4-89e4-474902a90b01">
             <typeId>e6f92b09-b2c5-4536-8270-a4d9e5bbd930</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -529,19 +945,19 @@
               <target id="12c03c97-db15-4463-bd0c-47c54e853e7b" name="RentedOut" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="3facd05a-82e3-4c19-9867-d6edbc1b8995" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="8c78ffdf-4ed6-4e0c-ab6b-d2838d43b908" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>mileage</name>
           <display>in : mileage: int</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="3aab3427-a13d-4bb8-b473-154fd6c52bec">
+          <typeReference id="33accd00-bc4a-45ff-83dd-9878a39b5d81">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -560,19 +976,19 @@
               <target id="bc91b65d-2faa-4962-8f9c-657dad233df0" name="Mileage" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="7386b42e-9c68-49d7-80c3-7499c51e5255" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="c6640dfe-9e8a-4cf3-9176-fb5cde3e3962" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>serviceMileage</name>
           <display>in : serviceMileage: int</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="3d79700f-64cb-4700-bba6-f55b28a91990">
+          <typeReference id="a3830676-ef0b-4f0a-b457-73142216b087">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -591,7 +1007,7 @@
               <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceMileage" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
+          <parentFolderId>b28d4475-d75c-40cc-8caa-7341558a0243</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
@@ -599,6 +1015,19 @@
           <childElements />
         </childElement>
       </childElements>
+    </childElement>
+    <childElement id="eab97d40-a906-40ee-ba28-272d8a45da23" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
+      <name>Constructor</name>
+      <display>Car()</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
     </childElement>
   </childElements>
 </class>

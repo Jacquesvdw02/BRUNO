@@ -19,7 +19,7 @@ namespace BRUNOAPI.Application.ServiceHistories.CreateServiceHistory
         {
             RuleFor(v => v.Car)
                 .NotNull()
-                .SetValidator(provider.GetValidator<CarDTO>()!);
+                .SetValidator(provider.GetValidator<CarDto>()!);
         }
     }
 }

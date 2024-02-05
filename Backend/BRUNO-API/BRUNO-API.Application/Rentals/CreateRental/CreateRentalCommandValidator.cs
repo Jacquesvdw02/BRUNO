@@ -1,5 +1,3 @@
-using BRUNOAPI.Application.Cars;
-using BRUNOAPI.Application.Clients;
 using BRUNOAPI.Application.Common.Validation;
 using FluentValidation;
 using Intent.RoslynWeaver.Attributes;
@@ -25,7 +23,7 @@ namespace BRUNOAPI.Application.Rentals.CreateRental
 
             RuleFor(v => v.Client)
                 .NotNull()
-                .SetValidator(provider.GetValidator<Clients.ClientDto>()!);
+                .SetValidator(provider.GetValidator<ClientDto>()!);
         }
     }
 }

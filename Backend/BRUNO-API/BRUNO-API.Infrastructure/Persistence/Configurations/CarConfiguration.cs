@@ -14,13 +14,34 @@ namespace BRUNOAPI.Infrastructure.Persistence.Configurations
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Colour)
-                .IsRequired();
-
             builder.Property(x => x.Make)
                 .IsRequired();
 
             builder.Property(x => x.Model)
+                .IsRequired();
+
+            builder.Property(x => x.Year)
+                .IsRequired();
+
+            builder.Property(x => x.Colour)
+                .IsRequired();
+
+            builder.Property(x => x.Transmission)
+                .IsRequired();
+
+            builder.Property(x => x.FuelType)
+                .IsRequired();
+
+            builder.Property(x => x.EngineSize)
+                .IsRequired();
+
+            builder.Property(x => x.BodyStyle)
+                .IsRequired();
+
+            builder.Property(x => x.Drivetrain)
+                .IsRequired();
+
+            builder.Property(x => x.DatePurchased)
                 .IsRequired();
 
             builder.Property(x => x.Registration)

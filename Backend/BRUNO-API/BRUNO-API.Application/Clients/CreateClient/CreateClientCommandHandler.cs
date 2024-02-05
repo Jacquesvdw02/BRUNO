@@ -27,11 +27,16 @@ namespace BRUNOAPI.Application.Clients.CreateClient
         {
             var client = new Client(
                 id: Guid.NewGuid(),
-                clientName: request.ClientName,
-                phone: request.Phone,
+                firstName: request.FirstName,
+                lastName: request.LastName,
                 email: request.Email,
+                phone: request.Phone,
                 address: request.Address,
-                licenseNumber: request.LicenseNumber);
+                city: request.City,
+                province: request.Province,
+                licenseNumber: request.LicenseNumber,
+                postalCode: request.PostalCode,
+                dateJoined: request.DateJoined);
 
             _clientRepository.Add(client);
             await _clientRepository.UnitOfWork.SaveChangesAsync(cancellationToken);

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a77fe54b-db78-41f5-84a8-810abd8fc366">
+  <sourceEnd id="bd794dfc-256e-4051-90af-8c43f85ca3f4" type="Update Entity Action Source End" typeId="6bc95978-6def-4d0c-a4f5-25bdeda8a9f6">
+    <display>updated by : Rentals.UpdateRentalCommand</display>
+    <order>0</order>
+    <typeReference id="891a8dfd-ed49-4dfb-bff3-f20687dfc696">
+      <typeId>f869b876-cc05-4850-ae85-79ab1d64e407</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="a77fe54b-db78-41f5-84a8-810abd8fc366" type="Update Entity Action Target End" typeId="516069f6-09cc-4de8-8e31-3c71ca823452">
+    <name>rental</name>
+    <display>[update] rental: Rental</display>
+    <order>5</order>
+    <typeReference id="0b5d850a-cbd8-4555-a81d-fdd7b59e8181">
+      <typeId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="f869b876-cc05-4850-ae85-79ab1d64e407" location="[BRUNO-API].[Services].[UpdateRentalCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="442b9ee9-b304-4fe7-b594-7c17b3336ff5" location="[BRUNO-API].[Services].[Rental]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="442b9ee9-b304-4fe7-b594-7c17b3336ff5" name="Rental" type="element" specialization="Class" />
+              <target id="66469457-0408-4a39-bc70-f9d27ced8dce" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="f869b876-cc05-4850-ae85-79ab1d64e407" name="UpdateRentalCommand" type="element" specialization="Command" />
+                  <target id="3c0e9d91-0bdb-47a9-838d-6a6c402da5bd" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+      <mapping type="Update Entity Mapping" typeId="01721b1a-a85d-4320-a5cd-8bd39247196a">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="f869b876-cc05-4850-ae85-79ab1d64e407" location="[BRUNO-API].[Services].[UpdateRentalCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="442b9ee9-b304-4fe7-b594-7c17b3336ff5" location="[BRUNO-API].[Services].[Rental]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{ToDate}</expression>
+            <path>
+              <target id="442b9ee9-b304-4fe7-b594-7c17b3336ff5" name="Rental" type="element" specialization="Class" />
+              <target id="0e922343-c99f-449d-89d9-3f0de619bc08" name="ToDate" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="ToDate" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="f869b876-cc05-4850-ae85-79ab1d64e407" name="UpdateRentalCommand" type="element" specialization="Command" />
+                  <target id="50e7a779-de31-4544-ab33-5cb929fe8bf8" name="ToDate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{FromDate}</expression>
+            <path>
+              <target id="442b9ee9-b304-4fe7-b594-7c17b3336ff5" name="Rental" type="element" specialization="Class" />
+              <target id="2578a635-84f1-49b9-9dbe-7639efe3864b" name="FromDate" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="FromDate" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="f869b876-cc05-4850-ae85-79ab1d64e407" name="UpdateRentalCommand" type="element" specialization="Command" />
+                  <target id="473a9bc0-6304-4a00-a44c-19d510234eb6" name="FromDate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{CarId}</expression>
+            <path>
+              <target id="442b9ee9-b304-4fe7-b594-7c17b3336ff5" name="Rental" type="element" specialization="Class" />
+              <target id="dccae4c2-d9d7-40eb-be4d-ed41ff69e237" name="CarId" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="CarId" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="f869b876-cc05-4850-ae85-79ab1d64e407" name="UpdateRentalCommand" type="element" specialization="Command" />
+                  <target id="f5b114b5-fcd9-49e1-8364-eae955ab660e" name="CarId" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{ClientId}</expression>
+            <path>
+              <target id="442b9ee9-b304-4fe7-b594-7c17b3336ff5" name="Rental" type="element" specialization="Class" />
+              <target id="adac3677-4108-4f97-bc3c-7540d04073e3" name="ClientId" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="ClientId" mappingType="Data Mapping" mappingTypeId="ca88649b-f20b-44db-a9c0-017c26155ba8">
+                <path>
+                  <target id="f869b876-cc05-4850-ae85-79ab1d64e407" name="UpdateRentalCommand" type="element" specialization="Command" />
+                  <target id="aab34360-72ef-4270-a1b4-7ce53b00b700" name="ClientId" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Update Entity Action</associationType>
+  <associationTypeId>9ea0382a-4617-412a-a8c8-af987bbce226</associationTypeId>
+  <stereotypes />
+</association>

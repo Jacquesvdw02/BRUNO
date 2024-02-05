@@ -9,12 +9,12 @@ using Intent.RoslynWeaver.Attributes;
 
 namespace BRUNOAPI.Application.ServiceHistories
 {
-    public static class CarDTOMappingExtensions
+    public static class CarDtoMappingExtensions
     {
-        public static CarDTO MapToCarDTO(this Car projectFrom, IMapper mapper)
-            => mapper.Map<CarDTO>(projectFrom);
+        public static CarDto MapToCarDto(this Car projectFrom, IMapper mapper)
+            => mapper.Map<CarDto>(projectFrom);
 
-        public static List<CarDTO> MapToCarDTOList(this IEnumerable<Car> projectFrom, IMapper mapper)
-            => projectFrom.Select(x => x.MapToCarDTO(mapper)).ToList();
+        public static List<CarDto> MapToCarDtoList(this IEnumerable<Car> projectFrom, IMapper mapper)
+            => projectFrom.Select(x => x.MapToCarDto(mapper)).ToList();
     }
 }

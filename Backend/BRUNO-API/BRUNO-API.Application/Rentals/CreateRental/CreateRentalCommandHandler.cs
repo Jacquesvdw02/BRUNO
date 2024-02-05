@@ -33,9 +33,16 @@ namespace BRUNOAPI.Application.Rentals.CreateRental
                 clientId: request.ClientId,
                 car: new Car
                 {
-                    Colour = request.Car.Colour,
                     Make = request.Car.Make,
                     Model = request.Car.Model,
+                    Year = request.Car.Year,
+                    Colour = request.Car.Colour,
+                    Transmission = request.Car.Transmission,
+                    FuelType = request.Car.FuelType,
+                    EngineSize = request.Car.EngineSize,
+                    BodyStyle = request.Car.BodyStyle,
+                    Drivetrain = request.Car.Drivetrain,
+                    DatePurchased = request.Car.DatePurchased,
                     Registration = request.Car.Registration,
                     DailyRate = request.Car.DailyRate,
                     RentedOut = request.Car.RentedOut,
@@ -44,11 +51,16 @@ namespace BRUNOAPI.Application.Rentals.CreateRental
                 },
                 client: new Client
                 {
-                    ClientName = request.Client.ClientName,
-                    Phone = request.Client.Phone,
+                    FirstName = request.Client.FirstName,
+                    LastName = request.Client.LastName,
                     Email = request.Client.Email,
+                    Phone = request.Client.Phone,
                     Address = request.Client.Address,
-                    LicenseNumber = request.Client.LicenseNumber
+                    City = request.Client.City,
+                    Province = request.Client.Province,
+                    LicenseNumber = request.Client.LicenseNumber,
+                    PostalCode = request.Client.PostalCode,
+                    DateJoined = request.Client.DateJoined
                 });
 
             _rentalRepository.Add(rental);

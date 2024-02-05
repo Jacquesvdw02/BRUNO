@@ -31,11 +31,16 @@ namespace BRUNOAPI.Application.Clients.UpdateClient
                 throw new NotFoundException($"Could not find Client '{request.Id}'");
             }
 
-            client.ClientName = request.ClientName;
-            client.Phone = request.Phone;
+            client.FirstName = request.FirstName;
+            client.LastName = request.LastName;
             client.Email = request.Email;
+            client.Phone = request.Phone;
             client.Address = request.Address;
+            client.City = request.City;
+            client.Province = request.Province;
             client.LicenseNumber = request.LicenseNumber;
+            client.PostalCode = request.PostalCode;
+            client.DateJoined = request.DateJoined;
         }
     }
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="d5d812d4-9808-40a2-8a05-788cc4aa524d" type="Service" typeId="b16578a5-27b1-4047-a8df-f0b783d706bd">
+  <name>CarService</name>
+  <display>CarService</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>12696c39-2fa2-4d73-9c64-cb7310e4492d</parentFolderId>
+  <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
+  <packageName>BRUNO-API.Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="5bdbb11d-b30b-4eb0-8101-a537c3f0f0cb" type="Operation" typeId="e030c97a-e066-40a7-8188-808c275df3cb">
+      <name>checkServiceRequired</name>
+      <display>checkServiceRequired(car: CheckServiceDto): bool</display>
+      <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-manually</sort-children>
+      <genericTypes />
+      <typeReference id="74eacb9b-a21b-4674-8e44-812d9bbdc48b">
+        <typeId>e6f92b09-b2c5-4536-8270-a4d9e5bbd930</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>d5d812d4-9808-40a2-8a05-788cc4aa524d</parentFolderId>
+      <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
+      <packageName>BRUNO-API.Services</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="49b47604-c372-4772-84d6-292814222749" type="Parameter" typeId="00208d20-469d-41cb-8501-768fd5eb796b">
+          <name>car</name>
+          <display>in : car: CheckServiceDto</display>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <typeReference id="41e6b36b-d3d6-4031-9caf-bc6eb839ff0e">
+            <typeId>a2a9ca4a-0bb8-4f76-8870-fecd053ffa51</typeId>
+            <isNavigable>true</isNavigable>
+            <isNullable>false</isNullable>
+            <isCollection>false</isCollection>
+            <isRequired>true</isRequired>
+            <typePackageName>BRUNO-API.Services</typePackageName>
+            <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+            <stereotypes />
+            <genericTypeParameters />
+          </typeReference>
+          <isMapped>false</isMapped>
+          <parentFolderId>5bdbb11d-b30b-4eb0-8101-a537c3f0f0cb</parentFolderId>
+          <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
+          <packageName>BRUNO-API.Services</packageName>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

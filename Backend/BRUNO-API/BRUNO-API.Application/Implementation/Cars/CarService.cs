@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using BRUNOAPI.Application.Cars;
 using BRUNOAPI.Application.Interfaces.Cars;
+using BRUNOAPI.Domain.Entities;
 using BRUNOAPI.Domain.Repositories;
 using Intent.RoslynWeaver.Attributes;
 

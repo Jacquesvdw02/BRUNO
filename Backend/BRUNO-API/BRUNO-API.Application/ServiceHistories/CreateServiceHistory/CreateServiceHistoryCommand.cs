@@ -14,7 +14,7 @@ namespace BRUNOAPI.Application.ServiceHistories.CreateServiceHistory
             int previousServiceMilage,
             DateTime previousServiceDate,
             Guid carId,
-            CarDTO car)
+            CarDto car)
         {
             Id = id;
             PreviousServiceMilage = previousServiceMilage;
@@ -27,6 +27,6 @@ namespace BRUNOAPI.Application.ServiceHistories.CreateServiceHistory
         public int PreviousServiceMilage { get; set; }
         public DateTime PreviousServiceDate { get; set; }
         public Guid CarId { get; set; }
-        public CarDTO Car { get; set; }
+        public CarDto Car { get; set; }
     }
 }

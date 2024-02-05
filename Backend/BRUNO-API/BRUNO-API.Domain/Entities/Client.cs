@@ -10,28 +10,40 @@ namespace BRUNOAPI.Domain.Entities
 {
     public class Client : IHasDomainEvent
     {
-        public Client(Guid id, string clientName, string phone, string email, string address, string licenseNumber)
+        public Client(Guid id,
+            string firstName,
+            string lastName,
+            string email,
+            string phone,
+            string address,
+            string city,
+            string province,
+            string licenseNumber,
+            string postalCode,
+            DateTime dateJoined)
         {
             Id = id;
-            ClientName = clientName;
+            FirstName = firstName;
+            LastName = lastName;
             Phone = phone;
             Email = email;
             Address = address;
+            City = city;
+            Province = province;
             LicenseNumber = licenseNumber;
+            PostalCode = postalCode;
+            DateJoined = dateJoined;
         }
 
         public Client()
         {
-            ClientName = null!;
-            Phone = null!;
-            Email = null!;
-            Address = null!;
-            LicenseNumber = null!;
         }
 
         public Guid Id { get; set; }
 
-        public string ClientName { get; set; }
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
 
         public string Phone { get; set; }
 
@@ -39,7 +51,15 @@ namespace BRUNOAPI.Domain.Entities
 
         public string Address { get; set; }
 
+        public string City { get; set; }
+
+        public string Province { get; set; }
+
         public string LicenseNumber { get; set; }
+
+        public string PostalCode { get; set; }
+
+        public DateTime DateJoined { get; set; }
 
         public List<DomainEvent> DomainEvents { get; set; } = new List<DomainEvent>();
     }

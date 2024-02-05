@@ -32,9 +32,16 @@ namespace BRUNOAPI.Application.ServiceHistories.CreateServiceHistory
                 carId: request.CarId,
                 car: new Car
                 {
-                    Colour = request.Car.Colour,
                     Make = request.Car.Make,
                     Model = request.Car.Model,
+                    Year = request.Car.Year,
+                    Colour = request.Car.Colour,
+                    Transmission = request.Car.Transmission,
+                    FuelType = request.Car.FuelType,
+                    EngineSize = request.Car.EngineSize,
+                    BodyStyle = request.Car.BodyStyle,
+                    Drivetrain = request.Car.Drivetrain,
+                    DatePurchased = request.Car.DatePurchased,
                     Registration = request.Car.Registration,
                     DailyRate = request.Car.DailyRate,
                     RentedOut = request.Car.RentedOut,

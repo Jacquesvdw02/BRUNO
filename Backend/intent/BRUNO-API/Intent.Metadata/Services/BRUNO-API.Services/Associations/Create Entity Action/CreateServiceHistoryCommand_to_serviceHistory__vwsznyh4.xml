@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="8bd78d0c-63ff-4613-959c-3e5133fbbd66">
+  <sourceEnd id="25d915c3-7829-42fa-a066-71e2d6141791" type="Create Entity Action Source End" typeId="a3e7c59e-b0a1-47e1-ba29-66f2c7047b0a">
+    <display>created by : ServiceHistories.CreateServiceHistoryCommand</display>
+    <order>0</order>
+    <typeReference id="c010b92f-99e3-408f-9919-99a313c34dd8">
+      <typeId>5cfb2d0c-e311-4c68-a653-d921b7dc42d2</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="8bd78d0c-63ff-4613-959c-3e5133fbbd66" type="Create Entity Action Target End" typeId="328f54e5-7bad-4b5f-90ca-03ce3105d016">
+    <name>serviceHistory</name>
+    <display>[create] serviceHistory: Constructor</display>
+    <order>5</order>
+    <typeReference id="26192788-2f05-489d-a9f4-2031a40f6cbb">
+      <typeId>c44bd5d3-efe3-465b-b3e0-48710f74fdfb</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Create Entity Mapping" typeId="5f172141-fdba-426b-980e-163e782ff53e">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" location="[BRUNO-API].[Services].[CreateServiceHistoryCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="7d7108a1-cb0f-4353-bcf0-594887b022fc" location="[BRUNO-API].[Services].[ServiceHistory]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{CreateServiceHistoryCommand}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+            </path>
+            <sources>
+              <source identifier="CreateServiceHistoryCommand" mappingType="Invocation Mapping" mappingTypeId="47dc4a51-30a3-4ee8-8c7d-25a35bb965b9">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>Guid.NewGuid()</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="786c26b8-7f12-459b-a56f-26fb706bb3a8" name="id" type="element" specialization="Parameter" />
+            </path>
+            <sources />
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{PreviousServiceMilage}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="a223724f-9ca7-4f2e-bd35-d40b49f87269" name="previousServiceMilage" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="PreviousServiceMilage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="99995251-19ca-4f16-9ee0-5c051469d76a" name="PreviousServiceMilage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{PreviousServiceDate}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="c61a2c92-d54d-4f09-89d8-63dbc276074c" name="previousServiceDate" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="PreviousServiceDate" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="ec7ec0a7-666d-4f45-b1a4-eed2884dcf13" name="PreviousServiceDate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{CarId}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="cf912ee2-2bfc-4372-a38f-a62e0cb5f923" name="carId" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="CarId" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="9b616574-dbe1-42c1-baf0-fce4eab94d63" name="CarId" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Make}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="54cedb0e-ac64-4e85-b307-89a319de154a" name="Make" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Make" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="70ccff0a-dcb2-4a73-9a4d-6974e72815ba" name="Make" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Model}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="a42fa17c-f9b3-460c-941d-55d491fdb4a1" name="Model" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Model" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="a1f6f95e-5a8e-48c6-bc91-25eaa70eb8d4" name="Model" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Year}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="33029d08-6c9f-4e53-9b77-483b50d69b0d" name="Year" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Year" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="284ed5ce-b6bb-4b29-a438-a0e983eb4b64" name="Year" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Colour}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" name="Colour" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Colour" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="b4ab86fd-99cf-41c5-a5ce-4ebe72c7f331" name="Colour" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Transmission}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="5d7d839e-3950-4074-86b4-fc1940fe2dff" name="Transmission" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Transmission" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="b34da0bd-4ca6-463f-b4ae-653196b17059" name="Transmission" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.FuelType}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="05937268-ad6f-490c-ba23-4968ebe9ead3" name="FuelType" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.FuelType" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="f1a9a022-46f2-43f0-80af-49259fc6fea7" name="FuelType" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.EngineSize}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="cc4e5693-10f9-4d6c-90bc-5bbc5d427a32" name="EngineSize" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.EngineSize" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="ed56a21c-e304-4335-ab1a-0b6a964b086c" name="EngineSize" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.BodyStyle}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="6e0ec9bd-0f7d-4ba4-974d-9b5bb6a940ef" name="BodyStyle" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.BodyStyle" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="ae4a22e7-e370-4816-8539-02024ecd5910" name="BodyStyle" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Drivetrain}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="b6f27961-acc4-4e4e-a2f8-ba1977d43703" name="Drivetrain" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Drivetrain" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="ec57ca44-2b61-4c27-975c-6eef8b157435" name="Drivetrain" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.DatePurchased}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="d27804ab-8373-4d73-aeef-938143783a97" name="DatePurchased" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.DatePurchased" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="6c8f1f4d-3bb1-4aba-abbb-d21b419586bf" name="DatePurchased" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Registration}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="f11b8ab5-cf08-4c84-88f9-6f9e4365ddcd" name="Registration" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Registration" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="efb8dacb-4d47-4183-87de-a306c4dce719" name="Registration" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.DailyRate}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="8ac34044-4ead-42b0-82df-fb519eba2b2d" name="DailyRate" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.DailyRate" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="c9ddca34-468b-47d1-9863-75ed60a58777" name="DailyRate" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.RentedOut}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="12c03c97-db15-4463-bd0c-47c54e853e7b" name="RentedOut" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.RentedOut" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="e9222428-1fea-42b0-b3e9-d6c5a4561c10" name="RentedOut" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.Mileage}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="bc91b65d-2faa-4962-8f9c-657dad233df0" name="Mileage" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.Mileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="fd7bf4ba-5111-4028-94f2-947cecd0c732" name="Mileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Car.ServiceMileage}</expression>
+            <path>
+              <target id="7d7108a1-cb0f-4353-bcf0-594887b022fc" name="ServiceHistory" type="element" specialization="Class" />
+              <target id="c44bd5d3-efe3-465b-b3e0-48710f74fdfb" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="95b9c41e-0681-45ff-9f6a-16f762d537f9" name="car" type="element" specialization="Parameter" />
+              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceMileage" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Car.ServiceMileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="5cfb2d0c-e311-4c68-a653-d921b7dc42d2" name="CreateServiceHistoryCommand" type="element" specialization="Command" />
+                  <target id="f76e743f-1298-490b-9671-2deb9414f3f7" name="Car" type="element" specialization="DTO-Field" />
+                  <target id="e40d2eae-69f7-4328-80a1-20f28ee5ab59" name="ServiceMileage" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Create Entity Action</associationType>
+  <associationTypeId>7a3f0474-3cf8-4249-baac-8c07c49465e0</associationTypeId>
+  <stereotypes />
+</association>
