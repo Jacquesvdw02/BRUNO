@@ -35,4 +35,3 @@ export class AddCarModalComponent {
     this.dialogRef.close();
   }
 }
-
