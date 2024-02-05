@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="293f83b0-0868-44d3-ad4d-69d9d1518929">
+  <sourceEnd id="9b8f1d15-e051-4b1c-a388-119c8d910594" type="Query Entity Action Source End" typeId="32a65f26-2555-4616-8a2c-6a90805600bb">
+    <display>: GetRentalsQuery</display>
+    <order>0</order>
+    <typeReference id="5cb74ec5-ac88-494e-a1d2-a2c702f370e0">
+      <typeId>0c576d95-8bf2-4f86-8199-c7647c1ae089</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="293f83b0-0868-44d3-ad4d-69d9d1518929" type="Query Entity Action Target End" typeId="93ef6675-cba4-4998-adff-cb22d5343ed4">
+    <name>rentals</name>
+    <display>[query] rentals: Rental[*]</display>
+    <order>0</order>
+    <typeReference id="49294010-14b8-4d90-801a-8dc63d661be0">
+      <typeId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="0c576d95-8bf2-4f86-8199-c7647c1ae089" location="[BRUNO-API].[Services].[GetRentalsQuery]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="442b9ee9-b304-4fe7-b594-7c17b3336ff5" location="[BRUNO-API].[Services].[Rental]" />
+        <mappedEnds />
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Query Entity Action</associationType>
+  <associationTypeId>47ab5888-a258-4bec-a9fc-a83de69eb79d</associationTypeId>
+  <stereotypes />
+</association>
