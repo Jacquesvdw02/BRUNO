@@ -1,8 +1,12 @@
 <div>
     <h2 mat-dialog-title>New Rental</h2>
-    <form [formGroup]="form" (ngSubmit)="onSubmit(model)">
-        <formly-form [form]="form" [fields]="fields"
-            [model]="model"></formly-form>
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    <div mat-dialog-content>
+        <form [formGroup]="form" (ngSubmit)="onSubmit(model)">
+            <formly-form [form]="form" [fields]="fields"
+                [model]="model"></formly-form>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+    </div>
+    
   </div>  
