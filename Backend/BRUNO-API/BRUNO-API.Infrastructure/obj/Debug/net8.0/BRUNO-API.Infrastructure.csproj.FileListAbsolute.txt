@@ -19,3 +19,24 @@ C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUN
 C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.pdb
 C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.genruntimeconfig.cache
 C:\Users\JacquesvanderWalt\Documents\GitHub\Bruno 2024 - Dream Team\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\ref\BRUNO-API.Infrastructure.dll
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Infrastructure.deps.json
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Infrastructure.runtimeconfig.json
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Infrastructure.dll
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Infrastructure.pdb
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Application.dll
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Domain.dll
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Domain.pdb
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Application.pdb
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\bin\Debug\net8.0\BRUNO-API.Application.xml
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.AssemblyInfo.cs
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.sourcelink.json
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.csproj.CopyComplete
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.dll
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\refint\BRUNO-API.Infrastructure.dll
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.pdb
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\BRUNO-API.Infrastructure.genruntimeconfig.cache
+C:\Users\SuricaNaude\source\repos\Bruno\Backend\BRUNO-API\BRUNO-API.Infrastructure\obj\Debug\net8.0\ref\BRUNO-API.Infrastructure.dll

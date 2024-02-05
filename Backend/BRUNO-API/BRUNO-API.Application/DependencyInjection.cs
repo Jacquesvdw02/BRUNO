@@ -2,6 +2,8 @@ using System.Reflection;
 using AutoMapper;
 using BRUNOAPI.Application.Common.Behaviours;
 using BRUNOAPI.Application.Common.Validation;
+using BRUNOAPI.Application.Implementation.Cars;
+using BRUNOAPI.Application.Interfaces.Cars;
 using FluentValidation;
 using Intent.RoslynWeaver.Attributes;
 using MediatR;
@@ -30,6 +32,7 @@ namespace BRUNOAPI.Application
             });
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddScoped<IValidatorProvider, ValidatorProvider>();
+            services.AddTransient<ICarService, CarService>();
             return services;
         }
     }
