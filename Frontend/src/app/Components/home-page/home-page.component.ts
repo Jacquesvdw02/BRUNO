@@ -8,6 +8,7 @@ import { Car } from '../../Shared/Core/Interfaces/Car.interface';
 import { AddRentalModalComponent } from '../../Shared/Components/add-rental-modal/add-rental-modal.component';
 import { AddCarModalComponent } from '../../Shared/Components/add-car-modal/add-car-modal.component';
 import {MatIconModule} from '@angular/material/icon';
+import { DataService } from '../../Shared/Core/Services/data.service';
 
 @Component({
   selector: 'app-home-page',
@@ -15,38 +16,36 @@ import {MatIconModule} from '@angular/material/icon';
   styleUrl: './home-page.component.scss'
 })
 export class HomePageComponent implements OnInit {
-  public carColumns: string[] = ['colour', 'make', 'model', 'registration', 'dailyRate', 'rentedOut', 'mileage', 'serviceMileage', 'year', 'transmission', 'fuelType', 'engineSize', 'bodyStyle', 'driveTrain', 'datePurchased'];
-  public rentalColumns: string[] = ['carRegistration', 'client', 'startDate', 'endDate'];
-  public clientColumns: string[] = ['firstName', 'lastName', 'phone', 'email', 'address', 'city', 'province', 'postalCode', 'dateJoined', 'licenseNumber'];
-
-  public dataSource: any = [];
+  public activeTab: string = 'cars';
+  public dataSource: any;
   public displayedColumns: string[] = [];
 
-  public activeTab: string = 'cars';
-
-  constructor(private dialog: MatDialog, private _carService:CarService, private _clientService:ClientService, private _rentalService:RentalService) { }
+  constructor(private _dataService:DataService, private dialog: MatDialog, private _carService:CarService, private _clientService:ClientService, private _rentalService:RentalService) { }
 
   public showCars(): void {
-    let observable$ = this._carService.getAllCars();
-    observable$.subscribe((data: any) => {
+    this._dataService.updateDataForCars();
+    this._dataService.dataSource$.subscribe((data: any) => {
       this.dataSource = data;
+      this.displayedColumns = this._dataService.carColumns;
     });
-    this.displayedColumns = this.carColumns;
     this.activeTab = 'cars';
   }
 
   public showRentals(): void {
-    this.dataSource = this._rentalService.getAllRentals();
-    this.displayedColumns = this.rentalColumns;
+    this._dataService.updateDataForRentals();
+    this._dataService.dataSource$.subscribe((data: any) => {
+      this.dataSource = data;
+      this.displayedColumns = this._dataService.rentalColumns;
+    });
     this.activeTab = 'rentals';
   }
 
   public showClients(): void {
-    let observable$ = this._clientService.getAllClients();
-    observable$.subscribe((data: any) => {
+    this._dataService.updateDataForClients();
+    this._dataService.dataSource$.subscribe((data: any) => {
       this.dataSource = data;
+      this.displayedColumns = this._dataService.clientColumns;
     });
-    this.displayedColumns = this.clientColumns;
     this.activeTab = 'clients';
   }
 
@@ -69,7 +68,6 @@ export class HomePageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.dataSource = this._carService.getAllCars();
-    this.displayedColumns = this.carColumns;
+    this.showCars();
   }
 }

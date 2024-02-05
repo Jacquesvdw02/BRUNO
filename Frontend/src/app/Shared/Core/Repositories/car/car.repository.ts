@@ -7,10 +7,12 @@ import { Car } from '../../Interfaces/Car.interface'; // Adjust the import path 
   providedIn: 'root'
 })
 export class CarRepository {
+  private received = false;
 
   constructor(private _httpClient: HttpClient) { }
 
   public getAllCars(): Observable<Car[]> {
+    this.received = false;
     return this._httpClient.get<Car[]>('https://localhost:44338/api/car');
   }
 
@@ -19,8 +21,13 @@ export class CarRepository {
   // }
 
   public createCar(car: any) {
-    return this._httpClient.post('https://localhost:5001/api/car', car,
-      { headers: { 'Content-Type': 'application/json' } });
+    if (!this.received) {
+      this.received = true;
+      return this._httpClient.post<Car>('https://localhost:44338/api/car', car);
+    }
+    else {
+      return new Observable<Car>();
+    }
   }
 
   // public updateCar(registration: string, car: any) {

@@ -7,16 +7,23 @@ import { Client } from '../../Interfaces/Client.interface';
   providedIn: 'root'
 })
 export class ClientRepository {
+  private received = false;
 
   constructor(private _httpClient: HttpClient) { }
 
   public getAllClients(): Observable<Client[]> {
+    this.received = false;
     return this._httpClient.get<Client[]>('https://localhost:44338/api/client');
   }
 
   public createClient(client: any): void {
-    console.log(client);
-    this._httpClient.post<Client>('https://localhost:44338/api/client', client,
-      { headers: { 'Content-Type': 'application/json' } });
+    if (!this.received) {
+      this.received = true;
+      this._httpClient.post<Client>('https://localhost:44338/api/client', client,
+        { headers: { 'Content-Type': 'application/json' } });
+    }
+    else {
+      return;
+    }
   }
 }

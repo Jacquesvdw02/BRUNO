@@ -4,6 +4,7 @@ import {MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatFormField} from '@angular/material/form-field';
 import {FormlyFieldConfig} from '@ngx-formly/core';
 import { ClientService } from '../../Core/Services/client/client.service';
+import { DataService } from '../../Core/Services/data.service';
 
 @Component({
   selector: 'app-add-client-modal',
@@ -97,10 +98,11 @@ export class AddClientModalComponent {
     }
   ];
 
-  constructor(public dialogRef: MatDialogRef<AddClientModalComponent>, private _clientService:ClientService) {}
+  constructor(public dialogRef: MatDialogRef<AddClientModalComponent>, private _clientService:ClientService, private _dataService:DataService) {}
 
   onSubmit(model: any): void {
       this._clientService.createClient(model);
+      this._dataService.updateDataForClients();
       this.close();
   }
 

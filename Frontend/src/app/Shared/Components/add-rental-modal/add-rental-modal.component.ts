@@ -14,6 +14,7 @@ import { RentalService } from '../../Core/Services/rental/rental.service';
 import { CarService } from '../../Core/Services/car/car.service';
 import { ClientService } from '../../Core/Services/client/client.service';
 import { map } from 'rxjs';
+import { DataService } from '../../Core/Services/data.service';
 
 @Component({
   selector: 'app-add-rental-modal',
@@ -28,7 +29,8 @@ export class AddRentalModalComponent {
     public dialogRef: MatDialogRef<AddRentalModalComponent>,
     private _rentalService: RentalService,
     private _carService: CarService,
-    private _clientService: ClientService
+    private _clientService: ClientService,
+    private _dataService: DataService
   ) {}
 
   private carOptions = this._carService
@@ -93,6 +95,7 @@ export class AddRentalModalComponent {
     this._rentalService.createRental(model).subscribe(
       (res) => {
         console.log(res);
+        this._dataService.updateDataForRentals();
       }
     );
     this.close();
