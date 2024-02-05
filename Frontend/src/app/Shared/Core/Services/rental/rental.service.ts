@@ -5,76 +5,64 @@ import { CarService } from '../car/car.service';
 import { ClientService } from '../client/client.service';
 import { Car } from '../../Interfaces/Car.interface';
 import { Client } from '../../Interfaces/Client.interface';
+import { forkJoin, map } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class RentalService {
   public rentals: Rental[] = [];
 
-  constructor(private _rentalRepository: RentalRepository, private _carService:CarService, private _clientService:ClientService) { }
+  constructor(
+    private _rentalRepository: RentalRepository,
+    private _carService: CarService,
+    private _clientService: ClientService
+  ) {}
 
   public getAllRentals() {
-    let rentals: Rental[] = [];
-    let cars: Car[] = [];
-    let clients: Client[] = [];
-
     let rentalObservable$ = this._rentalRepository.getAllRentals();
-    rentalObservable$.subscribe((data: any) => {
-      this.rentals = data;
-    });
-
     let carObservable$ = this._carService.getAllCars();
-    carObservable$.subscribe((data: any) => {
-      cars = data;
-    });
-
     let clientObservable$ = this._clientService.getAllClients();
-    clientObservable$.subscribe((data: any) => {
-      clients = data;
-    });
 
-    // Return an object that contains the car registration, client name, and rental start and end dates for each rental
-    return rentals.map((rental) => {
-      let car = cars.find((car) => car.id === rental.carId);
-      let client = clients.find((client) => client.id === rental.clientId);
-      return {
-        carRegistration: car?.registration,
-        clientName: client?.firstName + ' ' + client?.lastName,
-        startDate: rental.startDate,
-        endDate: rental.endDate
-      };
-    }
+    return forkJoin([rentalObservable$, carObservable$, clientObservable$]).pipe(
+      map(([rentals, cars, clients]) => {
+        return rentals.map((rental) => {
+          let car = cars.find((car) => car.id === rental.carId);
+          let client = clients.find((client) => client.id === rental.clientId);
+          return {
+            carRegistration: car?.registration,
+            client: client?.firstName + ' ' + client?.lastName,
+            startDate: rental.startDate,
+            endDate: rental.endDate,
+          };
+        });
+      })
     );
   }
 
   public createRental(rental: any) {
-    // Get the client ID from their first and last name
-    let clients: Client[] = [];
     let clientObservable$ = this._clientService.getAllClients();
-    clientObservable$.subscribe((data: any) => {
-      clients = data;
-    });
-
-    let client = clients.find((client) => client.firstName === rental.clientFirstName && client.lastName === rental.clientLastName);
-
-    // Get the car ID from its registration
-    let cars: Car[] = [];
     let carObservable$ = this._carService.getAllCars();
-    carObservable$.subscribe((data: any) => {
-      cars = data;
-    });
 
-    let car = cars.find((car) => car.registration === rental.carRegistration);
+    forkJoin([clientObservable$, carObservable$]).subscribe(
+      ([clients, cars]) => {
+        let foundClient = clients.find(
+          (client: Client) => client.id === rental.clientId
+        );
+        let foundCar = cars.find((car: Car) => car.id === rental.carId);
 
-    // Create the rental object
-    let newRental: any = {
-      carId: car!.id,
-      clientId: client!.id,
-      startDate: rental.startDate,
-      endDate: rental.endDate
-    };
+        // Create the rental object
+        let newRental: any = {
+          carId: foundCar!.id,
+          clientId: foundClient!.id,
+          startDate: rental.startDate,
+          endDate: rental.endDate,
+          car: foundCar,
+          client: foundClient,
+        };
 
-    return this._rentalRepository.createRental(newRental);
+        return this._rentalRepository.createRental(newRental);
+      }
+    );
   }
 }

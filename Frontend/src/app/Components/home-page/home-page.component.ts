@@ -7,6 +7,7 @@ import { AddClientModalComponent } from '../../Shared/Components/add-client-moda
 import { Car } from '../../Shared/Core/Interfaces/Car.interface';
 import { AddRentalModalComponent } from '../../Shared/Components/add-rental-modal/add-rental-modal.component';
 import { AddCarModalComponent } from '../../Shared/Components/add-car-modal/add-car-modal.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @Component({
   selector: 'app-home-page',
@@ -15,7 +16,7 @@ import { AddCarModalComponent } from '../../Shared/Components/add-car-modal/add-
 })
 export class HomePageComponent {
   public carColumns: string[] = ['colour', 'make', 'model', 'registration', 'dailyRate', 'rentedOut', 'mileage', 'serviceMileage', 'year', 'transmission', 'fuelType', 'engineSize', 'bodyStyle', 'driveTrain', 'datePurchased'];
-  public rentalColumns: string[] = ['CarId', 'ClientId', 'startDate', 'endDate'];
+  public rentalColumns: string[] = ['carRegistration', 'client', 'startDate', 'endDate'];
   public clientColumns: string[] = ['firstName', 'lastName', 'phone', 'email', 'address', 'city', 'province', 'postalCode', 'dateJoined', 'licenseNumber'];
 
   public dataSource: any = [];
@@ -47,7 +48,6 @@ export class HomePageComponent {
     });
     this.displayedColumns = this.clientColumns;
     this.activeTab = 'clients';
-    console.log(this.dataSource);
   }
 
   openAddClientModal(): void {
