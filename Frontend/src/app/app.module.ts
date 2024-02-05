@@ -7,6 +7,8 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
 import { TableComponent } from './Shared/Components/table/table.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -19,6 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     MatTableModule,
+    MatButtonModule,
+    MatIconModule,
     HttpClientModule
   ],
   providers: [

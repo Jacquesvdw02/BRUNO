@@ -1,1 +1,22 @@
-<app-table [dataSource]="dataSource" [displayedColumns]="displayedColumns"></app-table>
+<div class="flex">
+    <div class="bg-blue-400 h-lvh p-16">
+        <div>
+            <h3>BRUNO</h3>
+        </div>
+        <div class="flex flex-col">
+            <button mat-flat-button color="primary" (click)="showCars()">View Cars</button>
+            <button mat-flat-button color="primary" class="mx-4">View Clients</button>
+            <button mat-flat-button color="primary">View Rentals</button>
+        </div>
+    </div>
+    <div class="flex justify-start flex-col w-full p-20">
+        <div class="my-10 flex justify-end">
+            <button mat-flat-button color="primary">New Car</button>
+            <button mat-flat-button color="primary" class="mx-4">New Client</button>
+            <button mat-flat-button color="primary">New Rental</button>
+        </div>
+        <div class="w-full">
+            <app-table [dataSource]="dataSource" [displayedColumns]="displayedColumns"></app-table>
+        </div>
+    </div>
+</div>

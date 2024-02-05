@@ -19,7 +19,17 @@ export class HomePageComponent {
   constructor(private _carService:CarService, _clientService:ClientService, _rentalService:RentalService) { }
 
   ngOnInit(): void {
+    // this.dataSource = this._carService.getAllCars();
+    // this.displayedColumns = this.carColumns;
+  }
+
+  public showCars(): void {
     this.dataSource = this._carService.getAllCars();
     this.displayedColumns = this.carColumns;
   }
+
+  // public showClients(): void {
+  //   this.dataSource = this._clientService.getAllClients();
+  //   this.displayedColumns = this.clientColumns;
+  // }
 }
