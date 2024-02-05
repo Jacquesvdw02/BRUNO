@@ -30,7 +30,7 @@ namespace BRUNOAPI.Domain.Entities
             Mileage = mileage;
             ServiceMileage = serviceMileage;
             //ServiceInterval = serviceInterval;
-            ServiceMileage = serviceMileage;
+            //ServiceMileage = serviceMileage;
             //DomainEvents.Add(new CreateCarEvent(this));
         }
 

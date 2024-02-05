@@ -446,8 +446,8 @@
       <childElements />
     </childElement>
     <childElement id="bd3c4a6f-7d1d-4d31-8011-1f26d9058e69" type="DTO-Field" typeId="7baed1fd-469b-4980-8fd9-4cefb8331eb2">
-      <name>ServiceInterval</name>
-      <display>ServiceInterval: int</display>
+      <name>ServiceMileage</name>
+      <display>ServiceMileage: int</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="2f2669ca-ce27-4894-a474-cf096bc911df">
