@@ -21,7 +21,7 @@ import { AddCarModalComponent } from './Shared/Components/add-car-modal/add-car-
 import { AddRentalModalComponent } from './Shared/Components/add-rental-modal/add-rental-modal.component';
 import { MatError } from '@angular/material/form-field';
 import { FormlyModule } from '@ngx-formly/core';
-import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
+import { FormlyMaterialModule } from '@ngx-formly/material';
 
 @NgModule({
   declarations: [
@@ -47,7 +47,7 @@ import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
     ReactiveFormsModule,
     MatError,
     FormlyModule.forRoot(),
-    FormlyBootstrapModule
+    FormlyMaterialModule
   ],
   providers: [
     provideAnimationsAsync()
