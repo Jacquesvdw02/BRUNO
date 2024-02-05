@@ -5,5 +5,5 @@ import { Injectable } from '@angular/core';
 })
 export class RentalService {
 
-  constructor() { }
+  constructor(private _rentalService: RentalService) { }
 }
