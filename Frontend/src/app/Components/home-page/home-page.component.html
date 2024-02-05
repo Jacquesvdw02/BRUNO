@@ -1,12 +1,12 @@
 <div class="flex">
-    <div class="bg-blue-400 h-lvh p-16">
+    <div class="bg-blue-400 h-lvh w-1/5">
         <div>
-            <h3>BRUNO</h3>
+            <h3 class="text-white font-bold text-2xl text-center">BRUNO</h3>
         </div>
         <div class="flex flex-col">
-            <button mat-flat-button color="primary" (click)="showCars()">View Cars</button>
-            <button mat-flat-button color="primary" class="mx-4" (click)="showClients()">View Clients</button>
-            <button mat-flat-button color="primary" (click)="showRentals()">View Rentals</button>
+            <div class="tab-style-active" (click)="showCars()">View Cars</div>
+            <div class="tab-style" (click)="showClients()">View Clients</div>
+            <div class="tab-style" (click)="showRentals()">View Rentals</div>
         </div>
     </div>
     <div class="flex justify-start flex-col w-full p-20">
