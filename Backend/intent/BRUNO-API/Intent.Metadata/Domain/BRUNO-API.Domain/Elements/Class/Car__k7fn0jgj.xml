@@ -261,8 +261,8 @@
       <childElements />
     </childElement>
     <childElement id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
-      <name>ServiceInterval</name>
-      <display>ServiceInterval: int</display>
+      <name>ServiceMileage</name>
+      <display>ServiceMileage: int</display>
       <isAbstract>false</isAbstract>
       <genericTypes />
       <typeReference id="fdbf411f-a146-46c3-b2d7-e744d5092f33">
@@ -297,9 +297,9 @@
       <metadata />
       <childElements />
     </childElement>
-    <childElement id="836450b6-9a53-4c39-b33a-fbfd7bd2402a" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
+    <childElement id="518892c2-1300-42f5-ae52-24cf852aab62" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
       <name>Constructor</name>
-      <display>Car(id: guid, colour: string, make: string, model: string, registration: string, dailyRate: double, rentedOut: bool, mileage: int, serviceInterval: int)</display>
+      <display>Car(id: guid, colour: string, make: string, model: string, registration: string, dailyRate: double, rentedOut: bool, mileage: int, serviceMileage: int)</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -319,12 +319,12 @@
       <stereotypes />
       <metadata />
       <childElements>
-        <childElement id="90f27675-c4ca-4b14-9412-eb6034e77f2f" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="9b6359d4-f29f-43e1-b49d-75e7087a4f3e" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>id</name>
           <display>in : id: guid</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="efbb0bd1-8db8-4c62-81be-14ead040571b">
+          <typeReference id="da137775-bfb1-4535-8f73-6caf6d9bb818">
             <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -343,19 +343,19 @@
               <target id="5ed1964a-bcd8-48be-86c6-9bdcc0cae703" name="Id" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="2b4e47d1-0bb7-4f38-a69f-f04da8881006" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="00d17f95-8628-4af0-9bba-4338107c16f5" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>colour</name>
           <display>in : colour: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="7b1239d3-b940-44e2-9b3c-01a49313fe67">
+          <typeReference id="85789228-802d-4820-aa11-c40ee0c82537">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -374,19 +374,19 @@
               <target id="bae81d3b-001d-4cf5-9618-27b6c3afebf5" name="Colour" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="cbf7e305-4aaf-42d8-8a59-35fb1b03c69d" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="193b10bf-b6a9-4aca-aa89-add154400a30" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>make</name>
           <display>in : make: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="0cf9746d-136b-4e9e-8d6f-e38affb0c112">
+          <typeReference id="0c0e3c68-6a88-4e40-aa22-393d49df5378">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -405,19 +405,19 @@
               <target id="54cedb0e-ac64-4e85-b307-89a319de154a" name="Make" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="1fc345f2-f93e-4a9e-8454-a93770453522" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="bb8bbc0b-fbf1-46c7-b00d-9e3a17cc54b9" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>model</name>
           <display>in : model: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="3278a71c-1cff-4c86-9c12-b92704f8a6b9">
+          <typeReference id="3292a2b5-d15a-4fd9-bdef-3b0ede1566c3">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -436,19 +436,19 @@
               <target id="a42fa17c-f9b3-460c-941d-55d491fdb4a1" name="Model" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="3148044d-5eb3-48b9-87ac-e1c61a0d2835" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="0f0f5c16-fa2c-43e4-afd4-6463064affc6" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>registration</name>
           <display>in : registration: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="a8428cec-b71a-4fa8-906b-41ffb7026deb">
+          <typeReference id="87ad3b8b-ff9f-4b95-83e1-a235fda2e50c">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -467,19 +467,19 @@
               <target id="f11b8ab5-cf08-4c84-88f9-6f9e4365ddcd" name="Registration" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="112ab74c-aeb5-4654-8f73-bd09435871a1" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="7242b38b-2a32-4937-80bd-1dff6f2d6890" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>dailyRate</name>
           <display>in : dailyRate: double</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="0926cd01-2024-4843-a161-20ede0f2db42">
+          <typeReference id="1fb3463f-aae7-4c89-b7ae-b21099f9a6e9">
             <typeId>24A77F70-5B97-40DD-8F9A-4208AD5F9219</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -498,19 +498,19 @@
               <target id="8ac34044-4ead-42b0-82df-fb519eba2b2d" name="DailyRate" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="6fec4e07-4037-4933-998f-72011800b28e" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="e2546f90-ed5b-498c-8f0a-30e6656a4314" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>rentedOut</name>
           <display>in : rentedOut: bool</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="8509ff6b-972c-4c1a-ab6f-51f643e05915">
+          <typeReference id="c625ef4e-46dd-418f-a4b2-925de29f85f3">
             <typeId>e6f92b09-b2c5-4536-8270-a4d9e5bbd930</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -529,19 +529,19 @@
               <target id="12c03c97-db15-4463-bd0c-47c54e853e7b" name="RentedOut" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="c988c6f8-94c6-4364-b67d-58e981709e0c" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="3facd05a-82e3-4c19-9867-d6edbc1b8995" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>mileage</name>
           <display>in : mileage: int</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="cbdda762-aeb8-4ac9-aac8-77ff2f649d51">
+          <typeReference id="3aab3427-a13d-4bb8-b473-154fd6c52bec">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -560,19 +560,19 @@
               <target id="bc91b65d-2faa-4962-8f9c-657dad233df0" name="Mileage" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="1695af52-398c-43fd-a842-162adce8008f" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
-          <name>serviceInterval</name>
-          <display>in : serviceInterval: int</display>
+        <childElement id="7386b42e-9c68-49d7-80c3-7499c51e5255" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>serviceMileage</name>
+          <display>in : serviceMileage: int</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="13bb2e37-c0db-49e1-90e0-835af2c4c7ad">
+          <typeReference id="3d79700f-64cb-4700-bba6-f55b28a91990">
             <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -588,10 +588,10 @@
             <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
             <autoSyncTypeReference>true</autoSyncTypeReference>
             <mappedPath>
-              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceInterval" type="element" specialization="Attribute" />
+              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceMileage" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>836450b6-9a53-4c39-b33a-fbfd7bd2402a</parentFolderId>
+          <parentFolderId>518892c2-1300-42f5-ae52-24cf852aab62</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />

@@ -35,7 +35,7 @@ namespace BRUNOAPI.Application.Cars.CreateCar
                 DailyRate = request.DailyRate,
                 RentedOut = request.RentedOut,
                 Mileage = request.Mileage,
-                ServiceInterval = request.ServiceInterval
+                ServiceMileage = request.ServiceMileage
             };
 
             _carRepository.Add(entity);

@@ -18,7 +18,7 @@ namespace BRUNOAPI.Domain.Entities
             double dailyRate,
             bool rentedOut,
             int mileage,
-            int serviceInterval)
+            int serviceMileage)
         {
             Id = id;
             Colour = colour;
@@ -28,7 +28,8 @@ namespace BRUNOAPI.Domain.Entities
             DailyRate = dailyRate;
             RentedOut = rentedOut;
             Mileage = mileage;
-            ServiceInterval = serviceInterval;
+            ServiceMileage = serviceMileage;
+            //ServiceInterval = serviceInterval;
             //ServiceMileage = serviceMileage;
             //DomainEvents.Add(new CreateCarEvent(this));
         }
@@ -57,7 +58,7 @@ namespace BRUNOAPI.Domain.Entities
 
         public int Mileage { get; set; }
 
-        public int ServiceInterval { get; set; }
+        public int ServiceMileage { get; set; }
 
         public List<DomainEvent> DomainEvents { get; set; } = new List<DomainEvent>();
     }

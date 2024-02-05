@@ -4,6 +4,12 @@
         <name>BRUNO-API.Api</name>
     </assembly>
     <members>
+        <member name="M:BRUNOAPI.Api.Controllers.CarsController.CarService(BRUNOAPI.Application.Cars.CarService.CarServiceCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Successfully updated.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+        </member>
         <member name="M:BRUNOAPI.Api.Controllers.CarsController.CreateCar(BRUNOAPI.Application.Cars.CreateCar.CreateCarCommand,System.Threading.CancellationToken)">
             <summary>
             </summary>

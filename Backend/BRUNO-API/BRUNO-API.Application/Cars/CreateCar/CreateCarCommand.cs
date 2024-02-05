@@ -19,7 +19,7 @@ namespace BRUNOAPI.Application.Cars.CreateCar
             double dailyRate,
             bool rentedOut,
             int mileage,
-            int serviceInterval)
+            int serviceMileage)
         {
             Id = id;
             Colour = colour;
@@ -29,7 +29,7 @@ namespace BRUNOAPI.Application.Cars.CreateCar
             DailyRate = dailyRate;
             RentedOut = rentedOut;
             Mileage = mileage;
-            ServiceInterval = serviceInterval;
+            ServiceMileage = serviceMileage;
         }
 
         public Guid Id { get; set; }
@@ -40,6 +40,6 @@ namespace BRUNOAPI.Application.Cars.CreateCar
         public double DailyRate { get; set; }
         public bool RentedOut { get; set; }
         public int Mileage { get; set; }
-        public int ServiceInterval { get; set; }
+        public int ServiceMileage { get; set; }
     }
 }

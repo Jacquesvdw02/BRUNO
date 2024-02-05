@@ -35,7 +35,7 @@ namespace BRUNOAPI.Infrastructure.Persistence.Configurations
             builder.Property(x => x.Mileage)
                 .IsRequired();
 
-            builder.Property(x => x.ServiceInterval)
+            builder.Property(x => x.ServiceMileage)
                 .IsRequired();
 
             builder.Ignore(e => e.DomainEvents);

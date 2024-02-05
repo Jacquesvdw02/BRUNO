@@ -180,6 +180,46 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#0eae8643-1fbf-444e-8b50-47c861dfa305</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarService/CarServiceCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/CarService/CarServiceCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#0eae8643-1fbf-444e-8b50-47c861dfa305</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarService/CarServiceCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/CarService/CarServiceCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#0eae8643-1fbf-444e-8b50-47c861dfa305</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarService/CarServiceCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/CarService/CarServiceCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#68611d9c-7e91-44e8-92be-9de6173e09ff</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CheckServiceDto.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/CheckServiceDto.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#68611d9c-7e91-44e8-92be-9de6173e09ff</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CheckServiceDtoMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/CheckServiceDtoMappingExtensions.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
       <CorrelationId>Intent.Application.MediatR.CommandModels#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommand.cs</ApplicationRelativeFilePath>
@@ -648,6 +688,22 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/DependencyInjection.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>DependencyInjection.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>02737861-aeaf-4173-8493-9d74a7d2ae1e</ProjectId>
+      <CorrelationId>Intent.Application.ServiceImplementations.ServiceImplementation#68004b7c-0cf9-4093-8f33-8d51edba79bb</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Implementation/Cars/CarService.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/CarService.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>13f6c69d-57cf-4744-b3a4-3b3acd024105</ProjectId>
+      <CorrelationId>Intent.Application.Contracts.ServiceContract#68004b7c-0cf9-4093-8f33-8d51edba79bb</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Interfaces/Cars/ICarService.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Cars/ICarService.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>

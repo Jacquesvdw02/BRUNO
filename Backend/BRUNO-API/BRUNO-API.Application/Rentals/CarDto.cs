@@ -56,8 +56,7 @@ namespace BRUNOAPI.Application.Rentals
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<Car, CarDto>()
-                .ForMember(d => d.ServiceMileage, opt => opt.MapFrom(src => src.ServiceInterval));
+            profile.CreateMap<Car, CarDto>();
         }
     }
 }

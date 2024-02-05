@@ -4576,19 +4576,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\": {}
+    "C:\\Users\\SuricaNaude\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Api\\BRUNO-API.Api.csproj",
+      "projectUniqueName": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Api\\BRUNO-API.Api.csproj",
       "projectName": "BRUNO-API.Api",
-      "projectPath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Api\\BRUNO-API.Api.csproj",
-      "packagesPath": "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Api\\obj\\",
+      "projectPath": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Api\\BRUNO-API.Api.csproj",
+      "packagesPath": "C:\\Users\\SuricaNaude\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JacquesvanderWalt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SuricaNaude\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4602,14 +4602,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Application\\BRUNO-API.Application.csproj": {
-              "projectPath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Application\\BRUNO-API.Application.csproj"
+            "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Application\\BRUNO-API.Application.csproj": {
+              "projectPath": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Application\\BRUNO-API.Application.csproj"
             },
-            "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Domain\\BRUNO-API.Domain.csproj": {
-              "projectPath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Domain\\BRUNO-API.Domain.csproj"
+            "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Domain\\BRUNO-API.Domain.csproj": {
+              "projectPath": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Domain\\BRUNO-API.Domain.csproj"
             },
-            "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Infrastructure\\BRUNO-API.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Infrastructure\\BRUNO-API.Infrastructure.csproj"
+            "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Infrastructure\\BRUNO-API.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Infrastructure\\BRUNO-API.Infrastructure.csproj"
             }
           }
         }

@@ -148,7 +148,7 @@
             <expression>{ServiceMileage}</expression>
             <path>
               <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
-              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceInterval" type="element" specialization="Attribute" />
+              <target id="4de115ec-83ed-44d9-8f69-a3f4ab3d21f1" name="ServiceMileage" type="element" specialization="Attribute" />
             </path>
             <sources>
               <source identifier="ServiceMileage" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
