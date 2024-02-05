@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="615bb326-2fff-47cf-83c9-04a2fbf7fa03" type="Query" typeId="e71b0662-e29d-4db2-868b-8a12464b25d0">
+  <name>GetCarsQuery</name>
+  <display>GetCarsQuery: CarDto[*]</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <typeReference id="bdac8e0e-8a2d-405f-bb05-333c42d71d77">
+    <typeId>93552ce6-c6d9-45ae-a70f-206d6370ceae</typeId>
+    <isNavigable>true</isNavigable>
+    <isNullable>false</isNullable>
+    <isCollection>true</isCollection>
+    <isRequired>true</isRequired>
+    <typePackageName>BRUNO-API.Services</typePackageName>
+    <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+    <stereotypes />
+    <genericTypeParameters />
+  </typeReference>
+  <isMapped>false</isMapped>
+  <parentFolderId>2a2f032f-1f15-4707-8bae-38e0530aa12f</parentFolderId>
+  <packageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</packageId>
+  <packageName>BRUNO-API.Services</packageName>
+  <stereotypes />
+  <metadata>
+    <entry key="baseName" value="Cars" />
+  </metadata>
+  <childElements />
+</class>

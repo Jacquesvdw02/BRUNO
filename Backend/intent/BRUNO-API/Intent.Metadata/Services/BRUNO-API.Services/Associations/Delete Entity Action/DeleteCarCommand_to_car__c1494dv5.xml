@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="5427b19f-5b03-4f70-9097-91f390ef0374">
+  <sourceEnd id="2f365045-1d8e-49aa-b561-2b7d38485480" type="Delete Entity Action Source End" typeId="8c2d9fed-bd14-44b2-9f98-8a801aaf157e">
+    <display>deleted by : Cars.DeleteCarCommand</display>
+    <order>0</order>
+    <typeReference id="e503fdca-722f-4976-bec9-a1e3927894d1">
+      <typeId>63bb19b4-a778-42e5-a99f-949c109f1c69</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="5427b19f-5b03-4f70-9097-91f390ef0374" type="Delete Entity Action Target End" typeId="4a04cfc2-5841-438c-9c16-fb58b784b365">
+    <name>car</name>
+    <display>[delete] car: Car</display>
+    <order>1</order>
+    <typeReference id="d8376810-7778-4269-a0d5-0480a0096350">
+      <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Query Entity Mapping" typeId="25f25af9-c38b-4053-9474-b0fabe9d7ea7">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="63bb19b4-a778-42e5-a99f-949c109f1c69" location="[BRUNO-API].[Services].[DeleteCarCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" location="[BRUNO-API].[Services].[Car]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{Id}</expression>
+            <path>
+              <target id="95b972f9-6c86-4229-b4f7-0fa87d9a8d2a" name="Car" type="element" specialization="Class" />
+              <target id="5ed1964a-bcd8-48be-86c6-9bdcc0cae703" name="Id" type="element" specialization="Attribute" />
+            </path>
+            <sources>
+              <source identifier="Id" mappingType="Filter Mapping" mappingTypeId="01d09a7f-0e7c-4670-b7bc-395d7e893ef2">
+                <path>
+                  <target id="63bb19b4-a778-42e5-a99f-949c109f1c69" name="DeleteCarCommand" type="element" specialization="Command" />
+                  <target id="77979181-7c85-4cc9-bb32-32f7736251dd" name="Id" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Delete Entity Action</associationType>
+  <associationTypeId>bfc823fb-60ab-451d-ba62-12671fe7e28e</associationTypeId>
+  <stereotypes />
+</association>

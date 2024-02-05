@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="74085051-498b-496d-b05b-6e218f00b255" type="Domain Event" typeId="0814e459-fb9b-47db-b7eb-32ce30397e8a">
+  <name>CreateCarEvent</name>
+  <display>CreateCarEvent</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</parentFolderId>
+  <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+  <packageName>BRUNO-API.Domain</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="a8cb45f8-8330-48c8-937b-bd572ced1da1" type="Property" typeId="b4d69073-5abb-4968-b41b-545b2f7408ed">
+      <name>NewCar</name>
+      <display>NewCar: Car</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="3ac582c9-bc90-4232-acd1-10f5e36aeb85">
+        <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>BRUNO-API.Domain</typePackageName>
+        <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>74085051-498b-496d-b05b-6e218f00b255</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

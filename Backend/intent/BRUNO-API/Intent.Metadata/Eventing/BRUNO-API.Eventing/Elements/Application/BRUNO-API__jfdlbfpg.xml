@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="b87bc3ed-65b0-4195-9707-c8d86fb9f637" type="Application" typeId="f40a4942-5d2d-4174-8ec1-af66cbd464db">
+  <name>BRUNO-API</name>
+  <display>BRUNO-API</display>
+  <externalReference>259354b5-82fe-4c0a-bb30-1fda60b4d935</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>9d3210db-7076-4b6a-b810-b22ba867eb84</parentFolderId>
+  <packageId>9d3210db-7076-4b6a-b810-b22ba867eb84</packageId>
+  <packageName>BRUNO-API.Eventing</packageName>
+  <diagram>
+    <targetPackageId>08451bd2-43fc-484c-b2ea-8db3d3dc0bda</targetPackageId>
+  </diagram>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>
