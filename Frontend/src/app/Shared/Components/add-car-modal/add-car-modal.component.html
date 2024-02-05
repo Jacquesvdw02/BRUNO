@@ -2,26 +2,65 @@
     <h2 mat-dialog-title>New Car</h2>
     <form [formGroup]="entryForm" (ngSubmit)="submit()">
         <mat-dialog-content>
-            <mat-form-field>
-                <input matInput formControlName="colour" placeholder="Colour">
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Make" formControlName="make" required>
+                <mat-error *ngIf="fc['make'].invalid">Make is required</mat-error>
             </mat-form-field>
-            <mat-form-field>
-                <input matInput formControlName="make" placeholder="Make">
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Model" formControlName="model" required>
+                <mat-error *ngIf="fc['model'].invalid">Model is required</mat-error>
             </mat-form-field>
-            <mat-form-field>
-                <input matInput formControlName="model" placeholder="Model">
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Year" formControlName="year" required>
+                <mat-error *ngIf="fc['year'].invalid">Year is required</mat-error>
             </mat-form-field>
-            <mat-form-field>
-                <input matInput formControlName="registration"
-                    placeholder="Registraion Number">
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Color" formControlName="color" required>
+                <mat-error *ngIf="fc['colour'].invalid">Color is required</mat-error>
             </mat-form-field>
-            <mat-form-field>
-                <input matInput formControlName="mileage"
-                    placeholder="Mileage">
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Daily Rate" formControlName="dailyRate" required>
+                <mat-error *ngIf="fc['dailyRate'].invalid">Daily Rate is required</mat-error>
             </mat-form-field>
-            <mat-form-field>
-                <input matInput formControlName="dailyRate"
-                    placeholder="Daily Rate">
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Mileage" formControlName="mileage" required>
+                <mat-error *ngIf="fc['mileage'].invalid">Mileage is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Brand" formControlName="brand" required>
+                <mat-error *ngIf="fc['brand'].invalid">Brand is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Transmission" formControlName="transmission" required>
+                <mat-error *ngIf="fc['transmission'].invalid">Transmission is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Fuel Type" formControlName="fuelType" required>
+                <mat-error *ngIf="fc['fuelType'].invalid">Fuel Type is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Engine Size" formControlName="engineSize" required>
+                <mat-error *ngIf="fc['engineSize'].invalid">Engine Size is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Body Style" formControlName="bodyStyle" required>
+                <mat-error *ngIf="fc['bodyStyle'].invalid">Body Style is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Drive Train" formControlName="driveTrain" required>
+                <mat-error *ngIf="fc['driveTrain'].invalid">Drive Train is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Date Purchased" formControlName="datePurchased" required>
+                <mat-error *ngIf="fc['datePurchased'].invalid">Date Purchased is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Registration" formControlName="registration" required>
+                <mat-error *ngIf="fc['registration'].invalid">Registration is required</mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <input matInput placeholder="Service Mileage" formControlName="serviceMileage" required>
+                <mat-error *ngIf="fc['serviceMileage'].invalid">Service Mileage is required</mat-error>
             </mat-form-field>
         </mat-dialog-content>
         <mat-dialog-actions>

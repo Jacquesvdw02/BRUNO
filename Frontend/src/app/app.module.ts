@@ -19,6 +19,7 @@ import { AddClientModalComponent } from './Shared/Components/add-client-modal/ad
 import { ReactiveFormsModule } from '@angular/forms';
 import { AddCarModalComponent } from './Shared/Components/add-car-modal/add-car-modal.component';
 import { AddRentalModalComponent } from './Shared/Components/add-rental-modal/add-rental-modal.component';
+import { MatError } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { AddRentalModalComponent } from './Shared/Components/add-rental-modal/ad
     MatOption,
     MatLabel,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatError
   ],
   providers: [
     provideAnimationsAsync()

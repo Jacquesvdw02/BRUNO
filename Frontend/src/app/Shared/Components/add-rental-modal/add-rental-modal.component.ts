@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import { MatLabel } from '@angular/material/form-field';
@@ -11,7 +11,7 @@ import {MatDatepickerControl, MatDatepickerModule, MatDatepickerPanel} from '@an
   templateUrl: './add-rental-modal.component.html',
   styleUrl: './add-rental-modal.component.scss'
 })
-export class AddRentalModalComponent {
+export class AddRentalModalComponent implements OnInit {
   public entryForm!: FormGroup;
   public carOptions!: string[];
   public clientOptions!: string[];
@@ -30,6 +30,10 @@ export class AddRentalModalComponent {
       startDate: ['', Validators.required],
       endDate: ['', Validators.required],
     });
+  }
+
+  get fc() {
+    return this.entryForm.controls;
   }
 
   submit(): void {
