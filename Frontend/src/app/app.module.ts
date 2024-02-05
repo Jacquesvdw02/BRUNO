@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
 import { TableComponent } from './Shared/Components/table/table.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { MatTable, MatTableModule } from '@angular/material/table';
+import { MatTableModule } from '@angular/material/table';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MatTable, MatTableModule } from '@angular/material/table';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule
   ],
   providers: [
     provideAnimationsAsync()
