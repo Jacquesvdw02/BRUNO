@@ -9,13 +9,18 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormField } from '@angular/material/form-field';
 import { HttpClientModule } from '@angular/common/http';
+import { AddClientModalComponent } from './Shared/Components/addClient/add-client-modal.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    TableComponent
+    TableComponent,
+    AddClientModalComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +28,10 @@ import { HttpClientModule } from '@angular/common/http';
     MatTableModule,
     MatButtonModule,
     MatIconModule,
-    HttpClientModule
+    MatDialogModule,
+    MatFormField,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideAnimationsAsync()

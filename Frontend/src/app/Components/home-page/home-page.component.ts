@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { CarService } from '../../Shared/Core/Services/car/car.service';
 import { ClientService } from '../../Shared/Core/Services/client/client.service';
 import { RentalService } from '../../Shared/Core/Services/rental/rental.service';
+import { MatDialog } from '@angular/material/dialog';
+import { AddClientModalComponent } from '../../Shared/Components/addClient/add-client-modal.component';
 
 @Component({
   selector: 'app-home-page',
@@ -18,12 +20,7 @@ export class HomePageComponent {
 
   public activeTab: string = 'cars';
 
-  constructor(private _carService:CarService, private _clientService:ClientService, private _rentalService:RentalService) { }
-
-  ngOnInit(): void {
-    this.dataSource = this._carService.getAllCars();
-    this.displayedColumns = this.carColumns;
-  }
+  constructor(private dialog: MatDialog, private _carService:CarService, private _clientService:ClientService, private _rentalService:RentalService) { }
 
   public showCars(): void {
     this.dataSource = this._carService.getAllCars();
@@ -41,5 +38,16 @@ export class HomePageComponent {
     this.dataSource = this._clientService.getAllClients();
     this.displayedColumns = this.clientColumns;
     this.activeTab = 'clients';
+  }
+
+  openAddClientModal(): void {
+    this.dialog.open(AddClientModalComponent, {
+      width: '300px'
+    });
+  }
+
+  ngOnInit(): void {
+    this.dataSource = this._carService.getAllCars();
+    this.displayedColumns = this.carColumns;
   }
 }
