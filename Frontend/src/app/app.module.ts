@@ -11,16 +11,23 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormField } from '@angular/material/form-field';
+import { MatOption } from '@angular/material/core';
+import { MatLabel } from '@angular/material/form-field';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 import { HttpClientModule } from '@angular/common/http';
-import { AddClientModalComponent } from './Shared/Components/addClient/add-client-modal.component';
+import { AddClientModalComponent } from './Shared/Components/add-client-modal/add-client-modal.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AddCarModalComponent } from './Shared/Components/add-car-modal/add-car-modal.component';
+import { AddRentalModalComponent } from './Shared/Components/add-rental-modal/add-rental-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     TableComponent,
-    AddClientModalComponent
+    AddClientModalComponent,
+    AddCarModalComponent,
+    AddRentalModalComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +36,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatButtonModule,
     MatIconModule,
     MatDialogModule,
+    MatDatepickerModule,
     MatFormField,
+    MatOption,
+    MatLabel,
     HttpClientModule,
     ReactiveFormsModule
   ],

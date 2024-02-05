@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BRUNO-API.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d9fcdeaecb8f2058e73f06b74389667fc35f05e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55953565586182f11e4c7042131a34964ccbdc8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BRUNO-API.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BRUNO-API.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,8 +3,10 @@ import { CarService } from '../../Shared/Core/Services/car/car.service';
 import { ClientService } from '../../Shared/Core/Services/client/client.service';
 import { RentalService } from '../../Shared/Core/Services/rental/rental.service';
 import { MatDialog } from '@angular/material/dialog';
-import { AddClientModalComponent } from '../../Shared/Components/addClient/add-client-modal.component';
+import { AddClientModalComponent } from '../../Shared/Components/add-client-modal/add-client-modal.component';
 import { Car } from '../../Shared/Core/Interfaces/Car.interface';
+import { AddRentalModalComponent } from '../../Shared/Components/add-rental-modal/add-rental-modal.component';
+import { AddCarModalComponent } from '../../Shared/Components/add-car-modal/add-car-modal.component';
 
 @Component({
   selector: 'app-home-page',
@@ -50,6 +52,18 @@ export class HomePageComponent {
 
   openAddClientModal(): void {
     this.dialog.open(AddClientModalComponent, {
+      width: '300px'
+    });
+  }
+
+  openAddRentalModal(): void {
+    this.dialog.open(AddRentalModalComponent, {
+      width: '300px'
+    });
+  }
+
+  openAddCarModal(): void {
+    this.dialog.open(AddCarModalComponent, {
       width: '300px'
     });
   }
