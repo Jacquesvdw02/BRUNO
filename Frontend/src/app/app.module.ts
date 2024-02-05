@@ -56,7 +56,7 @@ import { MatNativeDateModule, MAT_DATE_LOCALE, DateAdapter, NativeDateAdapter } 
   ],
   providers: [
     provideAnimationsAsync(),
-    { provide: MAT_DATE_LOCALE, useValue: 'en-GB' }, // change to your locale
+    { provide: MAT_DATE_LOCALE, useValue: 'en-GB' },
     { provide: DateAdapter, useClass: NativeDateAdapter, deps: [MAT_DATE_LOCALE] }
   ],
   bootstrap: [AppComponent]

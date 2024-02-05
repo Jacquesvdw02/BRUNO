@@ -15,6 +15,7 @@ export class ClientRepository {
   }
 
   public createClient(client: any): Observable<Client> {
+    console.log(client);
     return this._httpClient.post<Client>('https://localhost:44338/api/client', client);
   }
 }

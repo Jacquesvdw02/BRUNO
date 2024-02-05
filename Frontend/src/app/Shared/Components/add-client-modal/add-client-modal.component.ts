@@ -39,7 +39,6 @@ export class AddClientModalComponent {
         label: 'Phone Number',
         placeholder: 'Enter phone number',
         required: true,
-        pattern: /^\d{10}$/,
       },
     },
     {
@@ -49,7 +48,6 @@ export class AddClientModalComponent {
         label: 'Email Address',
         placeholder: 'Enter email',
         required: true,
-        pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
       },
     },
     {
@@ -85,16 +83,6 @@ export class AddClientModalComponent {
       props: {
         label: 'Postal Code',
         placeholder: 'Enter postal code',
-        required: true,
-        pattern: /^[0-9A-Za-z]{4,10}$/,
-      },
-    },
-    {
-      key: 'dateJoined',
-      type: 'input',
-      props: {
-        label: 'Date Joined',
-        placeholder: 'Select date',
         required: true,
       },
     },
