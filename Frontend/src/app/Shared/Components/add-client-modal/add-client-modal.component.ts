@@ -2,45 +2,33 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatFormField} from '@angular/material/form-field';
+import {FormlyFieldConfig} from '@ngx-formly/core';
 
 @Component({
   selector: 'app-add-client-modal',
   templateUrl: './add-client-modal.component.html',
   styleUrl: './add-client-modal.component.scss'
 })
-export class AddClientModalComponent implements OnInit {
-  entryForm!: FormGroup;
-
-  constructor(
-    private dialogRef: MatDialogRef<AddClientModalComponent>,
-    private formBuilder: FormBuilder
-  ) { }
-
-  ngOnInit(): void {
-    this.entryForm = this.formBuilder.group({
-      firstName: ['', Validators.required],
-      lastName: ['', Validators.required],
-      phone: ['', Validators.required],
-      email: ['', Validators.required],
-      address: ['', Validators.required],
-      city: ['', Validators.required],
-      province: ['', Validators.required],
-      postalCode: ['', Validators.required],
-      dateJoined: ['', Validators.required],
-      licenseNumber: ['', Validators.required],
-    });
-  }
-
-  get fc() {
-    return this.entryForm.controls;
-  }
-
-  submit(): void {
-    if (this.entryForm?.valid) {
-      // You can handle form submission here
-      console.log('Form submitted:', this.entryForm.value);
-      this.close();
+export class AddClientModalComponent {
+  form = new FormGroup({});
+  model = { };
+  fields: FormlyFieldConfig[] = [
+    {
+      key: 'email',
+      type: 'input',
+      props: {
+        label: 'Email address',
+        placeholder: 'Enter email',
+        required: true,
+      }
     }
+  ];
+
+  constructor(public dialogRef: MatDialogRef<AddClientModalComponent>) {}
+
+  onSubmit(model: any): void {
+      console.log('Form submitted:', model);
+      this.close();
   }
 
   close(): void {

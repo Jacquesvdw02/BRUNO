@@ -14,7 +14,7 @@ import { AddCarModalComponent } from '../../Shared/Components/add-car-modal/add-
   styleUrl: './home-page.component.scss'
 })
 export class HomePageComponent {
-  public carColumns: string[] = ['colour', 'make', 'model', 'registration', 'dailyRate', 'rentedOut', 'mileage', 'serviceMileage'];
+  public carColumns: string[] = ['colour', 'make', 'model', 'registration', 'dailyRate', 'rentedOut', 'mileage', 'serviceMileage', 'Book'];
   public rentalColumns: string[] = ['CarId', 'ClientId', 'startDate', 'endDate'];
   public clientColumns: string[] = ['clientName', 'phone', 'email', 'address', 'licenseNumber'];
 

@@ -20,6 +20,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AddCarModalComponent } from './Shared/Components/add-car-modal/add-car-modal.component';
 import { AddRentalModalComponent } from './Shared/Components/add-rental-modal/add-rental-modal.component';
 import { MatError } from '@angular/material/form-field';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { MatError } from '@angular/material/form-field';
     MatLabel,
     HttpClientModule,
     ReactiveFormsModule,
-    MatError
+    MatError,
+    FormlyModule.forRoot(),
+    FormlyBootstrapModule
   ],
   providers: [
     provideAnimationsAsync()
