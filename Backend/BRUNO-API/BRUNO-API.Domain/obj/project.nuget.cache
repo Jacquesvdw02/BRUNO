@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g90rVNUO/Pl+RhIWBjkSVMcjA/hpj7i4ydlIxCY86uTpuwEil3r7wYGHd2EowI8IOb1pjnu7uISu1oz6yvdXLA==",
+  "dgSpecHash": "IbzV1cvTCkif/Zo0HPzuIq3c/Za+u/XInkuqxGTLNju+nnJI4tnCF8LvvArZ8gCk9jWkdJKArwQV+0nPYSFmGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Domain\\BRUNO-API.Domain.csproj",
+  "projectFilePath": "C:\\Users\\SuricaNaude\\source\\repos\\Bruno\\Backend\\BRUNO-API\\BRUNO-API.Domain\\BRUNO-API.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\intent.roslynweaver.attributes\\2.1.3\\intent.roslynweaver.attributes.2.1.3.nupkg.sha512"
+    "C:\\Users\\SuricaNaude\\.nuget\\packages\\intent.roslynweaver.attributes\\2.1.3\\intent.roslynweaver.attributes.2.1.3.nupkg.sha512"
   ],
   "logs": []
 }
