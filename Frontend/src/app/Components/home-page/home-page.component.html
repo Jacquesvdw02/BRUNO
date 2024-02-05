@@ -1,1 +1,22 @@
-<p>home-page works!</p>
+<div class="flex">
+    <div class="bg-blue-500 h-lvh w-1/5">
+        <div class="my-10">
+            <h3 class="text-white font-bold text-4xl text-center">BRUNO</h3>
+        </div>
+        <div class="flex flex-col ps-16">
+            <div [class.tab-style]="activeTab !== 'cars'" [class.tab-style-active]="activeTab === 'cars'" (click)="showCars()">View Cars</div>
+            <div [class.tab-style]="activeTab !== 'clients'" [class.tab-style-active]="activeTab === 'clients'" class="tab-style" (click)="showClients()">View Clients</div>
+            <div [class.tab-style]="activeTab !== 'rentals'" [class.tab-style-active]="activeTab === 'rentals'" class="tab-style" (click)="showRentals()">View Rentals</div>
+        </div>
+    </div>
+    <div class="flex justify-start flex-col w-full p-20">
+        <div class="my-10 flex justify-end">
+            <button mat-flat-button color="primary">New Car</button>
+            <button (click)="openAddClientModal()" mat-flat-button color="primary" class="mx-4">New Client</button>
+            <button mat-flat-button color="primary">New Rental</button>
+        </div>
+        <div class="w-full">
+            <app-table [dataSource]="dataSource" [displayedColumns]="displayedColumns"></app-table>
+        </div>
+    </div>
+</div>

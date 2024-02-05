@@ -1,9 +1,9 @@
-export const Car = {
-    id: '',
-    Colour: '',
-    Make: '',
-    Model: '',
-    Registration: '',
-    DailyRate: 0.0,
-    RentedOut: false
+export interface Car {
+    id: string,
+    Colour: string,
+    Make: string,
+    Model: string,
+    Registration: string,
+    DailyRate: number,
+    RentedOut: boolean
 };
