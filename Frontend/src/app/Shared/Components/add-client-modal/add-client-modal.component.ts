@@ -14,13 +14,97 @@ export class AddClientModalComponent {
   model = { };
   fields: FormlyFieldConfig[] = [
     {
+      key: 'firstName',
+      type: 'input',
+      props: {
+        label: 'First Name',
+        placeholder: 'Enter first name',
+        required: true,
+      },
+    },
+    {
+      key: 'lastName',
+      type: 'input',
+      props: {
+        label: 'Last Name',
+        placeholder: 'Enter last name',
+        required: true,
+      },
+    },
+    {
+      key: 'phone',
+      type: 'input',
+      props: {
+        label: 'Phone Number',
+        placeholder: 'Enter phone number',
+        required: true,
+        pattern: /^\d{10}$/,
+      },
+    },
+    {
       key: 'email',
       type: 'input',
       props: {
-        label: 'Email address',
+        label: 'Email Address',
         placeholder: 'Enter email',
         required: true,
-      }
+        pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+      },
+    },
+    {
+      key: 'address',
+      type: 'input',
+      props: {
+        label: 'Address',
+        placeholder: 'Enter address',
+        required: true,
+      },
+    },
+    {
+      key: 'city',
+      type: 'input',
+      props: {
+        label: 'City',
+        placeholder: 'Enter city',
+        required: true,
+      },
+    },
+    {
+      key: 'province',
+      type: 'input',
+      props: {
+        label: 'Province',
+        placeholder: 'Enter province',
+        required: true,
+      },
+    },
+    {
+      key: 'postalCode',
+      type: 'input',
+      props: {
+        label: 'Postal Code',
+        placeholder: 'Enter postal code',
+        required: true,
+        pattern: /^[0-9A-Za-z]{4,10}$/,
+      },
+    },
+    {
+      key: 'dateJoined',
+      type: 'input',
+      props: {
+        label: 'Date Joined',
+        placeholder: 'Select date',
+        required: true,
+      },
+    },
+    {
+      key: 'licenseNumber',
+      type: 'input',
+      props: {
+        label: 'License Number',
+        placeholder: 'Enter license number',
+        required: true,
+      },
     }
   ];
 
