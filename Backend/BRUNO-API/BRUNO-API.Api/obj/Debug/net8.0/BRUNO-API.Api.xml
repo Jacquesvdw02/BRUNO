@@ -4,5 +4,139 @@
         <name>BRUNO-API.Api</name>
     </assembly>
     <members>
+        <member name="M:BRUNOAPI.Api.Controllers.CarsController.CreateCar(BRUNOAPI.Application.Cars.CreateCar.CreateCarCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="201">Successfully created.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.CarsController.DeleteCar(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Successfully deleted.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.CarsController.UpdateCar(System.Guid,BRUNOAPI.Application.Cars.UpdateCar.UpdateCarCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="204">Successfully updated.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.CarsController.GetCarById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified CarDto.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">No CarDto could be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.CarsController.GetCars(System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified List&lt;CarDto&gt;.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ClientsController.CreateClient(BRUNOAPI.Application.Clients.CreateClient.CreateClientCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="201">Successfully created.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ClientsController.DeleteClient(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Successfully deleted.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ClientsController.UpdateClient(System.Guid,BRUNOAPI.Application.Clients.UpdateClient.UpdateClientCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="204">Successfully updated.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ClientsController.GetClientById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified ClientDto.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">No ClientDto could be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ClientsController.GetClients(System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified List&lt;ClientDto&gt;.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.RentalsController.CreateRental(BRUNOAPI.Application.Rentals.CreateRental.CreateRentalCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="201">Successfully created.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.RentalsController.DeleteRental(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Successfully deleted.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.RentalsController.UpdateRental(System.Guid,BRUNOAPI.Application.Rentals.UpdateRental.UpdateRentalCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="204">Successfully updated.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.RentalsController.GetRentalById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified RentalDto.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">No RentalDto could be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.RentalsController.GetRentals(System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified List&lt;RentalDto&gt;.</response>
+        </member>
+        <member name="T:BRUNOAPI.Api.Controllers.ResponseTypes.JsonResponse`1">
+            <summary>
+            Implicit wrapping of types that serialize to non-complex values.
+            </summary>
+            <typeparam name="T">Types such as string, Guid, int, long, etc.</typeparam>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ServiceHistoriesController.CreateServiceHistory(BRUNOAPI.Application.ServiceHistories.CreateServiceHistory.CreateServiceHistoryCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="201">Successfully created.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ServiceHistoriesController.DeleteServiceHistory(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Successfully deleted.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ServiceHistoriesController.UpdateServiceHistory(System.Guid,BRUNOAPI.Application.ServiceHistories.UpdateServiceHistory.UpdateServiceHistoryCommand,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="204">Successfully updated.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">One or more entities could not be found with the provided parameters.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ServiceHistoriesController.GetServiceHistories(System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified List&lt;ServiceHistoryDto&gt;.</response>
+        </member>
+        <member name="M:BRUNOAPI.Api.Controllers.ServiceHistoriesController.GetServiceHistoryById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            </summary>
+            <response code="200">Returns the specified ServiceHistoryDto.</response>
+            <response code="400">One or more validation errors have occurred.</response>
+            <response code="404">No ServiceHistoryDto could be found with the provided parameters.</response>
+        </member>
     </members>
 </doc>

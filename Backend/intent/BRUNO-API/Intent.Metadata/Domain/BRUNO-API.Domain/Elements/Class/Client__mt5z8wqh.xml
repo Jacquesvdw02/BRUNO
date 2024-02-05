@@ -223,9 +223,9 @@
       <metadata />
       <childElements />
     </childElement>
-    <childElement id="e38aa20d-44e6-4a2a-99ce-b51bccc72744" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
+    <childElement id="96e97f75-23cf-4d0d-8df2-f4af3816c060" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
       <name>Constructor</name>
-      <display>Client(id: guid, clientName: string, phone: string, email: string, addressLine1: string, licenseNumber: string, rentals: Rental[*])</display>
+      <display>Client(id: guid, clientName: string, phone: string, email: string, address: string, licenseNumber: string)</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-manually</sort-children>
       <genericTypes />
@@ -245,12 +245,12 @@
       <stereotypes />
       <metadata />
       <childElements>
-        <childElement id="94f3976a-97cc-40f4-a11e-3448cfb50cd5" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="43f58ddd-b93f-4af2-9a24-7b3d6d2ffd7c" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>id</name>
           <display>in : id: guid</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="c6b9ed60-832a-4bf2-a5c6-908bf1058624">
+          <typeReference id="cf47f992-3bd2-4411-8baf-8511dc9265d2">
             <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -269,19 +269,19 @@
               <target id="dbe1305c-0103-4e9c-99e3-149ce02bd361" name="Id" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
+          <parentFolderId>96e97f75-23cf-4d0d-8df2-f4af3816c060</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="cf8fe5a1-5ed0-41c4-a83c-6610acefab21" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="c3d5e72c-b82f-4bd0-85c0-543155b78327" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>clientName</name>
           <display>in : clientName: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="cfc3d96e-7dc1-44f6-9d04-a7cff16fd733">
+          <typeReference id="8abe46d5-44f8-499b-b751-d4d8192c0b20">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -300,19 +300,19 @@
               <target id="b0c69e4e-4529-40bd-936b-04f1b675f110" name="ClientName" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
+          <parentFolderId>96e97f75-23cf-4d0d-8df2-f4af3816c060</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="f94a29a0-f428-409d-82cd-f0121018d96c" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="b9dd549a-bc01-47a4-9ef8-de421cb8e352" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>phone</name>
           <display>in : phone: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="687f1068-b3f1-4373-acea-6f5e4dd9e3cf">
+          <typeReference id="ab65fe11-b98e-4f77-8ee8-dc351f71f837">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -331,19 +331,19 @@
               <target id="bf05891f-d30d-478d-9f2e-2717e95764f5" name="Phone" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
+          <parentFolderId>96e97f75-23cf-4d0d-8df2-f4af3816c060</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="a2651e6e-8baf-47ed-b034-b6256287ec7c" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="6979c63a-69fc-4960-bea6-852021d72494" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>email</name>
           <display>in : email: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="cb3f1363-794e-44db-b828-32b910f14a3d">
+          <typeReference id="c90a4014-9b27-4658-a0d6-bd8e1d210515">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -362,19 +362,19 @@
               <target id="9e0d4a71-19ad-4020-be53-374a4799319f" name="Email" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
+          <parentFolderId>96e97f75-23cf-4d0d-8df2-f4af3816c060</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="5239b66a-4ec8-473e-818c-75f73cd62e30" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
-          <name>addressLine1</name>
-          <display>in : addressLine1: string</display>
+        <childElement id="10666ff1-e1bc-48a7-ab1c-611ac41fd465" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+          <name>address</name>
+          <display>in : address: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="a0160fc3-c465-4562-8c4b-eaa323f713f9">
+          <typeReference id="b72bd431-6d67-4330-9eee-e14e8b5f424d">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -393,19 +393,19 @@
               <target id="dbe7deb9-14b8-482c-9eb4-a80e7f51a6e6" name="Address" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
+          <parentFolderId>96e97f75-23cf-4d0d-8df2-f4af3816c060</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
-        <childElement id="436921ea-066e-41ce-ad29-78b10b813b2b" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
+        <childElement id="e7600fe5-b82d-4bf3-8887-2b9012e5ad70" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
           <name>licenseNumber</name>
           <display>in : licenseNumber: string</display>
           <isAbstract>false</isAbstract>
           <genericTypes />
-          <typeReference id="79824a3f-7518-4284-bbe1-da94c325a048">
+          <typeReference id="a266a235-0aaa-455b-a29f-f0004561973f">
             <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
             <isNavigable>true</isNavigable>
             <isNullable>false</isNullable>
@@ -424,38 +424,7 @@
               <target id="c1c83abe-6ad2-4c24-ab64-d6a4095e4a79" name="LicenseNumber" type="element" specialization="Attribute" />
             </mappedPath>
           </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
-          <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
-          <packageName>BRUNO-API.Domain</packageName>
-          <stereotypes />
-          <metadata />
-          <childElements />
-        </childElement>
-        <childElement id="59ceeeb3-f47d-4f6c-bfe0-a1cd708daa64" type="Parameter" typeId="c26d8d0a-a26b-4b5f-b449-e9bdb60b3a4b">
-          <name>rentals</name>
-          <display>in : rentals: Rental[*]</display>
-          <isAbstract>false</isAbstract>
-          <genericTypes />
-          <typeReference id="885ab982-36d3-4fe3-b39c-177af2e97106">
-            <typeId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</typeId>
-            <isNavigable>true</isNavigable>
-            <isNullable>false</isNullable>
-            <isCollection>true</isCollection>
-            <isRequired>true</isRequired>
-            <typePackageName>BRUNO-API.Domain</typePackageName>
-            <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
-            <stereotypes />
-            <genericTypeParameters />
-          </typeReference>
-          <isMapped>true</isMapped>
-          <mappedClass>
-            <mappingSettingsId>d6d0abfd-893c-4bec-92cb-419934ba5ba8</mappingSettingsId>
-            <autoSyncTypeReference>true</autoSyncTypeReference>
-            <mappedPath>
-              <target id="014bed50-bb48-4c79-8ad1-ef093093266d" name="Rentals" type="association" specialization="Association Target End" />
-            </mappedPath>
-          </mappedClass>
-          <parentFolderId>e38aa20d-44e6-4a2a-99ce-b51bccc72744</parentFolderId>
+          <parentFolderId>96e97f75-23cf-4d0d-8df2-f4af3816c060</parentFolderId>
           <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
           <packageName>BRUNO-API.Domain</packageName>
           <stereotypes />
@@ -463,6 +432,19 @@
           <childElements />
         </childElement>
       </childElements>
+    </childElement>
+    <childElement id="ccb6f052-f7a5-4164-87e8-2cdf869cd74b" type="Class Constructor" typeId="dec2bd12-4699-4f45-8ec9-3b62dc692d2b">
+      <name>Constructor</name>
+      <display>Client()</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>f85b3f09-0f65-4a66-adfb-3f5d7dc01006</parentFolderId>
+      <packageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</packageId>
+      <packageName>BRUNO-API.Domain</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
     </childElement>
   </childElements>
 </class>

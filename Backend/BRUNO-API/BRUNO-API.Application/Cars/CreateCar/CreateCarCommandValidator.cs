@@ -27,9 +27,6 @@ namespace BRUNOAPI.Application.Cars.CreateCar
 
             RuleFor(v => v.Registration)
                 .NotNull();
-
-            RuleFor(v => v.Rentals)
-                .NotNull();
         }
     }
 }

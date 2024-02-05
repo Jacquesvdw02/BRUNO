@@ -37,6 +37,8 @@ namespace BRUNOAPI.Application.Cars.UpdateCar
             car.Registration = request.Registration;
             car.DailyRate = request.DailyRate;
             car.RentedOut = request.RentedOut;
+            car.Mileage = request.Mileage;
+            car.ServiceInterval = request.ServiceMileage;
         }
     }
 }

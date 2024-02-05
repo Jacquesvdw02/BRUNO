@@ -29,29 +29,7 @@ namespace BRUNOAPI.Infrastructure.Persistence.Configurations
             builder.Property(x => x.LicenseNumber)
                 .IsRequired();
 
-            builder.OwnsMany(x => x.Rentals, ConfigureRentals);
-
             builder.Ignore(e => e.DomainEvents);
-        }
-
-        public void ConfigureRentals(OwnedNavigationBuilder<Client, Rental> builder)
-        {
-            builder.WithOwner()
-                .HasForeignKey(x => x.ClientId);
-
-            builder.HasKey(x => x.Id);
-
-            builder.Property(x => x.CarId)
-                .IsRequired();
-
-            builder.Property(x => x.ClientId)
-                .IsRequired();
-
-            builder.Property(x => x.ToDate)
-                .IsRequired();
-
-            builder.Property(x => x.FromDate)
-                .IsRequired();
         }
     }
 }

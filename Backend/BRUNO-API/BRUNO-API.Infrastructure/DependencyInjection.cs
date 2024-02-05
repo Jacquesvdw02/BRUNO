@@ -25,8 +25,11 @@ namespace BRUNOAPI.Infrastructure
                 options.UseLazyLoadingProxies();
             });
             services.AddScoped<IUnitOfWork>(provider => provider.GetRequiredService<ApplicationDbContext>());
+            services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
             services.AddTransient<ICarRepository, CarRepository>();
             services.AddTransient<IClientRepository, ClientRepository>();
+            services.AddTransient<IRentalRepository, RentalRepository>();
+            services.AddTransient<IServiceHistoryRepository, ServiceHistoryRepository>();
             services.AddScoped<IDomainEventService, DomainEventService>();
             services.AddMassTransitConfiguration(configuration);
             return services;

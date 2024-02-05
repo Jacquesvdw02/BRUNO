@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6NmMLc7WPLENSc6geNuWjXXwGnMfD9HCZTlO0pkvzX6a5Z7uViKOfTfftD0VFz6zr1fHOmZfpb3ALqZEFs2ikA==",
+  "dgSpecHash": "xoVNh3lyoYLDw20aA/xsFBcMGroIUUQXiuyQdhlib3+f55WIi84TPQeawsb7Aaq81xUaLLYfCgKWBc/mGslXbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\JacquesvanderWalt\\Documents\\GitHub\\Bruno 2024 - Dream Team\\Backend\\BRUNO-API\\BRUNO-API.Application\\BRUNO-API.Application.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,11 @@
     "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
+    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "C:\\Users\\JacquesvanderWalt\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",

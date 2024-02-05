@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using BRUNOAPI.Domain.Common;
-using BRUNOAPI.Domain.Events;
+//using BRUNOAPI.Domain.Events;
 using Intent.RoslynWeaver.Attributes;
 
 [assembly: IntentTemplate("Intent.Entities.DomainEntity", Version = "2.0")]
@@ -11,13 +11,14 @@ namespace BRUNOAPI.Domain.Entities
     public class Car : IHasDomainEvent
     {
         public Car(Guid id,
-    string colour,
-    string make,
-    string model,
-    string registration,
-    double dailyRate,
-    bool rentedOut,
-    IEnumerable<Rental> rentals)
+            string colour,
+            string make,
+            string model,
+            string registration,
+            double dailyRate,
+            bool rentedOut,
+            int mileage,
+            int serviceInterval)
         {
             Id = id;
             Colour = colour;
@@ -26,14 +27,13 @@ namespace BRUNOAPI.Domain.Entities
             Registration = registration;
             DailyRate = dailyRate;
             RentedOut = rentedOut;
-            Rentals = new List<Rental>(rentals);
-            DomainEvents.Add(new CreateCarEvent(this));
+            Mileage = mileage;
+            ServiceInterval = serviceInterval;
+            //ServiceMileage = serviceMileage;
+            //DomainEvents.Add(new CreateCarEvent(this));
         }
 
-        /// <summary>
-        /// Required by Entity Framework.
-        /// </summary>
-        protected Car()
+        public Car()
         {
             Colour = null!;
             Make = null!;
@@ -55,7 +55,9 @@ namespace BRUNOAPI.Domain.Entities
 
         public bool RentedOut { get; set; }
 
-        public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+        public int Mileage { get; set; }
+
+        public int ServiceInterval { get; set; }
 
         public List<DomainEvent> DomainEvents { get; set; } = new List<DomainEvent>();
     }

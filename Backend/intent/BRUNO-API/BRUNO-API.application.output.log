@@ -67,6 +67,46 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
+      <ProjectId>e786c44e-593c-4be4-8ea8-22870de803d5</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Controllers.Controller#d6304e62-14a7-4639-81d6-18301aa4ffd4</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Api/Controllers/CarsController.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>CarsController.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>e786c44e-593c-4be4-8ea8-22870de803d5</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Controllers.Controller#4a6ebe3c-38ba-4fbb-a8ef-48fb79df1610</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Api/Controllers/ClientsController.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ClientsController.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>e786c44e-593c-4be4-8ea8-22870de803d5</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Controllers.Controller#c6f776c6-7adf-468d-8a74-56e5afc61e66</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Api/Controllers/RentalsController.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>RentalsController.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>9189df1d-9885-4d63-8459-d5d686c78038</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Controllers.JsonResponse</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Api/Controllers/ResponseTypes/JsonResponse.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>JsonResponse.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>e786c44e-593c-4be4-8ea8-22870de803d5</ProjectId>
+      <CorrelationId>Intent.AspNetCore.Controllers.Controller#d29c9035-1284-4985-89d3-ccc63d348d22</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Api/Controllers/ServiceHistoriesController.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistoriesController.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>9b32683d-bdd4-4d3a-b1a4-92f9b5186e6d</ProjectId>
       <CorrelationId>Intent.AspNetCore.Swashbuckle.Security.AuthorizeCheckOperationFilter</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
@@ -124,7 +164,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.DtoModel#93552ce6-c6d9-45ae-a70f-206d6370ceae</CorrelationId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#1b7f38e4-e20e-4402-867d-256579cdef38</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarDto.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CarDto.cs</ProjectRelativeFilePath>
@@ -132,7 +172,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#93552ce6-c6d9-45ae-a70f-206d6370ceae</CorrelationId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#1b7f38e4-e20e-4402-867d-256579cdef38</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CarDtoMappingExtensions.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CarDtoMappingExtensions.cs</ProjectRelativeFilePath>
@@ -140,7 +180,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandModels#22766f13-4082-4d0b-8141-e243b979c474</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommand.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CreateCar/CreateCarCommand.cs</ProjectRelativeFilePath>
@@ -148,7 +188,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandHandler#22766f13-4082-4d0b-8141-e243b979c474</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommandHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CreateCar/CreateCarCommandHandler.cs</ProjectRelativeFilePath>
@@ -156,7 +196,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#22766f13-4082-4d0b-8141-e243b979c474</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#e8342b97-9da6-49ea-ae8f-ebd7d8cc08ce</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/CreateCar/CreateCarCommandValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/CreateCar/CreateCarCommandValidator.cs</ProjectRelativeFilePath>
@@ -164,7 +204,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandModels#63bb19b4-a778-42e5-a99f-949c109f1c69</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#44ed50a2-1756-44bd-8bb7-d325d3272f9b</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/DeleteCar/DeleteCarCommand.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/DeleteCar/DeleteCarCommand.cs</ProjectRelativeFilePath>
@@ -172,7 +212,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandHandler#63bb19b4-a778-42e5-a99f-949c109f1c69</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#44ed50a2-1756-44bd-8bb7-d325d3272f9b</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/DeleteCar/DeleteCarCommandHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/DeleteCar/DeleteCarCommandHandler.cs</ProjectRelativeFilePath>
@@ -180,7 +220,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#63bb19b4-a778-42e5-a99f-949c109f1c69</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#44ed50a2-1756-44bd-8bb7-d325d3272f9b</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/DeleteCar/DeleteCarCommandValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/DeleteCar/DeleteCarCommandValidator.cs</ProjectRelativeFilePath>
@@ -188,7 +228,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryModels#298fa1cd-65f3-4df1-9d96-62ee308fd719</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#26f2751d-a279-4f91-af5c-85d8e24177b3</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCarById/GetCarByIdQuery.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCarById/GetCarByIdQuery.cs</ProjectRelativeFilePath>
@@ -196,7 +236,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryHandler#298fa1cd-65f3-4df1-9d96-62ee308fd719</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#26f2751d-a279-4f91-af5c-85d8e24177b3</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCarById/GetCarByIdQueryHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCarById/GetCarByIdQueryHandler.cs</ProjectRelativeFilePath>
@@ -204,7 +244,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#298fa1cd-65f3-4df1-9d96-62ee308fd719</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#26f2751d-a279-4f91-af5c-85d8e24177b3</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCarById/GetCarByIdQueryValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCarById/GetCarByIdQueryValidator.cs</ProjectRelativeFilePath>
@@ -212,7 +252,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryModels#615bb326-2fff-47cf-83c9-04a2fbf7fa03</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#fb8306c6-dbbd-44da-add9-9f13f3aa5bad</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCars/GetCarsQuery.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCars/GetCarsQuery.cs</ProjectRelativeFilePath>
@@ -220,7 +260,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.QueryHandler#615bb326-2fff-47cf-83c9-04a2fbf7fa03</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#fb8306c6-dbbd-44da-add9-9f13f3aa5bad</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCars/GetCarsQueryHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCars/GetCarsQueryHandler.cs</ProjectRelativeFilePath>
@@ -228,7 +268,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#615bb326-2fff-47cf-83c9-04a2fbf7fa03</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#fb8306c6-dbbd-44da-add9-9f13f3aa5bad</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/GetCars/GetCarsQueryValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/GetCars/GetCarsQueryValidator.cs</ProjectRelativeFilePath>
@@ -236,23 +276,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.DtoModel#2eca2d16-569c-47d1-af66-c0ae19ff7f82</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/RentalDto.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>Cars/RentalDto.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#2eca2d16-569c-47d1-af66-c0ae19ff7f82</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/RentalDtoMappingExtensions.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>Cars/RentalDtoMappingExtensions.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandModels#fef06d7a-c876-47b3-be41-9bd22ecc4b69</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#b0f0c78c-1f4d-4332-bc71-a7c6458e4fd1</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/UpdateCar/UpdateCarCommand.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/UpdateCar/UpdateCarCommand.cs</ProjectRelativeFilePath>
@@ -260,7 +284,7 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.CommandHandler#fef06d7a-c876-47b3-be41-9bd22ecc4b69</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#b0f0c78c-1f4d-4332-bc71-a7c6458e4fd1</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/UpdateCar/UpdateCarCommandHandler.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/UpdateCar/UpdateCarCommandHandler.cs</ProjectRelativeFilePath>
@@ -268,10 +292,154 @@
     </FileLog>
     <FileLog>
       <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
-      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#fef06d7a-c876-47b3-be41-9bd22ecc4b69</CorrelationId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#b0f0c78c-1f4d-4332-bc71-a7c6458e4fd1</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Cars/UpdateCar/UpdateCarCommandValidator.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>Cars/UpdateCar/UpdateCarCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#60599acd-19ca-4132-a1ab-8669cc245022</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/ClientDto.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/ClientDto.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#60599acd-19ca-4132-a1ab-8669cc245022</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/ClientDtoMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/ClientDtoMappingExtensions.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.FluentValidation.Dtos.DTOValidator#60599acd-19ca-4132-a1ab-8669cc245022</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/ClientDtoValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/ClientDtoValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/CreateClient/CreateClientCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/CreateClient/CreateClientCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/CreateClient/CreateClientCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/CreateClient/CreateClientCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/CreateClient/CreateClientCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/CreateClient/CreateClientCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#d35c32a5-3580-419e-b26c-6ea85ea16022</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/DeleteClient/DeleteClientCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/DeleteClient/DeleteClientCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#d35c32a5-3580-419e-b26c-6ea85ea16022</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/DeleteClient/DeleteClientCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/DeleteClient/DeleteClientCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#d35c32a5-3580-419e-b26c-6ea85ea16022</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/DeleteClient/DeleteClientCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/DeleteClient/DeleteClientCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#b3ccdeea-355c-4c9c-a6a1-384d6c2631de</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/GetClientById/GetClientByIdQuery.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/GetClientById/GetClientByIdQuery.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#b3ccdeea-355c-4c9c-a6a1-384d6c2631de</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/GetClientById/GetClientByIdQueryHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/GetClientById/GetClientByIdQueryHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#b3ccdeea-355c-4c9c-a6a1-384d6c2631de</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/GetClientById/GetClientByIdQueryValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/GetClientById/GetClientByIdQueryValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#a40e8db3-a949-4032-8ee3-c65905e95d7c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/GetClients/GetClientsQuery.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/GetClients/GetClientsQuery.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#a40e8db3-a949-4032-8ee3-c65905e95d7c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/GetClients/GetClientsQueryHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/GetClients/GetClientsQueryHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#a40e8db3-a949-4032-8ee3-c65905e95d7c</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/GetClients/GetClientsQueryValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/GetClients/GetClientsQueryValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#1093d228-d3e5-4a7a-86b9-2e15f097ec2b</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/UpdateClient/UpdateClientCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/UpdateClient/UpdateClientCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#1093d228-d3e5-4a7a-86b9-2e15f097ec2b</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/UpdateClient/UpdateClientCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/UpdateClient/UpdateClientCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#1093d228-d3e5-4a7a-86b9-2e15f097ec2b</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Clients/UpdateClient/UpdateClientCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Clients/UpdateClient/UpdateClientCommandValidator.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -352,6 +520,14 @@
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Common/Exceptions/ForbiddenAccessException.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>ForbiddenAccessException.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>a398ccd1-ef14-4e1a-9cc3-23d16c46fbe3</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.DbContextInterface</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Common/Interfaces/IApplicationDbContext.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IApplicationDbContext.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -475,27 +651,339 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
-      <ProjectId>abfac450-a966-4d1c-b424-27dc83b9c112</ProjectId>
-      <CorrelationId>Intent.MediatR.DomainEvents.DefaultDomainEventHandler#74085051-498b-496d-b05b-6e218f00b255</CorrelationId>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#60b3213c-9af2-46a3-bc87-68e28609b401</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/EventHandlers/CreateCarEventHandler.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>CreateCarEventHandler.cs</ProjectRelativeFilePath>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/CarDto.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/CarDto.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
-      <ProjectId>abfac450-a966-4d1c-b424-27dc83b9c112</ProjectId>
-      <CorrelationId>Intent.MediatR.DomainEvents.DefaultDomainEventHandler#e8eefacd-32c3-44b3-b033-3305bf3585a9</CorrelationId>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#60b3213c-9af2-46a3-bc87-68e28609b401</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/EventHandlers/CreateClientEventHandler.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>CreateClientEventHandler.cs</ProjectRelativeFilePath>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/CarDtoMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/CarDtoMappingExtensions.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
-      <ProjectId>abfac450-a966-4d1c-b424-27dc83b9c112</ProjectId>
-      <CorrelationId>Intent.MediatR.DomainEvents.DefaultDomainEventHandler#fc54f602-d2a3-46c4-ab85-41b0d5e88c84</CorrelationId>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.FluentValidation.Dtos.DTOValidator#60b3213c-9af2-46a3-bc87-68e28609b401</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/EventHandlers/CreateRentalEventHandler.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>CreateRentalEventHandler.cs</ProjectRelativeFilePath>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/CarDtoValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/CarDtoValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#63b89206-68f0-4cbb-922c-0bfacfbba0ba</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/ClientDto.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/ClientDto.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#63b89206-68f0-4cbb-922c-0bfacfbba0ba</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/ClientDtoMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/ClientDtoMappingExtensions.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#4cf33406-7ad6-4c7b-b026-0ca468203122</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/CreateRental/CreateRentalCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/CreateRental/CreateRentalCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#4cf33406-7ad6-4c7b-b026-0ca468203122</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/CreateRental/CreateRentalCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/CreateRental/CreateRentalCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#4cf33406-7ad6-4c7b-b026-0ca468203122</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/CreateRental/CreateRentalCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/CreateRental/CreateRentalCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#c3a64749-7be5-4e77-8282-61d81d2b36c7</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/DeleteRental/DeleteRentalCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/DeleteRental/DeleteRentalCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#c3a64749-7be5-4e77-8282-61d81d2b36c7</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/DeleteRental/DeleteRentalCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/DeleteRental/DeleteRentalCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#c3a64749-7be5-4e77-8282-61d81d2b36c7</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/DeleteRental/DeleteRentalCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/DeleteRental/DeleteRentalCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#7cecd0a3-c772-4d20-a4b0-673540ab6ab3</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/GetRentalById/GetRentalByIdQuery.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/GetRentalById/GetRentalByIdQuery.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#7cecd0a3-c772-4d20-a4b0-673540ab6ab3</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/GetRentalById/GetRentalByIdQueryHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/GetRentalById/GetRentalByIdQueryHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#7cecd0a3-c772-4d20-a4b0-673540ab6ab3</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/GetRentalById/GetRentalByIdQueryValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/GetRentalById/GetRentalByIdQueryValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#0c576d95-8bf2-4f86-8199-c7647c1ae089</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/GetRentals/GetRentalsQuery.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/GetRentals/GetRentalsQuery.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#0c576d95-8bf2-4f86-8199-c7647c1ae089</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/GetRentals/GetRentalsQueryHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/GetRentals/GetRentalsQueryHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#0c576d95-8bf2-4f86-8199-c7647c1ae089</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/GetRentals/GetRentalsQueryValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/GetRentals/GetRentalsQueryValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#9bc29747-b3ff-45cf-ab12-633413ccbd41</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/RentalDto.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/RentalDto.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#9bc29747-b3ff-45cf-ab12-633413ccbd41</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/RentalDtoMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/RentalDtoMappingExtensions.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#d13d8bf6-086a-44c5-8578-ecfe36505b71</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/UpdateRental/UpdateRentalCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/UpdateRental/UpdateRentalCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#d13d8bf6-086a-44c5-8578-ecfe36505b71</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/UpdateRental/UpdateRentalCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/UpdateRental/UpdateRentalCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#d13d8bf6-086a-44c5-8578-ecfe36505b71</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/Rentals/UpdateRental/UpdateRentalCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>Rentals/UpdateRental/UpdateRentalCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#34702c2c-c521-447b-9fb6-9762977969de</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/CarDTO.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/CarDTO.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#34702c2c-c521-447b-9fb6-9762977969de</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/CarDTOMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/CarDTOMappingExtensions.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.FluentValidation.Dtos.DTOValidator#34702c2c-c521-447b-9fb6-9762977969de</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/CarDTOValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/CarDTOValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#6eebedb5-a3ac-4712-9efd-0d223afb2135</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/CreateServiceHistory/CreateServiceHistoryCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/CreateServiceHistory/CreateServiceHistoryCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#6eebedb5-a3ac-4712-9efd-0d223afb2135</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/CreateServiceHistory/CreateServiceHistoryCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/CreateServiceHistory/CreateServiceHistoryCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#6eebedb5-a3ac-4712-9efd-0d223afb2135</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/CreateServiceHistory/CreateServiceHistoryCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/CreateServiceHistory/CreateServiceHistoryCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#77801c4f-46d7-4cac-91be-621580463826</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/DeleteServiceHistory/DeleteServiceHistoryCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/DeleteServiceHistory/DeleteServiceHistoryCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#77801c4f-46d7-4cac-91be-621580463826</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/DeleteServiceHistory/DeleteServiceHistoryCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/DeleteServiceHistory/DeleteServiceHistoryCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#77801c4f-46d7-4cac-91be-621580463826</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/DeleteServiceHistory/DeleteServiceHistoryCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/DeleteServiceHistory/DeleteServiceHistoryCommandValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#e22e3938-6702-42b0-9352-092c5b0a91df</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/GetServiceHistories/GetServiceHistoriesQuery.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/GetServiceHistories/GetServiceHistoriesQuery.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#e22e3938-6702-42b0-9352-092c5b0a91df</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/GetServiceHistories/GetServiceHistoriesQueryHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/GetServiceHistories/GetServiceHistoriesQueryHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#e22e3938-6702-42b0-9352-092c5b0a91df</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/GetServiceHistories/GetServiceHistoriesQueryValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/GetServiceHistories/GetServiceHistoriesQueryValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryModels#b75d82fc-4ec1-4ea6-92ef-931d80f63411</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/GetServiceHistoryById/GetServiceHistoryByIdQuery.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/GetServiceHistoryById/GetServiceHistoryByIdQuery.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.QueryHandler#b75d82fc-4ec1-4ea6-92ef-931d80f63411</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/GetServiceHistoryById/GetServiceHistoryByIdQueryHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/GetServiceHistoryById/GetServiceHistoryByIdQueryHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.QueryValidator#b75d82fc-4ec1-4ea6-92ef-931d80f63411</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/GetServiceHistoryById/GetServiceHistoryByIdQueryValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/GetServiceHistoryById/GetServiceHistoryByIdQueryValidator.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.DtoModel#0b7e7255-e437-40e0-9c9c-6e729925abfc</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/ServiceHistoryDto.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/ServiceHistoryDto.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.Dtos.AutoMapper.MappingExtensions#0b7e7255-e437-40e0-9c9c-6e729925abfc</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/ServiceHistoryDtoMappingExtensions.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/ServiceHistoryDtoMappingExtensions.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandModels#6e69d3ba-2366-4d7e-85f7-f40169317205</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/UpdateServiceHistory/UpdateServiceHistoryCommand.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/UpdateServiceHistory/UpdateServiceHistoryCommand.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.CommandHandler#6e69d3ba-2366-4d7e-85f7-f40169317205</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/UpdateServiceHistory/UpdateServiceHistoryCommandHandler.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/UpdateServiceHistory/UpdateServiceHistoryCommandHandler.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>d045a8e2-4210-470e-bb92-c988df53c22c</ProjectId>
+      <CorrelationId>Intent.Application.MediatR.FluentValidation.CommandValidator#6e69d3ba-2366-4d7e-85f7-f40169317205</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Application/ServiceHistories/UpdateServiceHistory/UpdateServiceHistoryCommandValidator.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistories/UpdateServiceHistory/UpdateServiceHistoryCommandValidator.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -579,27 +1067,11 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
-      <ProjectId>67f1e319-495a-4eaf-bbfe-76ec2bc8890d</ProjectId>
-      <CorrelationId>Intent.DomainEvents.DomainEvent#74085051-498b-496d-b05b-6e218f00b255</CorrelationId>
+      <ProjectId>59ec726c-015e-4214-add2-660c0feda92c</ProjectId>
+      <CorrelationId>Intent.Entities.DomainEntity#7d7108a1-cb0f-4353-bcf0-594887b022fc</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Events/CreateCarEvent.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>CreateCarEvent.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>67f1e319-495a-4eaf-bbfe-76ec2bc8890d</ProjectId>
-      <CorrelationId>Intent.DomainEvents.DomainEvent#e8eefacd-32c3-44b3-b033-3305bf3585a9</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Events/CreateClientEvent.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>CreateClientEvent.cs</ProjectRelativeFilePath>
-      <IsIgnored>false</IsIgnored>
-    </FileLog>
-    <FileLog>
-      <ProjectId>67f1e319-495a-4eaf-bbfe-76ec2bc8890d</ProjectId>
-      <CorrelationId>Intent.DomainEvents.DomainEvent#fc54f602-d2a3-46c4-ab85-41b0d5e88c84</CorrelationId>
-      <OverwriteBehaviour>always</OverwriteBehaviour>
-      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Events/CreateRentalEvent.cs</ApplicationRelativeFilePath>
-      <ProjectRelativeFilePath>CreateRentalEvent.cs</ProjectRelativeFilePath>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Entities/ServiceHistory.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistory.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -636,10 +1108,26 @@
     </FileLog>
     <FileLog>
       <ProjectId>119e306a-3ab8-48d0-bbbf-cda5521da388</ProjectId>
+      <CorrelationId>Intent.Entities.Repositories.Api.EntityRepositoryInterface#442b9ee9-b304-4fe7-b594-7c17b3336ff5</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Repositories/IRentalRepository.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IRentalRepository.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>119e306a-3ab8-48d0-bbbf-cda5521da388</ProjectId>
       <CorrelationId>Intent.Entities.Repositories.Api.RepositoryInterface</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Repositories/IRepository.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>IRepository.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>119e306a-3ab8-48d0-bbbf-cda5521da388</ProjectId>
+      <CorrelationId>Intent.Entities.Repositories.Api.EntityRepositoryInterface#7d7108a1-cb0f-4353-bcf0-594887b022fc</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Domain/Repositories/IServiceHistoryRepository.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>IServiceHistoryRepository.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
@@ -707,6 +1195,22 @@
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>
+      <ProjectId>b7c4687d-74ff-4173-a5b1-88439896259b</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration#442b9ee9-b304-4fe7-b594-7c17b3336ff5</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Infrastructure/Persistence/Configurations/RentalConfiguration.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>RentalConfiguration.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>b7c4687d-74ff-4173-a5b1-88439896259b</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.EntityTypeConfiguration#7d7108a1-cb0f-4353-bcf0-594887b022fc</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Infrastructure/Persistence/Configurations/ServiceHistoryConfiguration.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistoryConfiguration.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
       <ProjectId>4ba2c6bf-a4d9-4403-b66b-11bc20d25a2f</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.DbMigrationsReadMe</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
@@ -732,10 +1236,26 @@
     </FileLog>
     <FileLog>
       <ProjectId>265d8360-d655-4bf6-a02d-dffae559e5e3</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.Repositories.Repository#442b9ee9-b304-4fe7-b594-7c17b3336ff5</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Infrastructure/Repositories/RentalRepository.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>RentalRepository.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>265d8360-d655-4bf6-a02d-dffae559e5e3</ProjectId>
       <CorrelationId>Intent.EntityFrameworkCore.Repositories.RepositoryBase</CorrelationId>
       <OverwriteBehaviour>always</OverwriteBehaviour>
       <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Infrastructure/Repositories/RepositoryBase.cs</ApplicationRelativeFilePath>
       <ProjectRelativeFilePath>RepositoryBase.cs</ProjectRelativeFilePath>
+      <IsIgnored>false</IsIgnored>
+    </FileLog>
+    <FileLog>
+      <ProjectId>265d8360-d655-4bf6-a02d-dffae559e5e3</ProjectId>
+      <CorrelationId>Intent.EntityFrameworkCore.Repositories.Repository#7d7108a1-cb0f-4353-bcf0-594887b022fc</CorrelationId>
+      <OverwriteBehaviour>always</OverwriteBehaviour>
+      <ApplicationRelativeFilePath>../../BRUNO-API/BRUNO-API.Infrastructure/Repositories/ServiceHistoryRepository.cs</ApplicationRelativeFilePath>
+      <ProjectRelativeFilePath>ServiceHistoryRepository.cs</ProjectRelativeFilePath>
       <IsIgnored>false</IsIgnored>
     </FileLog>
     <FileLog>

@@ -16,7 +16,9 @@ namespace BRUNOAPI.Application.Cars.UpdateCar
             string model,
             string registration,
             double dailyRate,
-            bool rentedOut)
+            bool rentedOut,
+            int mileage,
+            int serviceMileage)
         {
             Id = id;
             Colour = colour;
@@ -25,6 +27,8 @@ namespace BRUNOAPI.Application.Cars.UpdateCar
             Registration = registration;
             DailyRate = dailyRate;
             RentedOut = rentedOut;
+            Mileage = mileage;
+            ServiceMileage = serviceMileage;
         }
 
         public Guid Id { get; set; }
@@ -34,5 +38,7 @@ namespace BRUNOAPI.Application.Cars.UpdateCar
         public string Registration { get; set; }
         public double DailyRate { get; set; }
         public bool RentedOut { get; set; }
+        public int Mileage { get; set; }
+        public int ServiceMileage { get; set; }
     }
 }

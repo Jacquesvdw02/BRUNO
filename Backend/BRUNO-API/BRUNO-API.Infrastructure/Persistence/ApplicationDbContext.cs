@@ -14,7 +14,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BRUNOAPI.Infrastructure.Persistence
 {
-    public class ApplicationDbContext : DbContext, IUnitOfWork
+    public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWork
     {
         private readonly IDomainEventService _domainEventService;
 
@@ -25,6 +25,8 @@ namespace BRUNOAPI.Infrastructure.Persistence
 
         public DbSet<Car> Cars { get; set; }
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Rental> Rentals { get; set; }
+        public DbSet<ServiceHistory> ServiceHistories { get; set; }
 
         public override async Task<int> SaveChangesAsync(
             bool acceptAllChangesOnSuccess,
@@ -47,9 +49,11 @@ namespace BRUNOAPI.Infrastructure.Persistence
             ConfigureModel(modelBuilder);
             modelBuilder.ApplyConfiguration(new CarConfiguration());
             modelBuilder.ApplyConfiguration(new ClientConfiguration());
+            modelBuilder.ApplyConfiguration(new RentalConfiguration());
+            modelBuilder.ApplyConfiguration(new ServiceHistoryConfiguration());
         }
 
-        [IntentManaged(Mode.Ignore)]
+        //[IntentManaged(Mode.Ignore)]
         private void ConfigureModel(ModelBuilder modelBuilder)
         {
             // Seed data

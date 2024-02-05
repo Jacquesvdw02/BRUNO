@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="005fb582-a523-49e4-89f1-60c8ad76372a">
+  <sourceEnd id="14dff591-1283-4483-bd23-fdf163770ca9" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Rentals</name>
+    <display>Rentals: Rental[*]</display>
+    <order>0</order>
+    <typeReference id="8a08e258-beb7-4754-8425-0c123ebb5a16">
+      <typeId>442b9ee9-b304-4fe7-b594-7c17b3336ff5</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="005fb582-a523-49e4-89f1-60c8ad76372a" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Car</name>
+    <display>Car: Car   [* --&gt; 1]</display>
+    <order>7</order>
+    <typeReference id="9415664a-f785-4a6a-acec-a0d2b694d7b0">
+      <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

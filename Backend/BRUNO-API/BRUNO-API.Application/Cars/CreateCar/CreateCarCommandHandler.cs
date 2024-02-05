@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,24 +26,21 @@ namespace BRUNOAPI.Application.Cars.CreateCar
         [IntentManaged(Mode.Fully, Body = Mode.Fully)]
         public async Task<Guid> Handle(CreateCarCommand request, CancellationToken cancellationToken)
         {
-            var car = new Car(
-                id: request.Id,
-                colour: request.Colour,
-                make: request.Make,
-                model: request.Model,
-                registration: request.Registration,
-                dailyRate: request.DailyRate,
-                rentedOut: request.RentedOut,
-                rentals: new List<Rental>());
-            //.Select(x => new Rental
-            //(
-            //    ToDate: x.ToDate,
-            //    FromDate: x.FromDate
-            //))
+            var entity = new Car
+            {
+                Colour = request.Colour,
+                Make = request.Make,
+                Model = request.Model,
+                Registration = request.Registration,
+                DailyRate = request.DailyRate,
+                RentedOut = request.RentedOut,
+                Mileage = request.Mileage,
+                ServiceInterval = request.ServiceInterval
+            };
 
-            _carRepository.Add(car);
+            _carRepository.Add(entity);
             await _carRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
-            return car.Id;
+            return entity.Id;
         }
     }
 }

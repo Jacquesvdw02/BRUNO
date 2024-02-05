@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="98fbf320-3907-4d9f-921b-269885ed803f">
+  <sourceEnd id="1fd608a2-0603-427b-bbce-3fa8c15e5f03" type="Create Entity Action Source End" typeId="a3e7c59e-b0a1-47e1-ba29-66f2c7047b0a">
+    <display>created by : Clients.CreateClientCommand</display>
+    <order>0</order>
+    <typeReference id="5e4779e6-dfdf-4954-a4b3-2e2f5b7c8fa4">
+      <typeId>a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Services</typePackageName>
+      <typePackageId>c61b8481-af5b-4921-8f6c-cfb025d105a5</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="98fbf320-3907-4d9f-921b-269885ed803f" type="Create Entity Action Target End" typeId="328f54e5-7bad-4b5f-90ca-03ce3105d016">
+    <name>client</name>
+    <display>[create] client: Constructor</display>
+    <order>6</order>
+    <typeReference id="5f8d90d6-1352-472d-85d4-4b084ae4e25d">
+      <typeId>96e97f75-23cf-4d0d-8df2-f4af3816c060</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <mappings>
+      <mapping type="Create Entity Mapping" typeId="5f172141-fdba-426b-980e-163e782ff53e">
+        <source applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="81104ae6-2bc5-4bae-b05a-f987b0372d81" elementId="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" location="[BRUNO-API].[Services].[CreateClientCommand]" />
+        <target applicationId="76b4fe25-eb0c-454c-9b93-add093b8319e" designerId="6ab29b31-27af-4f56-a67c-986d82097d63" elementId="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" location="[BRUNO-API].[Services].[Client]" />
+        <mappedEnds>
+          <mappedEnd>
+            <expression>{CreateClientCommand}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+            </path>
+            <sources>
+              <source identifier="CreateClientCommand" mappingType="Invocation Mapping" mappingTypeId="47dc4a51-30a3-4ee8-8c7d-25a35bb965b9">
+                <path>
+                  <target id="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" name="CreateClientCommand" type="element" specialization="Command" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>Guid.NewGuid()</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="43f58ddd-b93f-4af2-9a24-7b3d6d2ffd7c" name="id" type="element" specialization="Parameter" />
+            </path>
+            <sources />
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{ClientName}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="c3d5e72c-b82f-4bd0-85c0-543155b78327" name="clientName" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="ClientName" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" name="CreateClientCommand" type="element" specialization="Command" />
+                  <target id="10d3d028-17da-4464-bc97-57e7a35b550c" name="ClientName" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Phone}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="b9dd549a-bc01-47a4-9ef8-de421cb8e352" name="phone" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Phone" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" name="CreateClientCommand" type="element" specialization="Command" />
+                  <target id="1f4e08d8-265e-4992-bce8-67ccf06cca85" name="Phone" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Email}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="6979c63a-69fc-4960-bea6-852021d72494" name="email" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Email" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" name="CreateClientCommand" type="element" specialization="Command" />
+                  <target id="6402efb5-4bd4-4977-9002-81512ce93de6" name="Email" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{Address}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="10666ff1-e1bc-48a7-ab1c-611ac41fd465" name="address" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="Address" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" name="CreateClientCommand" type="element" specialization="Command" />
+                  <target id="ff925ff3-a2a6-4133-b744-85b7c50249c4" name="Address" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+          <mappedEnd>
+            <expression>{LicenseNumber}</expression>
+            <path>
+              <target id="f85b3f09-0f65-4a66-adfb-3f5d7dc01006" name="Client" type="element" specialization="Class" />
+              <target id="96e97f75-23cf-4d0d-8df2-f4af3816c060" name="Constructor" type="element" specialization="Class Constructor" />
+              <target id="e7600fe5-b82d-4bf3-8887-2b9012e5ad70" name="licenseNumber" type="element" specialization="Parameter" />
+            </path>
+            <sources>
+              <source identifier="LicenseNumber" mappingType="Data Mapping" mappingTypeId="50dccfb2-bd24-4135-adf6-ed31f28f8fe0">
+                <path>
+                  <target id="a5ce8b83-0ed4-4c07-a1ae-3e571d76d58c" name="CreateClientCommand" type="element" specialization="Command" />
+                  <target id="c9d68f1e-c91a-437c-9b6c-5dc0905bfb8b" name="LicenseNumber" type="element" specialization="DTO-Field" />
+                </path>
+              </source>
+            </sources>
+          </mappedEnd>
+        </mappedEnds>
+      </mapping>
+    </mappings>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Create Entity Action</associationType>
+  <associationTypeId>7a3f0474-3cf8-4249-baac-8c07c49465e0</associationTypeId>
+  <stereotypes />
+</association>

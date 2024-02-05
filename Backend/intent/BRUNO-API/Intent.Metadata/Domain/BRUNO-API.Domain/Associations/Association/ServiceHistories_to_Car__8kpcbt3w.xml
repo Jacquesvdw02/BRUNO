@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a871027c-847c-4213-85b5-f5c1d1d7009d">
+  <sourceEnd id="12525738-1e09-4765-9bec-5463cff651e0" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>ServiceHistories</name>
+    <display>ServiceHistories: ServiceHistory[*]</display>
+    <order>0</order>
+    <typeReference id="29099b33-77ec-44b0-bbef-060ab66a64cb">
+      <typeId>7d7108a1-cb0f-4353-bcf0-594887b022fc</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="a871027c-847c-4213-85b5-f5c1d1d7009d" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Car</name>
+    <display>Car: Car   [* --&gt; 1]</display>
+    <order>5</order>
+    <typeReference id="6bb863b6-9541-4731-b195-d378014bab7a">
+      <typeId>95b972f9-6c86-4229-b4f7-0fa87d9a8d2a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>BRUNO-API.Domain</typePackageName>
+      <typePackageId>9505e92d-4381-40c9-8ec0-f37cc5dbe0ce</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>
