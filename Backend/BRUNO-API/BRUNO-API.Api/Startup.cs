@@ -33,6 +33,16 @@ namespace BRUNOAPI.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200") // Specify the allowed origin here
+                               .AllowAnyMethod()
+                               .AllowAnyHeader();
+                    });
+            });
             services.AddControllers(
                 opt =>
                 {
@@ -54,6 +64,8 @@ namespace BRUNOAPI.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors("AllowSpecificOrigin"); // Use the CORS policy
             app.UseSerilogRequestLogging();
             app.UseExceptionHandler();
             app.UseHttpsRedirection();
