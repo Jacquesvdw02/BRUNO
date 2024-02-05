@@ -4,6 +4,7 @@ import { ClientService } from '../../Shared/Core/Services/client/client.service'
 import { RentalService } from '../../Shared/Core/Services/rental/rental.service';
 import { MatDialog } from '@angular/material/dialog';
 import { AddClientModalComponent } from '../../Shared/Components/addClient/add-client-modal.component';
+import { Car } from '../../Shared/Core/Interfaces/Car.interface';
 
 @Component({
   selector: 'app-home-page',
@@ -11,9 +12,9 @@ import { AddClientModalComponent } from '../../Shared/Components/addClient/add-c
   styleUrl: './home-page.component.scss'
 })
 export class HomePageComponent {
-  public carColumns: string[] = ['Colour', 'Make', 'Model', 'Registration', 'Daily Rate', 'Rented Out', 'Mileage', 'Service Mileage'];
-  public rentalColumns: string[] = ['Car Registration', 'Client Name', 'Start Date', 'End Date'];
-  public clientColumns: string[] = ['Name', 'Phone', 'Email', 'Address', 'LicenseNumber'];
+  public carColumns: string[] = ['colour', 'make', 'model', 'registration', 'dailyRate', 'rentedOut', 'mileage', 'serviceMileage'];
+  public rentalColumns: string[] = ['CarId', 'ClientId', 'startDate', 'endDate'];
+  public clientColumns: string[] = ['clientName', 'phone', 'email', 'address', 'licenseNumber'];
 
   public dataSource: any = [];
   public displayedColumns: string[] = [];
@@ -23,10 +24,12 @@ export class HomePageComponent {
   constructor(private dialog: MatDialog, private _carService:CarService, private _clientService:ClientService, private _rentalService:RentalService) { }
 
   public showCars(): void {
-    this.dataSource = this._carService.getAllCars();
+    let observable$ = this._carService.getAllCars();
+    observable$.subscribe((data: any) => {
+      this.dataSource = data;
+    });
     this.displayedColumns = this.carColumns;
     this.activeTab = 'cars';
-    console.log(this.dataSource);
   }
 
   public showRentals(): void {
@@ -36,9 +39,13 @@ export class HomePageComponent {
   }
 
   public showClients(): void {
-    this.dataSource = this._clientService.getAllClients();
+    let observable$ = this._clientService.getAllClients();
+    observable$.subscribe((data: any) => {
+      this.dataSource = data;
+    });
     this.displayedColumns = this.clientColumns;
     this.activeTab = 'clients';
+    console.log(this.dataSource);
   }
 
   openAddClientModal(): void {

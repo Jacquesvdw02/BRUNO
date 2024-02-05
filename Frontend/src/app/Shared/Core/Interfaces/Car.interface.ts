@@ -1,11 +1,11 @@
 export interface Car {
-    id: string;
     colour: string;
+    dailyRate: number;
+    id: string;
     make: string;
+    mileage: number;
     model: string;
     registration: string;
-    dailyRate: number;
     rentedOut: boolean;
-    mileage: number;
     serviceMileage: number; // Updated to match Swagger
 }

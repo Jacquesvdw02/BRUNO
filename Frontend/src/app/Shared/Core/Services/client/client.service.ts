@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Client } from '../../Interfaces/client.interface';
 import { ClientRepository } from '../../Repositories/client/client.repository';
+import { Observable } from 'rxjs';
+import { Client } from '../../Interfaces/Client.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -10,9 +11,7 @@ export class ClientService {
 
   constructor(private _clientRepository: ClientRepository) { }
 
-  public getAllClients(): void {
-    this._clientRepository.getAllClients().subscribe((data: any) => {
-      this.clients = data;
-    });
+  public getAllClients(): Observable<Client[]> {
+    return this._clientRepository.getAllClients();
   }
 }
