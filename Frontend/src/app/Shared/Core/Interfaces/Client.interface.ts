@@ -1,8 +1,8 @@
-export const Client = {
-    id: '',
-    Name: '',
-    Phone: '',
-    Email: '',
-    Address: '',
-    LicenseNumber: '',
-};
+export interface Client {
+    id: string;
+    Name: string;
+    Phone: string;
+    Email: string;
+    Address: string;
+    LicenseNumber: string;
+}

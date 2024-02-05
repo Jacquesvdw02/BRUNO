@@ -1,7 +1,7 @@
-export const Rental = {
-    id: '',
-    CarId: '',
-    ClientId: '',
-    StartDate: '',
-    EndDate: '',
+export interface Rental {
+    id: string,
+    CarId: string,
+    ClientId: string,
+    StartDate: Date,
+    EndDate: Date,
 };
