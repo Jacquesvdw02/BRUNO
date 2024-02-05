@@ -16,7 +16,7 @@ export class HomePageComponent {
   public dataSource: any = [];
   public displayedColumns: string[] = [];
 
-  constructor(private _carService:CarService, _clientService:ClientService, _rentalService:RentalService) { }
+  constructor(private _carService:CarService, private _clientService:ClientService, private _rentalService:RentalService) { }
 
   ngOnInit(): void {
     // this.dataSource = this._carService.getAllCars();
@@ -28,8 +28,13 @@ export class HomePageComponent {
     this.displayedColumns = this.carColumns;
   }
 
-  // public showClients(): void {
-  //   this.dataSource = this._clientService.getAllClients();
-  //   this.displayedColumns = this.clientColumns;
-  // }
+  public showRentals(): void {
+    this.dataSource = this._rentalService.getAllRentals();
+    this.displayedColumns = this.rentalColumns;
+  }
+
+  public showClients(): void {
+    this.dataSource = this._clientService.getAllClients();
+    this.displayedColumns = this.clientColumns;
+  }
 }
